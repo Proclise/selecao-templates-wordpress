@@ -1,0 +1,2535 @@
+etapa_id,projeto_id,ordem_etapa,etapa,dias
+1,PRJ-0001,1,Briefing,4
+2,PRJ-0001,2,Escolha de layout,3
+3,PRJ-0001,3,Design e aprovação,18
+4,PRJ-0001,4,Desenvolvimento,26
+5,PRJ-0001,5,Conteúdo,3
+6,PRJ-0001,6,QA e ajustes,7
+7,PRJ-0001,7,Publicação,1
+8,PRJ-0002,1,Briefing,4
+9,PRJ-0002,2,Escolha de layout,1
+10,PRJ-0002,3,Design e aprovação,7
+11,PRJ-0002,4,Desenvolvimento,5
+12,PRJ-0002,5,Conteúdo,8
+13,PRJ-0002,6,QA e ajustes,5
+14,PRJ-0002,7,Publicação,1
+15,PRJ-0003,1,Briefing,3
+16,PRJ-0003,2,Escolha de layout,6
+17,PRJ-0003,3,Design e aprovação,7
+18,PRJ-0003,4,Desenvolvimento,6
+19,PRJ-0003,5,Conteúdo,8
+20,PRJ-0003,6,QA e ajustes,7
+21,PRJ-0003,7,Publicação,1
+22,PRJ-0004,1,Briefing,3
+23,PRJ-0004,2,Escolha de layout,3
+24,PRJ-0004,3,Design e aprovação,7
+25,PRJ-0004,4,Desenvolvimento,12
+26,PRJ-0004,5,Conteúdo,8
+27,PRJ-0004,6,QA e ajustes,4
+28,PRJ-0004,7,Publicação,1
+29,PRJ-0005,1,Briefing,3
+30,PRJ-0005,2,Escolha de layout,1
+31,PRJ-0005,3,Design e aprovação,10
+32,PRJ-0005,4,Desenvolvimento,6
+33,PRJ-0005,5,Conteúdo,9
+34,PRJ-0005,6,QA e ajustes,6
+35,PRJ-0005,7,Publicação,1
+36,PRJ-0006,1,Briefing,5
+37,PRJ-0006,2,Escolha de layout,3
+38,PRJ-0006,3,Design e aprovação,7
+39,PRJ-0006,4,Desenvolvimento,10
+40,PRJ-0006,5,Conteúdo,4
+41,PRJ-0006,6,QA e ajustes,5
+42,PRJ-0006,7,Publicação,1
+43,PRJ-0007,1,Briefing,2
+44,PRJ-0007,2,Escolha de layout,10
+45,PRJ-0007,3,Design e aprovação,6
+46,PRJ-0007,4,Desenvolvimento,9
+47,PRJ-0007,5,Conteúdo,3
+48,PRJ-0007,6,QA e ajustes,4
+49,PRJ-0007,7,Publicação,1
+50,PRJ-0008,1,Briefing,3
+51,PRJ-0008,2,Escolha de layout,7
+52,PRJ-0008,3,Design e aprovação,9
+53,PRJ-0008,4,Desenvolvimento,11
+54,PRJ-0008,5,Conteúdo,5
+55,PRJ-0008,6,QA e ajustes,4
+56,PRJ-0008,7,Publicação,1
+57,PRJ-0009,1,Briefing,4
+58,PRJ-0009,2,Escolha de layout,6
+59,PRJ-0009,3,Design e aprovação,10
+60,PRJ-0009,4,Desenvolvimento,8
+61,PRJ-0009,5,Conteúdo,8
+62,PRJ-0009,6,QA e ajustes,5
+63,PRJ-0009,7,Publicação,1
+64,PRJ-0010,1,Briefing,3
+65,PRJ-0010,2,Escolha de layout,4
+66,PRJ-0010,3,Design e aprovação,10
+67,PRJ-0010,4,Desenvolvimento,26
+68,PRJ-0010,5,Conteúdo,15
+69,PRJ-0010,6,QA e ajustes,5
+70,PRJ-0010,7,Publicação,1
+71,PRJ-0011,1,Briefing,3
+72,PRJ-0011,2,Escolha de layout,5
+73,PRJ-0011,3,Design e aprovação,7
+74,PRJ-0011,4,Desenvolvimento,13
+75,PRJ-0011,5,Conteúdo,4
+76,PRJ-0011,6,QA e ajustes,4
+77,PRJ-0011,7,Publicação,1
+78,PRJ-0012,1,Briefing,3
+79,PRJ-0012,2,Escolha de layout,9
+80,PRJ-0012,3,Design e aprovação,11
+81,PRJ-0012,4,Desenvolvimento,10
+82,PRJ-0012,5,Conteúdo,5
+83,PRJ-0012,6,QA e ajustes,5
+84,PRJ-0012,7,Publicação,1
+85,PRJ-0013,1,Briefing,3
+86,PRJ-0013,2,Escolha de layout,4
+87,PRJ-0013,3,Design e aprovação,6
+88,PRJ-0013,4,Desenvolvimento,17
+89,PRJ-0013,5,Conteúdo,4
+90,PRJ-0013,6,QA e ajustes,5
+91,PRJ-0013,7,Publicação,1
+92,PRJ-0014,1,Briefing,4
+93,PRJ-0014,2,Escolha de layout,8
+94,PRJ-0014,3,Design e aprovação,4
+95,PRJ-0014,4,Desenvolvimento,11
+96,PRJ-0014,5,Conteúdo,5
+97,PRJ-0014,6,QA e ajustes,5
+98,PRJ-0014,7,Publicação,1
+99,PRJ-0015,1,Briefing,5
+100,PRJ-0015,2,Escolha de layout,6
+101,PRJ-0015,3,Design e aprovação,8
+102,PRJ-0015,4,Desenvolvimento,6
+103,PRJ-0015,5,Conteúdo,9
+104,PRJ-0015,6,QA e ajustes,6
+105,PRJ-0015,7,Publicação,1
+106,PRJ-0016,1,Briefing,3
+107,PRJ-0016,2,Escolha de layout,6
+108,PRJ-0016,3,Design e aprovação,9
+109,PRJ-0016,4,Desenvolvimento,19
+110,PRJ-0016,5,Conteúdo,2
+111,PRJ-0016,6,QA e ajustes,5
+112,PRJ-0016,7,Publicação,1
+113,PRJ-0017,1,Briefing,4
+114,PRJ-0017,2,Escolha de layout,9
+115,PRJ-0017,3,Design e aprovação,4
+116,PRJ-0017,4,Desenvolvimento,12
+117,PRJ-0017,5,Conteúdo,3
+118,PRJ-0017,6,QA e ajustes,5
+119,PRJ-0017,7,Publicação,1
+120,PRJ-0018,1,Briefing,3
+121,PRJ-0018,2,Escolha de layout,3
+122,PRJ-0018,3,Design e aprovação,11
+123,PRJ-0018,4,Desenvolvimento,13
+124,PRJ-0018,5,Conteúdo,7
+125,PRJ-0018,6,QA e ajustes,5
+126,PRJ-0018,7,Publicação,1
+127,PRJ-0019,1,Briefing,4
+128,PRJ-0019,2,Escolha de layout,8
+129,PRJ-0019,3,Design e aprovação,6
+130,PRJ-0019,4,Desenvolvimento,6
+131,PRJ-0019,5,Conteúdo,6
+132,PRJ-0019,6,QA e ajustes,5
+133,PRJ-0019,7,Publicação,1
+134,PRJ-0020,1,Briefing,4
+135,PRJ-0020,2,Escolha de layout,4
+136,PRJ-0020,3,Design e aprovação,12
+137,PRJ-0020,4,Desenvolvimento,28
+138,PRJ-0020,5,Conteúdo,10
+139,PRJ-0020,6,QA e ajustes,6
+140,PRJ-0020,7,Publicação,1
+141,PRJ-0021,1,Briefing,3
+142,PRJ-0021,2,Escolha de layout,3
+143,PRJ-0021,3,Design e aprovação,4
+144,PRJ-0021,4,Desenvolvimento,9
+145,PRJ-0021,5,Conteúdo,5
+146,PRJ-0021,6,QA e ajustes,5
+147,PRJ-0021,7,Publicação,1
+148,PRJ-0022,1,Briefing,3
+149,PRJ-0022,2,Escolha de layout,8
+150,PRJ-0022,3,Design e aprovação,7
+151,PRJ-0022,4,Desenvolvimento,19
+152,PRJ-0022,5,Conteúdo,2
+153,PRJ-0022,6,QA e ajustes,4
+154,PRJ-0022,7,Publicação,1
+155,PRJ-0023,1,Briefing,3
+156,PRJ-0023,2,Escolha de layout,10
+157,PRJ-0023,3,Design e aprovação,10
+158,PRJ-0023,4,Desenvolvimento,12
+159,PRJ-0023,5,Conteúdo,4
+160,PRJ-0023,6,QA e ajustes,6
+161,PRJ-0023,7,Publicação,1
+162,PRJ-0024,1,Briefing,4
+163,PRJ-0024,2,Escolha de layout,6
+164,PRJ-0024,3,Design e aprovação,6
+165,PRJ-0024,4,Desenvolvimento,6
+166,PRJ-0024,5,Conteúdo,7
+167,PRJ-0024,6,QA e ajustes,6
+168,PRJ-0024,7,Publicação,1
+169,PRJ-0025,1,Briefing,4
+170,PRJ-0025,2,Escolha de layout,2
+171,PRJ-0025,3,Design e aprovação,4
+172,PRJ-0025,4,Desenvolvimento,4
+173,PRJ-0025,5,Conteúdo,3
+174,PRJ-0025,6,QA e ajustes,4
+175,PRJ-0025,7,Publicação,1
+176,PRJ-0026,1,Briefing,6
+177,PRJ-0026,2,Escolha de layout,10
+178,PRJ-0026,3,Design e aprovação,3
+179,PRJ-0026,4,Desenvolvimento,17
+180,PRJ-0026,5,Conteúdo,4
+181,PRJ-0026,6,QA e ajustes,4
+182,PRJ-0026,7,Publicação,1
+183,PRJ-0027,1,Briefing,5
+184,PRJ-0027,2,Escolha de layout,6
+185,PRJ-0027,3,Design e aprovação,6
+186,PRJ-0027,4,Desenvolvimento,18
+187,PRJ-0027,5,Conteúdo,9
+188,PRJ-0027,6,QA e ajustes,5
+189,PRJ-0027,7,Publicação,1
+190,PRJ-0028,1,Briefing,3
+191,PRJ-0028,2,Escolha de layout,15
+192,PRJ-0028,3,Design e aprovação,12
+193,PRJ-0028,4,Desenvolvimento,16
+194,PRJ-0028,5,Conteúdo,2
+195,PRJ-0028,6,QA e ajustes,5
+196,PRJ-0028,7,Publicação,1
+197,PRJ-0029,1,Briefing,3
+198,PRJ-0029,2,Escolha de layout,9
+199,PRJ-0029,3,Design e aprovação,7
+200,PRJ-0029,4,Desenvolvimento,11
+201,PRJ-0029,5,Conteúdo,9
+202,PRJ-0029,6,QA e ajustes,5
+203,PRJ-0029,7,Publicação,1
+204,PRJ-0030,1,Briefing,3
+205,PRJ-0030,2,Escolha de layout,7
+206,PRJ-0030,3,Design e aprovação,8
+207,PRJ-0030,4,Desenvolvimento,15
+208,PRJ-0030,5,Conteúdo,10
+209,PRJ-0030,6,QA e ajustes,4
+210,PRJ-0030,7,Publicação,1
+211,PRJ-0031,1,Briefing,4
+212,PRJ-0031,2,Escolha de layout,4
+213,PRJ-0031,3,Design e aprovação,8
+214,PRJ-0031,4,Desenvolvimento,15
+215,PRJ-0031,5,Conteúdo,10
+216,PRJ-0031,6,QA e ajustes,4
+217,PRJ-0031,7,Publicação,1
+218,PRJ-0032,1,Briefing,3
+219,PRJ-0032,2,Escolha de layout,4
+220,PRJ-0032,3,Design e aprovação,5
+221,PRJ-0032,4,Desenvolvimento,4
+222,PRJ-0032,5,Conteúdo,2
+223,PRJ-0032,6,QA e ajustes,4
+224,PRJ-0032,7,Publicação,1
+225,PRJ-0033,1,Briefing,3
+226,PRJ-0033,2,Escolha de layout,2
+227,PRJ-0033,3,Design e aprovação,6
+228,PRJ-0033,4,Desenvolvimento,17
+229,PRJ-0033,5,Conteúdo,4
+230,PRJ-0033,6,QA e ajustes,4
+231,PRJ-0033,7,Publicação,1
+232,PRJ-0034,1,Briefing,4
+233,PRJ-0034,2,Escolha de layout,10
+234,PRJ-0034,3,Design e aprovação,16
+235,PRJ-0034,4,Desenvolvimento,18
+236,PRJ-0034,5,Conteúdo,9
+237,PRJ-0034,6,QA e ajustes,7
+238,PRJ-0034,7,Publicação,1
+239,PRJ-0035,1,Briefing,3
+240,PRJ-0035,2,Escolha de layout,5
+241,PRJ-0035,3,Design e aprovação,11
+242,PRJ-0035,4,Desenvolvimento,25
+243,PRJ-0035,5,Conteúdo,7
+244,PRJ-0035,6,QA e ajustes,5
+245,PRJ-0035,7,Publicação,1
+246,PRJ-0036,1,Briefing,2
+247,PRJ-0036,2,Escolha de layout,6
+248,PRJ-0036,3,Design e aprovação,12
+249,PRJ-0036,4,Desenvolvimento,5
+250,PRJ-0036,5,Conteúdo,2
+251,PRJ-0036,6,QA e ajustes,6
+252,PRJ-0036,7,Publicação,1
+253,PRJ-0037,1,Briefing,3
+254,PRJ-0037,2,Escolha de layout,4
+255,PRJ-0037,3,Design e aprovação,11
+256,PRJ-0037,4,Desenvolvimento,6
+257,PRJ-0037,5,Conteúdo,5
+258,PRJ-0037,6,QA e ajustes,5
+259,PRJ-0037,7,Publicação,1
+260,PRJ-0038,1,Briefing,3
+261,PRJ-0038,2,Escolha de layout,4
+262,PRJ-0038,3,Design e aprovação,9
+263,PRJ-0038,4,Desenvolvimento,6
+264,PRJ-0038,5,Conteúdo,6
+265,PRJ-0038,6,QA e ajustes,4
+266,PRJ-0038,7,Publicação,1
+267,PRJ-0039,1,Briefing,3
+268,PRJ-0039,2,Escolha de layout,11
+269,PRJ-0039,3,Design e aprovação,6
+270,PRJ-0039,4,Desenvolvimento,7
+271,PRJ-0039,5,Conteúdo,5
+272,PRJ-0039,6,QA e ajustes,5
+273,PRJ-0039,7,Publicação,1
+274,PRJ-0040,1,Briefing,3
+275,PRJ-0040,2,Escolha de layout,13
+276,PRJ-0040,3,Design e aprovação,12
+277,PRJ-0040,4,Desenvolvimento,13
+278,PRJ-0040,5,Conteúdo,11
+279,PRJ-0040,6,QA e ajustes,5
+280,PRJ-0040,7,Publicação,1
+281,PRJ-0041,1,Briefing,3
+282,PRJ-0041,2,Escolha de layout,6
+283,PRJ-0041,3,Design e aprovação,7
+284,PRJ-0041,4,Desenvolvimento,15
+285,PRJ-0041,5,Conteúdo,4
+286,PRJ-0041,6,QA e ajustes,4
+287,PRJ-0041,7,Publicação,1
+288,PRJ-0042,1,Briefing,5
+289,PRJ-0042,2,Escolha de layout,10
+290,PRJ-0042,3,Design e aprovação,14
+291,PRJ-0042,4,Desenvolvimento,25
+292,PRJ-0042,5,Conteúdo,3
+293,PRJ-0042,6,QA e ajustes,6
+294,PRJ-0042,7,Publicação,1
+295,PRJ-0043,1,Briefing,3
+296,PRJ-0043,2,Escolha de layout,26
+297,PRJ-0043,3,Design e aprovação,6
+298,PRJ-0043,4,Desenvolvimento,33
+299,PRJ-0043,5,Conteúdo,7
+300,PRJ-0043,6,QA e ajustes,5
+301,PRJ-0043,7,Publicação,1
+302,PRJ-0044,1,Briefing,3
+303,PRJ-0044,2,Escolha de layout,1
+304,PRJ-0044,3,Design e aprovação,16
+305,PRJ-0044,4,Desenvolvimento,19
+306,PRJ-0044,5,Conteúdo,2
+307,PRJ-0044,6,QA e ajustes,8
+308,PRJ-0044,7,Publicação,1
+309,PRJ-0045,1,Briefing,4
+310,PRJ-0045,2,Escolha de layout,2
+311,PRJ-0045,3,Design e aprovação,10
+312,PRJ-0045,4,Desenvolvimento,16
+313,PRJ-0045,5,Conteúdo,11
+314,PRJ-0045,6,QA e ajustes,6
+315,PRJ-0045,7,Publicação,1
+316,PRJ-0046,1,Briefing,4
+317,PRJ-0046,2,Escolha de layout,1
+318,PRJ-0046,3,Design e aprovação,11
+319,PRJ-0046,4,Desenvolvimento,18
+320,PRJ-0046,5,Conteúdo,6
+321,PRJ-0046,6,QA e ajustes,5
+322,PRJ-0046,7,Publicação,1
+323,PRJ-0047,1,Briefing,3
+324,PRJ-0047,2,Escolha de layout,5
+325,PRJ-0047,3,Design e aprovação,8
+326,PRJ-0047,4,Desenvolvimento,21
+327,PRJ-0047,5,Conteúdo,5
+328,PRJ-0047,6,QA e ajustes,5
+329,PRJ-0047,7,Publicação,1
+330,PRJ-0048,1,Briefing,3
+331,PRJ-0048,2,Escolha de layout,14
+332,PRJ-0048,3,Design e aprovação,7
+333,PRJ-0048,4,Desenvolvimento,8
+334,PRJ-0048,5,Conteúdo,7
+335,PRJ-0048,6,QA e ajustes,5
+336,PRJ-0048,7,Publicação,1
+337,PRJ-0049,1,Briefing,3
+338,PRJ-0049,2,Escolha de layout,16
+339,PRJ-0049,3,Design e aprovação,4
+340,PRJ-0049,4,Desenvolvimento,16
+341,PRJ-0049,5,Conteúdo,6
+342,PRJ-0049,6,QA e ajustes,5
+343,PRJ-0049,7,Publicação,1
+344,PRJ-0050,1,Briefing,4
+345,PRJ-0050,2,Escolha de layout,4
+346,PRJ-0050,3,Design e aprovação,9
+347,PRJ-0050,4,Desenvolvimento,11
+348,PRJ-0050,5,Conteúdo,3
+349,PRJ-0050,6,QA e ajustes,5
+350,PRJ-0050,7,Publicação,1
+351,PRJ-0051,1,Briefing,6
+352,PRJ-0051,2,Escolha de layout,17
+353,PRJ-0051,3,Design e aprovação,10
+354,PRJ-0051,4,Desenvolvimento,8
+355,PRJ-0051,5,Conteúdo,4
+356,PRJ-0051,6,QA e ajustes,5
+357,PRJ-0051,7,Publicação,1
+358,PRJ-0052,1,Briefing,4
+359,PRJ-0052,2,Escolha de layout,1
+360,PRJ-0052,3,Design e aprovação,7
+361,PRJ-0052,4,Desenvolvimento,17
+362,PRJ-0052,5,Conteúdo,4
+363,PRJ-0052,6,QA e ajustes,4
+364,PRJ-0052,7,Publicação,1
+365,PRJ-0053,1,Briefing,3
+366,PRJ-0053,2,Escolha de layout,4
+367,PRJ-0053,3,Design e aprovação,9
+368,PRJ-0053,4,Desenvolvimento,14
+369,PRJ-0053,5,Conteúdo,4
+370,PRJ-0053,6,QA e ajustes,5
+371,PRJ-0053,7,Publicação,1
+372,PRJ-0054,1,Briefing,2
+373,PRJ-0054,2,Escolha de layout,13
+374,PRJ-0054,3,Design e aprovação,7
+375,PRJ-0054,4,Desenvolvimento,14
+376,PRJ-0054,5,Conteúdo,3
+377,PRJ-0054,6,QA e ajustes,5
+378,PRJ-0054,7,Publicação,1
+379,PRJ-0055,1,Briefing,3
+380,PRJ-0055,2,Escolha de layout,5
+381,PRJ-0055,3,Design e aprovação,9
+382,PRJ-0055,4,Desenvolvimento,14
+383,PRJ-0055,5,Conteúdo,5
+384,PRJ-0055,6,QA e ajustes,5
+385,PRJ-0055,7,Publicação,1
+386,PRJ-0056,1,Briefing,4
+387,PRJ-0056,2,Escolha de layout,2
+388,PRJ-0056,3,Design e aprovação,13
+389,PRJ-0056,4,Desenvolvimento,31
+390,PRJ-0056,5,Conteúdo,12
+391,PRJ-0056,6,QA e ajustes,7
+392,PRJ-0056,7,Publicação,1
+393,PRJ-0057,1,Briefing,3
+394,PRJ-0057,2,Escolha de layout,5
+395,PRJ-0057,3,Design e aprovação,6
+396,PRJ-0057,4,Desenvolvimento,33
+397,PRJ-0057,5,Conteúdo,7
+398,PRJ-0057,6,QA e ajustes,4
+399,PRJ-0057,7,Publicação,1
+400,PRJ-0058,1,Briefing,2
+401,PRJ-0058,2,Escolha de layout,1
+402,PRJ-0058,3,Design e aprovação,9
+403,PRJ-0058,4,Desenvolvimento,10
+404,PRJ-0058,5,Conteúdo,8
+405,PRJ-0058,6,QA e ajustes,4
+406,PRJ-0058,7,Publicação,1
+407,PRJ-0059,1,Briefing,4
+408,PRJ-0059,2,Escolha de layout,2
+409,PRJ-0059,3,Design e aprovação,6
+410,PRJ-0059,4,Desenvolvimento,31
+411,PRJ-0059,5,Conteúdo,8
+412,PRJ-0059,6,QA e ajustes,4
+413,PRJ-0059,7,Publicação,1
+414,PRJ-0060,1,Briefing,3
+415,PRJ-0060,2,Escolha de layout,3
+416,PRJ-0060,3,Design e aprovação,6
+417,PRJ-0060,4,Desenvolvimento,9
+418,PRJ-0060,5,Conteúdo,3
+419,PRJ-0060,6,QA e ajustes,4
+420,PRJ-0060,7,Publicação,1
+421,PRJ-0061,1,Briefing,4
+422,PRJ-0061,2,Escolha de layout,8
+423,PRJ-0061,3,Design e aprovação,4
+424,PRJ-0061,4,Desenvolvimento,5
+425,PRJ-0061,5,Conteúdo,9
+426,PRJ-0061,6,QA e ajustes,4
+427,PRJ-0061,7,Publicação,1
+428,PRJ-0062,1,Briefing,2
+429,PRJ-0062,2,Escolha de layout,9
+430,PRJ-0062,3,Design e aprovação,7
+431,PRJ-0062,4,Desenvolvimento,10
+432,PRJ-0062,5,Conteúdo,7
+433,PRJ-0062,6,QA e ajustes,4
+434,PRJ-0062,7,Publicação,1
+435,PRJ-0063,1,Briefing,3
+436,PRJ-0063,2,Escolha de layout,3
+437,PRJ-0063,3,Design e aprovação,17
+438,PRJ-0063,4,Desenvolvimento,19
+439,PRJ-0063,5,Conteúdo,5
+440,PRJ-0063,6,QA e ajustes,7
+441,PRJ-0063,7,Publicação,1
+442,PRJ-0064,1,Briefing,3
+443,PRJ-0064,2,Escolha de layout,7
+444,PRJ-0064,3,Design e aprovação,9
+445,PRJ-0064,4,Desenvolvimento,6
+446,PRJ-0064,5,Conteúdo,12
+447,PRJ-0064,6,QA e ajustes,7
+448,PRJ-0064,7,Publicação,1
+449,PRJ-0065,1,Briefing,3
+450,PRJ-0065,2,Escolha de layout,6
+451,PRJ-0065,3,Design e aprovação,12
+452,PRJ-0065,4,Desenvolvimento,12
+453,PRJ-0065,5,Conteúdo,13
+454,PRJ-0065,6,QA e ajustes,7
+455,PRJ-0065,7,Publicação,1
+456,PRJ-0066,1,Briefing,3
+457,PRJ-0066,2,Escolha de layout,5
+458,PRJ-0066,3,Design e aprovação,3
+459,PRJ-0066,4,Desenvolvimento,8
+460,PRJ-0066,5,Conteúdo,9
+461,PRJ-0066,6,QA e ajustes,5
+462,PRJ-0066,7,Publicação,1
+463,PRJ-0067,1,Briefing,3
+464,PRJ-0067,2,Escolha de layout,6
+465,PRJ-0067,3,Design e aprovação,9
+466,PRJ-0067,4,Desenvolvimento,9
+467,PRJ-0067,5,Conteúdo,12
+468,PRJ-0067,6,QA e ajustes,5
+469,PRJ-0067,7,Publicação,1
+470,PRJ-0068,1,Briefing,4
+471,PRJ-0068,2,Escolha de layout,14
+472,PRJ-0068,3,Design e aprovação,16
+473,PRJ-0068,4,Desenvolvimento,14
+474,PRJ-0068,5,Conteúdo,10
+475,PRJ-0068,6,QA e ajustes,5
+476,PRJ-0068,7,Publicação,1
+477,PRJ-0069,1,Briefing,4
+478,PRJ-0069,2,Escolha de layout,9
+479,PRJ-0069,3,Design e aprovação,9
+480,PRJ-0069,4,Desenvolvimento,9
+481,PRJ-0069,5,Conteúdo,5
+482,PRJ-0069,6,QA e ajustes,5
+483,PRJ-0069,7,Publicação,1
+484,PRJ-0070,1,Briefing,4
+485,PRJ-0070,2,Escolha de layout,6
+486,PRJ-0070,3,Design e aprovação,8
+487,PRJ-0070,4,Desenvolvimento,14
+488,PRJ-0070,5,Conteúdo,7
+489,PRJ-0070,6,QA e ajustes,4
+490,PRJ-0070,7,Publicação,1
+491,PRJ-0071,1,Briefing,3
+492,PRJ-0071,2,Escolha de layout,16
+493,PRJ-0071,3,Design e aprovação,10
+494,PRJ-0071,4,Desenvolvimento,11
+495,PRJ-0071,5,Conteúdo,9
+496,PRJ-0071,6,QA e ajustes,5
+497,PRJ-0071,7,Publicação,1
+498,PRJ-0072,1,Briefing,3
+499,PRJ-0072,2,Escolha de layout,9
+500,PRJ-0072,3,Design e aprovação,22
+501,PRJ-0072,4,Desenvolvimento,6
+502,PRJ-0072,5,Conteúdo,6
+503,PRJ-0072,6,QA e ajustes,11
+504,PRJ-0072,7,Publicação,1
+505,PRJ-0073,1,Briefing,4
+506,PRJ-0073,2,Escolha de layout,6
+507,PRJ-0073,3,Design e aprovação,7
+508,PRJ-0073,4,Desenvolvimento,12
+509,PRJ-0073,5,Conteúdo,8
+510,PRJ-0073,6,QA e ajustes,5
+511,PRJ-0073,7,Publicação,1
+512,PRJ-0074,1,Briefing,4
+513,PRJ-0074,2,Escolha de layout,1
+514,PRJ-0074,3,Design e aprovação,10
+515,PRJ-0074,4,Desenvolvimento,12
+516,PRJ-0074,5,Conteúdo,1
+517,PRJ-0074,6,QA e ajustes,5
+518,PRJ-0074,7,Publicação,1
+519,PRJ-0075,1,Briefing,3
+520,PRJ-0075,2,Escolha de layout,2
+521,PRJ-0075,3,Design e aprovação,6
+522,PRJ-0075,4,Desenvolvimento,22
+523,PRJ-0075,5,Conteúdo,9
+524,PRJ-0075,6,QA e ajustes,4
+525,PRJ-0075,7,Publicação,1
+526,PRJ-0076,1,Briefing,2
+527,PRJ-0076,2,Escolha de layout,5
+528,PRJ-0076,3,Design e aprovação,8
+529,PRJ-0076,4,Desenvolvimento,12
+530,PRJ-0076,5,Conteúdo,8
+531,PRJ-0076,6,QA e ajustes,4
+532,PRJ-0076,7,Publicação,1
+533,PRJ-0077,1,Briefing,3
+534,PRJ-0077,2,Escolha de layout,4
+535,PRJ-0077,3,Design e aprovação,5
+536,PRJ-0077,4,Desenvolvimento,4
+537,PRJ-0077,5,Conteúdo,5
+538,PRJ-0077,6,QA e ajustes,3
+539,PRJ-0077,7,Publicação,1
+540,PRJ-0078,1,Briefing,3
+541,PRJ-0078,2,Escolha de layout,10
+542,PRJ-0078,3,Design e aprovação,5
+543,PRJ-0078,4,Desenvolvimento,18
+544,PRJ-0078,5,Conteúdo,7
+545,PRJ-0078,6,QA e ajustes,4
+546,PRJ-0078,7,Publicação,1
+547,PRJ-0079,1,Briefing,3
+548,PRJ-0079,2,Escolha de layout,13
+549,PRJ-0079,3,Design e aprovação,16
+550,PRJ-0079,4,Desenvolvimento,23
+551,PRJ-0079,5,Conteúdo,10
+552,PRJ-0079,6,QA e ajustes,7
+553,PRJ-0079,7,Publicação,1
+554,PRJ-0080,1,Briefing,4
+555,PRJ-0080,2,Escolha de layout,9
+556,PRJ-0080,3,Design e aprovação,13
+557,PRJ-0080,4,Desenvolvimento,19
+558,PRJ-0080,5,Conteúdo,3
+559,PRJ-0080,6,QA e ajustes,7
+560,PRJ-0080,7,Publicação,1
+561,PRJ-0081,1,Briefing,3
+562,PRJ-0081,2,Escolha de layout,6
+563,PRJ-0081,3,Design e aprovação,17
+564,PRJ-0081,4,Desenvolvimento,7
+565,PRJ-0081,5,Conteúdo,7
+566,PRJ-0081,6,QA e ajustes,8
+567,PRJ-0081,7,Publicação,1
+568,PRJ-0082,1,Briefing,2
+569,PRJ-0082,2,Escolha de layout,5
+570,PRJ-0082,3,Design e aprovação,11
+571,PRJ-0082,4,Desenvolvimento,13
+572,PRJ-0082,5,Conteúdo,4
+573,PRJ-0082,6,QA e ajustes,5
+574,PRJ-0082,7,Publicação,1
+575,PRJ-0083,1,Briefing,4
+576,PRJ-0083,2,Escolha de layout,3
+577,PRJ-0083,3,Design e aprovação,13
+578,PRJ-0083,4,Desenvolvimento,7
+579,PRJ-0083,5,Conteúdo,8
+580,PRJ-0083,6,QA e ajustes,6
+581,PRJ-0083,7,Publicação,1
+582,PRJ-0084,1,Briefing,5
+583,PRJ-0084,2,Escolha de layout,11
+584,PRJ-0084,3,Design e aprovação,10
+585,PRJ-0084,4,Desenvolvimento,47
+586,PRJ-0084,5,Conteúdo,10
+587,PRJ-0084,6,QA e ajustes,6
+588,PRJ-0084,7,Publicação,1
+589,PRJ-0085,1,Briefing,3
+590,PRJ-0085,2,Escolha de layout,7
+591,PRJ-0085,3,Design e aprovação,11
+592,PRJ-0085,4,Desenvolvimento,19
+593,PRJ-0085,5,Conteúdo,5
+594,PRJ-0085,6,QA e ajustes,6
+595,PRJ-0085,7,Publicação,1
+596,PRJ-0086,1,Briefing,2
+597,PRJ-0086,2,Escolha de layout,3
+598,PRJ-0086,3,Design e aprovação,21
+599,PRJ-0086,4,Desenvolvimento,5
+600,PRJ-0086,5,Conteúdo,6
+601,PRJ-0086,6,QA e ajustes,8
+602,PRJ-0086,7,Publicação,1
+603,PRJ-0087,1,Briefing,5
+604,PRJ-0087,2,Escolha de layout,14
+605,PRJ-0087,3,Design e aprovação,14
+606,PRJ-0087,4,Desenvolvimento,10
+607,PRJ-0087,5,Conteúdo,3
+608,PRJ-0087,6,QA e ajustes,6
+609,PRJ-0087,7,Publicação,1
+610,PRJ-0088,1,Briefing,3
+611,PRJ-0088,2,Escolha de layout,11
+612,PRJ-0088,3,Design e aprovação,7
+613,PRJ-0088,4,Desenvolvimento,15
+614,PRJ-0088,5,Conteúdo,7
+615,PRJ-0088,6,QA e ajustes,4
+616,PRJ-0088,7,Publicação,1
+617,PRJ-0089,1,Briefing,2
+618,PRJ-0089,2,Escolha de layout,7
+619,PRJ-0089,3,Design e aprovação,16
+620,PRJ-0089,4,Desenvolvimento,7
+621,PRJ-0089,5,Conteúdo,7
+622,PRJ-0089,6,QA e ajustes,6
+623,PRJ-0089,7,Publicação,1
+624,PRJ-0090,1,Briefing,3
+625,PRJ-0090,2,Escolha de layout,6
+626,PRJ-0090,3,Design e aprovação,9
+627,PRJ-0090,4,Desenvolvimento,18
+628,PRJ-0090,5,Conteúdo,13
+629,PRJ-0090,6,QA e ajustes,5
+630,PRJ-0090,7,Publicação,1
+631,PRJ-0091,1,Briefing,3
+632,PRJ-0091,2,Escolha de layout,3
+633,PRJ-0091,3,Design e aprovação,3
+634,PRJ-0091,4,Desenvolvimento,15
+635,PRJ-0091,5,Conteúdo,12
+636,PRJ-0091,6,QA e ajustes,5
+637,PRJ-0091,7,Publicação,1
+638,PRJ-0092,1,Briefing,5
+639,PRJ-0092,2,Escolha de layout,10
+640,PRJ-0092,3,Design e aprovação,10
+641,PRJ-0092,4,Desenvolvimento,11
+642,PRJ-0092,5,Conteúdo,5
+643,PRJ-0092,6,QA e ajustes,5
+644,PRJ-0092,7,Publicação,1
+645,PRJ-0093,1,Briefing,2
+646,PRJ-0093,2,Escolha de layout,8
+647,PRJ-0093,3,Design e aprovação,6
+648,PRJ-0093,4,Desenvolvimento,10
+649,PRJ-0093,5,Conteúdo,2
+650,PRJ-0093,6,QA e ajustes,5
+651,PRJ-0093,7,Publicação,1
+652,PRJ-0094,1,Briefing,2
+653,PRJ-0094,2,Escolha de layout,2
+654,PRJ-0094,3,Design e aprovação,7
+655,PRJ-0094,4,Desenvolvimento,16
+656,PRJ-0094,5,Conteúdo,3
+657,PRJ-0094,6,QA e ajustes,6
+658,PRJ-0094,7,Publicação,1
+659,PRJ-0095,1,Briefing,4
+660,PRJ-0095,2,Escolha de layout,5
+661,PRJ-0095,3,Design e aprovação,8
+662,PRJ-0095,4,Desenvolvimento,21
+663,PRJ-0095,5,Conteúdo,3
+664,PRJ-0095,6,QA e ajustes,6
+665,PRJ-0095,7,Publicação,1
+666,PRJ-0096,1,Briefing,4
+667,PRJ-0096,2,Escolha de layout,3
+668,PRJ-0096,3,Design e aprovação,5
+669,PRJ-0096,4,Desenvolvimento,19
+670,PRJ-0096,5,Conteúdo,10
+671,PRJ-0096,6,QA e ajustes,4
+672,PRJ-0096,7,Publicação,1
+673,PRJ-0097,1,Briefing,3
+674,PRJ-0097,2,Escolha de layout,10
+675,PRJ-0097,3,Design e aprovação,10
+676,PRJ-0097,4,Desenvolvimento,17
+677,PRJ-0097,5,Conteúdo,2
+678,PRJ-0097,6,QA e ajustes,6
+679,PRJ-0097,7,Publicação,1
+680,PRJ-0098,1,Briefing,4
+681,PRJ-0098,2,Escolha de layout,9
+682,PRJ-0098,3,Design e aprovação,11
+683,PRJ-0098,4,Desenvolvimento,10
+684,PRJ-0098,5,Conteúdo,4
+685,PRJ-0098,6,QA e ajustes,5
+686,PRJ-0098,7,Publicação,1
+687,PRJ-0099,1,Briefing,3
+688,PRJ-0099,2,Escolha de layout,9
+689,PRJ-0099,3,Design e aprovação,10
+690,PRJ-0099,4,Desenvolvimento,12
+691,PRJ-0099,5,Conteúdo,1
+692,PRJ-0099,6,QA e ajustes,5
+693,PRJ-0099,7,Publicação,1
+694,PRJ-0100,1,Briefing,3
+695,PRJ-0100,2,Escolha de layout,5
+696,PRJ-0100,3,Design e aprovação,15
+697,PRJ-0100,4,Desenvolvimento,15
+698,PRJ-0100,5,Conteúdo,5
+699,PRJ-0100,6,QA e ajustes,7
+700,PRJ-0100,7,Publicação,1
+701,PRJ-0101,1,Briefing,5
+702,PRJ-0101,2,Escolha de layout,5
+703,PRJ-0101,3,Design e aprovação,9
+704,PRJ-0101,4,Desenvolvimento,8
+705,PRJ-0101,5,Conteúdo,8
+706,PRJ-0101,6,QA e ajustes,5
+707,PRJ-0101,7,Publicação,1
+708,PRJ-0102,1,Briefing,5
+709,PRJ-0102,2,Escolha de layout,4
+710,PRJ-0102,3,Design e aprovação,15
+711,PRJ-0102,4,Desenvolvimento,9
+712,PRJ-0102,5,Conteúdo,6
+713,PRJ-0102,6,QA e ajustes,6
+714,PRJ-0102,7,Publicação,1
+715,PRJ-0103,1,Briefing,3
+716,PRJ-0103,2,Escolha de layout,6
+717,PRJ-0103,3,Design e aprovação,13
+718,PRJ-0103,4,Desenvolvimento,32
+719,PRJ-0103,5,Conteúdo,6
+720,PRJ-0103,6,QA e ajustes,6
+721,PRJ-0103,7,Publicação,1
+722,PRJ-0104,1,Briefing,3
+723,PRJ-0104,2,Escolha de layout,7
+724,PRJ-0104,3,Design e aprovação,4
+725,PRJ-0104,4,Desenvolvimento,13
+726,PRJ-0104,5,Conteúdo,11
+727,PRJ-0104,6,QA e ajustes,4
+728,PRJ-0104,7,Publicação,1
+729,PRJ-0105,1,Briefing,3
+730,PRJ-0105,2,Escolha de layout,3
+731,PRJ-0105,3,Design e aprovação,12
+732,PRJ-0105,4,Desenvolvimento,14
+733,PRJ-0105,5,Conteúdo,5
+734,PRJ-0105,6,QA e ajustes,7
+735,PRJ-0105,7,Publicação,1
+736,PRJ-0106,1,Briefing,4
+737,PRJ-0106,2,Escolha de layout,9
+738,PRJ-0106,3,Design e aprovação,10
+739,PRJ-0106,4,Desenvolvimento,13
+740,PRJ-0106,5,Conteúdo,4
+741,PRJ-0106,6,QA e ajustes,5
+742,PRJ-0106,7,Publicação,1
+743,PRJ-0107,1,Briefing,3
+744,PRJ-0107,2,Escolha de layout,19
+745,PRJ-0107,3,Design e aprovação,9
+746,PRJ-0107,4,Desenvolvimento,18
+747,PRJ-0107,5,Conteúdo,4
+748,PRJ-0107,6,QA e ajustes,4
+749,PRJ-0107,7,Publicação,1
+750,PRJ-0108,1,Briefing,3
+751,PRJ-0108,2,Escolha de layout,2
+752,PRJ-0108,3,Design e aprovação,6
+753,PRJ-0108,4,Desenvolvimento,19
+754,PRJ-0108,5,Conteúdo,3
+755,PRJ-0108,6,QA e ajustes,5
+756,PRJ-0108,7,Publicação,1
+757,PRJ-0109,1,Briefing,3
+758,PRJ-0109,2,Escolha de layout,5
+759,PRJ-0109,3,Design e aprovação,12
+760,PRJ-0109,4,Desenvolvimento,19
+761,PRJ-0109,5,Conteúdo,8
+762,PRJ-0109,6,QA e ajustes,6
+763,PRJ-0109,7,Publicação,1
+764,PRJ-0110,1,Briefing,5
+765,PRJ-0110,2,Escolha de layout,14
+766,PRJ-0110,3,Design e aprovação,7
+767,PRJ-0110,4,Desenvolvimento,16
+768,PRJ-0110,5,Conteúdo,4
+769,PRJ-0110,6,QA e ajustes,4
+770,PRJ-0110,7,Publicação,1
+771,PRJ-0111,1,Briefing,5
+772,PRJ-0111,2,Escolha de layout,7
+773,PRJ-0111,3,Design e aprovação,4
+774,PRJ-0111,4,Desenvolvimento,12
+775,PRJ-0111,5,Conteúdo,8
+776,PRJ-0111,6,QA e ajustes,4
+777,PRJ-0111,7,Publicação,1
+778,PRJ-0112,1,Briefing,4
+779,PRJ-0112,2,Escolha de layout,9
+780,PRJ-0112,3,Design e aprovação,10
+781,PRJ-0112,4,Desenvolvimento,12
+782,PRJ-0112,5,Conteúdo,1
+783,PRJ-0112,6,QA e ajustes,5
+784,PRJ-0112,7,Publicação,1
+785,PRJ-0113,1,Briefing,4
+786,PRJ-0113,2,Escolha de layout,2
+787,PRJ-0113,3,Design e aprovação,6
+788,PRJ-0113,4,Desenvolvimento,15
+789,PRJ-0113,5,Conteúdo,3
+790,PRJ-0113,6,QA e ajustes,4
+791,PRJ-0113,7,Publicação,1
+792,PRJ-0114,1,Briefing,3
+793,PRJ-0114,2,Escolha de layout,4
+794,PRJ-0114,3,Design e aprovação,16
+795,PRJ-0114,4,Desenvolvimento,11
+796,PRJ-0114,5,Conteúdo,6
+797,PRJ-0114,6,QA e ajustes,6
+798,PRJ-0114,7,Publicação,1
+799,PRJ-0115,1,Briefing,5
+800,PRJ-0115,2,Escolha de layout,17
+801,PRJ-0115,3,Design e aprovação,13
+802,PRJ-0115,4,Desenvolvimento,26
+803,PRJ-0115,5,Conteúdo,8
+804,PRJ-0115,6,QA e ajustes,6
+805,PRJ-0115,7,Publicação,1
+806,PRJ-0116,1,Briefing,3
+807,PRJ-0116,2,Escolha de layout,4
+808,PRJ-0116,3,Design e aprovação,16
+809,PRJ-0116,4,Desenvolvimento,11
+810,PRJ-0116,5,Conteúdo,2
+811,PRJ-0116,6,QA e ajustes,8
+812,PRJ-0116,7,Publicação,1
+813,PRJ-0117,1,Briefing,4
+814,PRJ-0117,2,Escolha de layout,9
+815,PRJ-0117,3,Design e aprovação,4
+816,PRJ-0117,4,Desenvolvimento,15
+817,PRJ-0117,5,Conteúdo,7
+818,PRJ-0117,6,QA e ajustes,4
+819,PRJ-0117,7,Publicação,1
+820,PRJ-0118,1,Briefing,2
+821,PRJ-0118,2,Escolha de layout,20
+822,PRJ-0118,3,Design e aprovação,6
+823,PRJ-0118,4,Desenvolvimento,10
+824,PRJ-0118,5,Conteúdo,4
+825,PRJ-0118,6,QA e ajustes,4
+826,PRJ-0118,7,Publicação,1
+827,PRJ-0119,1,Briefing,3
+828,PRJ-0119,2,Escolha de layout,2
+829,PRJ-0119,3,Design e aprovação,7
+830,PRJ-0119,4,Desenvolvimento,11
+831,PRJ-0119,5,Conteúdo,5
+832,PRJ-0119,6,QA e ajustes,4
+833,PRJ-0119,7,Publicação,1
+834,PRJ-0120,1,Briefing,2
+835,PRJ-0120,2,Escolha de layout,2
+836,PRJ-0120,3,Design e aprovação,10
+837,PRJ-0120,4,Desenvolvimento,14
+838,PRJ-0120,5,Conteúdo,4
+839,PRJ-0120,6,QA e ajustes,5
+840,PRJ-0120,7,Publicação,1
+841,PRJ-0121,1,Briefing,3
+842,PRJ-0121,2,Escolha de layout,1
+843,PRJ-0121,3,Design e aprovação,4
+844,PRJ-0121,4,Desenvolvimento,5
+845,PRJ-0121,5,Conteúdo,3
+846,PRJ-0121,6,QA e ajustes,4
+847,PRJ-0121,7,Publicação,1
+848,PRJ-0122,1,Briefing,3
+849,PRJ-0122,2,Escolha de layout,1
+850,PRJ-0122,3,Design e aprovação,9
+851,PRJ-0122,4,Desenvolvimento,27
+852,PRJ-0122,5,Conteúdo,8
+853,PRJ-0122,6,QA e ajustes,6
+854,PRJ-0122,7,Publicação,1
+855,PRJ-0123,1,Briefing,5
+856,PRJ-0123,2,Escolha de layout,5
+857,PRJ-0123,3,Design e aprovação,10
+858,PRJ-0123,4,Desenvolvimento,16
+859,PRJ-0123,5,Conteúdo,2
+860,PRJ-0123,6,QA e ajustes,6
+861,PRJ-0123,7,Publicação,1
+862,PRJ-0124,1,Briefing,2
+863,PRJ-0124,2,Escolha de layout,6
+864,PRJ-0124,3,Design e aprovação,4
+865,PRJ-0124,4,Desenvolvimento,15
+866,PRJ-0124,5,Conteúdo,5
+867,PRJ-0124,6,QA e ajustes,4
+868,PRJ-0124,7,Publicação,1
+869,PRJ-0125,1,Briefing,4
+870,PRJ-0125,2,Escolha de layout,11
+871,PRJ-0125,3,Design e aprovação,10
+872,PRJ-0125,4,Desenvolvimento,12
+873,PRJ-0125,5,Conteúdo,10
+874,PRJ-0125,6,QA e ajustes,5
+875,PRJ-0125,7,Publicação,1
+876,PRJ-0126,1,Briefing,6
+877,PRJ-0126,2,Escolha de layout,6
+878,PRJ-0126,3,Design e aprovação,4
+879,PRJ-0126,4,Desenvolvimento,24
+880,PRJ-0126,5,Conteúdo,4
+881,PRJ-0126,6,QA e ajustes,4
+882,PRJ-0126,7,Publicação,1
+883,PRJ-0127,1,Briefing,3
+884,PRJ-0127,2,Escolha de layout,7
+885,PRJ-0127,3,Design e aprovação,3
+886,PRJ-0127,4,Desenvolvimento,31
+887,PRJ-0127,5,Conteúdo,10
+888,PRJ-0127,6,QA e ajustes,4
+889,PRJ-0127,7,Publicação,1
+890,PRJ-0128,1,Briefing,2
+891,PRJ-0128,2,Escolha de layout,5
+892,PRJ-0128,3,Design e aprovação,16
+893,PRJ-0128,4,Desenvolvimento,9
+894,PRJ-0128,5,Conteúdo,21
+895,PRJ-0128,6,QA e ajustes,6
+896,PRJ-0128,7,Publicação,1
+897,PRJ-0129,1,Briefing,3
+898,PRJ-0129,2,Escolha de layout,8
+899,PRJ-0129,3,Design e aprovação,7
+900,PRJ-0129,4,Desenvolvimento,7
+901,PRJ-0129,5,Conteúdo,3
+902,PRJ-0129,6,QA e ajustes,4
+903,PRJ-0129,7,Publicação,1
+904,PRJ-0130,1,Briefing,3
+905,PRJ-0130,2,Escolha de layout,4
+906,PRJ-0130,3,Design e aprovação,12
+907,PRJ-0130,4,Desenvolvimento,6
+908,PRJ-0130,5,Conteúdo,1
+909,PRJ-0130,6,QA e ajustes,4
+910,PRJ-0130,7,Publicação,1
+911,PRJ-0131,1,Briefing,4
+912,PRJ-0131,2,Escolha de layout,20
+913,PRJ-0131,3,Design e aprovação,17
+914,PRJ-0131,4,Desenvolvimento,7
+915,PRJ-0131,5,Conteúdo,5
+916,PRJ-0131,6,QA e ajustes,7
+917,PRJ-0131,7,Publicação,1
+918,PRJ-0132,1,Briefing,6
+919,PRJ-0132,2,Escolha de layout,7
+920,PRJ-0132,3,Design e aprovação,6
+921,PRJ-0132,4,Desenvolvimento,16
+922,PRJ-0132,5,Conteúdo,5
+923,PRJ-0132,6,QA e ajustes,7
+924,PRJ-0132,7,Publicação,1
+925,PRJ-0133,1,Briefing,3
+926,PRJ-0133,2,Escolha de layout,4
+927,PRJ-0133,3,Design e aprovação,4
+928,PRJ-0133,4,Desenvolvimento,7
+929,PRJ-0133,5,Conteúdo,8
+930,PRJ-0133,6,QA e ajustes,3
+931,PRJ-0133,7,Publicação,1
+932,PRJ-0134,1,Briefing,2
+933,PRJ-0134,2,Escolha de layout,7
+934,PRJ-0134,3,Design e aprovação,13
+935,PRJ-0134,4,Desenvolvimento,20
+936,PRJ-0134,5,Conteúdo,2
+937,PRJ-0134,6,QA e ajustes,6
+938,PRJ-0134,7,Publicação,1
+939,PRJ-0135,1,Briefing,3
+940,PRJ-0135,2,Escolha de layout,4
+941,PRJ-0135,3,Design e aprovação,11
+942,PRJ-0135,4,Desenvolvimento,9
+943,PRJ-0135,5,Conteúdo,11
+944,PRJ-0135,6,QA e ajustes,5
+945,PRJ-0135,7,Publicação,1
+946,PRJ-0136,1,Briefing,3
+947,PRJ-0136,2,Escolha de layout,4
+948,PRJ-0136,3,Design e aprovação,12
+949,PRJ-0136,4,Desenvolvimento,7
+950,PRJ-0136,5,Conteúdo,6
+951,PRJ-0136,6,QA e ajustes,5
+952,PRJ-0136,7,Publicação,1
+953,PRJ-0137,1,Briefing,2
+954,PRJ-0137,2,Escolha de layout,7
+955,PRJ-0137,3,Design e aprovação,7
+956,PRJ-0137,4,Desenvolvimento,5
+957,PRJ-0137,5,Conteúdo,1
+958,PRJ-0137,6,QA e ajustes,5
+959,PRJ-0137,7,Publicação,1
+960,PRJ-0138,1,Briefing,2
+961,PRJ-0138,2,Escolha de layout,4
+962,PRJ-0138,3,Design e aprovação,4
+963,PRJ-0138,4,Desenvolvimento,14
+964,PRJ-0138,5,Conteúdo,3
+965,PRJ-0138,6,QA e ajustes,5
+966,PRJ-0138,7,Publicação,1
+967,PRJ-0139,1,Briefing,3
+968,PRJ-0139,2,Escolha de layout,5
+969,PRJ-0139,3,Design e aprovação,4
+970,PRJ-0139,4,Desenvolvimento,32
+971,PRJ-0139,5,Conteúdo,9
+972,PRJ-0139,6,QA e ajustes,5
+973,PRJ-0139,7,Publicação,1
+974,PRJ-0140,1,Briefing,3
+975,PRJ-0140,2,Escolha de layout,8
+976,PRJ-0140,3,Design e aprovação,6
+977,PRJ-0140,4,Desenvolvimento,5
+978,PRJ-0140,5,Conteúdo,8
+979,PRJ-0140,6,QA e ajustes,4
+980,PRJ-0140,7,Publicação,1
+981,PRJ-0141,1,Briefing,2
+982,PRJ-0141,2,Escolha de layout,5
+983,PRJ-0141,3,Design e aprovação,4
+984,PRJ-0141,4,Desenvolvimento,8
+985,PRJ-0141,5,Conteúdo,6
+986,PRJ-0141,6,QA e ajustes,6
+987,PRJ-0141,7,Publicação,1
+988,PRJ-0142,1,Briefing,5
+989,PRJ-0142,2,Escolha de layout,8
+990,PRJ-0142,3,Design e aprovação,10
+991,PRJ-0142,4,Desenvolvimento,13
+992,PRJ-0142,5,Conteúdo,2
+993,PRJ-0142,6,QA e ajustes,5
+994,PRJ-0142,7,Publicação,1
+995,PRJ-0143,1,Briefing,4
+996,PRJ-0143,2,Escolha de layout,3
+997,PRJ-0143,3,Design e aprovação,6
+998,PRJ-0143,4,Desenvolvimento,5
+999,PRJ-0143,5,Conteúdo,4
+1000,PRJ-0143,6,QA e ajustes,5
+1001,PRJ-0143,7,Publicação,1
+1002,PRJ-0144,1,Briefing,4
+1003,PRJ-0144,2,Escolha de layout,4
+1004,PRJ-0144,3,Design e aprovação,6
+1005,PRJ-0144,4,Desenvolvimento,15
+1006,PRJ-0144,5,Conteúdo,10
+1007,PRJ-0144,6,QA e ajustes,4
+1008,PRJ-0144,7,Publicação,1
+1009,PRJ-0145,1,Briefing,3
+1010,PRJ-0145,2,Escolha de layout,6
+1011,PRJ-0145,3,Design e aprovação,6
+1012,PRJ-0145,4,Desenvolvimento,8
+1013,PRJ-0145,5,Conteúdo,4
+1014,PRJ-0145,6,QA e ajustes,6
+1015,PRJ-0145,7,Publicação,1
+1016,PRJ-0146,1,Briefing,3
+1017,PRJ-0146,2,Escolha de layout,16
+1018,PRJ-0146,3,Design e aprovação,7
+1019,PRJ-0146,4,Desenvolvimento,22
+1020,PRJ-0146,5,Conteúdo,3
+1021,PRJ-0146,6,QA e ajustes,5
+1022,PRJ-0146,7,Publicação,1
+1023,PRJ-0147,1,Briefing,5
+1024,PRJ-0147,2,Escolha de layout,6
+1025,PRJ-0147,3,Design e aprovação,4
+1026,PRJ-0147,4,Desenvolvimento,8
+1027,PRJ-0147,5,Conteúdo,7
+1028,PRJ-0147,6,QA e ajustes,4
+1029,PRJ-0147,7,Publicação,1
+1030,PRJ-0148,1,Briefing,4
+1031,PRJ-0148,2,Escolha de layout,3
+1032,PRJ-0148,3,Design e aprovação,3
+1033,PRJ-0148,4,Desenvolvimento,10
+1034,PRJ-0148,5,Conteúdo,1
+1035,PRJ-0148,6,QA e ajustes,3
+1036,PRJ-0148,7,Publicação,1
+1037,PRJ-0149,1,Briefing,4
+1038,PRJ-0149,2,Escolha de layout,9
+1039,PRJ-0149,3,Design e aprovação,7
+1040,PRJ-0149,4,Desenvolvimento,15
+1041,PRJ-0149,5,Conteúdo,3
+1042,PRJ-0149,6,QA e ajustes,6
+1043,PRJ-0149,7,Publicação,1
+1044,PRJ-0150,1,Briefing,3
+1045,PRJ-0150,2,Escolha de layout,2
+1046,PRJ-0150,3,Design e aprovação,9
+1047,PRJ-0150,4,Desenvolvimento,19
+1048,PRJ-0150,5,Conteúdo,6
+1049,PRJ-0150,6,QA e ajustes,5
+1050,PRJ-0150,7,Publicação,1
+1051,PRJ-0151,1,Briefing,4
+1052,PRJ-0151,2,Escolha de layout,3
+1053,PRJ-0151,3,Design e aprovação,9
+1054,PRJ-0151,4,Desenvolvimento,26
+1055,PRJ-0151,5,Conteúdo,4
+1056,PRJ-0151,6,QA e ajustes,5
+1057,PRJ-0151,7,Publicação,1
+1058,PRJ-0152,1,Briefing,4
+1059,PRJ-0152,2,Escolha de layout,12
+1060,PRJ-0152,3,Design e aprovação,6
+1061,PRJ-0152,4,Desenvolvimento,15
+1062,PRJ-0152,5,Conteúdo,10
+1063,PRJ-0152,6,QA e ajustes,7
+1064,PRJ-0152,7,Publicação,1
+1065,PRJ-0153,1,Briefing,3
+1066,PRJ-0153,2,Escolha de layout,5
+1067,PRJ-0153,3,Design e aprovação,8
+1068,PRJ-0153,4,Desenvolvimento,29
+1069,PRJ-0153,5,Conteúdo,11
+1070,PRJ-0153,6,QA e ajustes,5
+1071,PRJ-0153,7,Publicação,1
+1072,PRJ-0154,1,Briefing,3
+1073,PRJ-0154,2,Escolha de layout,5
+1074,PRJ-0154,3,Design e aprovação,7
+1075,PRJ-0154,4,Desenvolvimento,21
+1076,PRJ-0154,5,Conteúdo,7
+1077,PRJ-0154,6,QA e ajustes,5
+1078,PRJ-0154,7,Publicação,1
+1079,PRJ-0155,1,Briefing,3
+1080,PRJ-0155,2,Escolha de layout,8
+1081,PRJ-0155,3,Design e aprovação,7
+1082,PRJ-0155,4,Desenvolvimento,8
+1083,PRJ-0155,5,Conteúdo,7
+1084,PRJ-0155,6,QA e ajustes,5
+1085,PRJ-0155,7,Publicação,1
+1086,PRJ-0156,1,Briefing,3
+1087,PRJ-0156,2,Escolha de layout,6
+1088,PRJ-0156,3,Design e aprovação,6
+1089,PRJ-0156,4,Desenvolvimento,9
+1090,PRJ-0156,5,Conteúdo,2
+1091,PRJ-0156,6,QA e ajustes,4
+1092,PRJ-0156,7,Publicação,1
+1093,PRJ-0157,1,Briefing,3
+1094,PRJ-0157,2,Escolha de layout,2
+1095,PRJ-0157,3,Design e aprovação,10
+1096,PRJ-0157,4,Desenvolvimento,8
+1097,PRJ-0157,5,Conteúdo,4
+1098,PRJ-0157,6,QA e ajustes,6
+1099,PRJ-0157,7,Publicação,1
+1100,PRJ-0158,1,Briefing,3
+1101,PRJ-0158,2,Escolha de layout,3
+1102,PRJ-0158,3,Design e aprovação,12
+1103,PRJ-0158,4,Desenvolvimento,7
+1104,PRJ-0158,5,Conteúdo,6
+1105,PRJ-0158,6,QA e ajustes,7
+1106,PRJ-0158,7,Publicação,1
+1107,PRJ-0159,1,Briefing,2
+1108,PRJ-0159,2,Escolha de layout,6
+1109,PRJ-0159,3,Design e aprovação,10
+1110,PRJ-0159,4,Desenvolvimento,10
+1111,PRJ-0159,5,Conteúdo,4
+1112,PRJ-0159,6,QA e ajustes,5
+1113,PRJ-0159,7,Publicação,1
+1114,PRJ-0160,1,Briefing,4
+1115,PRJ-0160,2,Escolha de layout,3
+1116,PRJ-0160,3,Design e aprovação,9
+1117,PRJ-0160,4,Desenvolvimento,18
+1118,PRJ-0160,5,Conteúdo,4
+1119,PRJ-0160,6,QA e ajustes,5
+1120,PRJ-0160,7,Publicação,1
+1121,PRJ-0161,1,Briefing,3
+1122,PRJ-0161,2,Escolha de layout,5
+1123,PRJ-0161,3,Design e aprovação,6
+1124,PRJ-0161,4,Desenvolvimento,5
+1125,PRJ-0161,5,Conteúdo,6
+1126,PRJ-0161,6,QA e ajustes,4
+1127,PRJ-0161,7,Publicação,1
+1128,PRJ-0162,1,Briefing,4
+1129,PRJ-0162,2,Escolha de layout,13
+1130,PRJ-0162,3,Design e aprovação,7
+1131,PRJ-0162,4,Desenvolvimento,18
+1132,PRJ-0162,5,Conteúdo,5
+1133,PRJ-0162,6,QA e ajustes,5
+1134,PRJ-0162,7,Publicação,1
+1135,PRJ-0163,1,Briefing,3
+1136,PRJ-0163,2,Escolha de layout,6
+1137,PRJ-0163,3,Design e aprovação,5
+1138,PRJ-0163,4,Desenvolvimento,10
+1139,PRJ-0163,5,Conteúdo,5
+1140,PRJ-0163,6,QA e ajustes,4
+1141,PRJ-0163,7,Publicação,1
+1142,PRJ-0164,1,Briefing,4
+1143,PRJ-0164,2,Escolha de layout,10
+1144,PRJ-0164,3,Design e aprovação,8
+1145,PRJ-0164,4,Desenvolvimento,5
+1146,PRJ-0164,5,Conteúdo,5
+1147,PRJ-0164,6,QA e ajustes,5
+1148,PRJ-0164,7,Publicação,1
+1149,PRJ-0165,1,Briefing,2
+1150,PRJ-0165,2,Escolha de layout,3
+1151,PRJ-0165,3,Design e aprovação,5
+1152,PRJ-0165,4,Desenvolvimento,15
+1153,PRJ-0165,5,Conteúdo,5
+1154,PRJ-0165,6,QA e ajustes,4
+1155,PRJ-0165,7,Publicação,1
+1156,PRJ-0166,1,Briefing,3
+1157,PRJ-0166,2,Escolha de layout,11
+1158,PRJ-0166,3,Design e aprovação,10
+1159,PRJ-0166,4,Desenvolvimento,16
+1160,PRJ-0166,5,Conteúdo,7
+1161,PRJ-0166,6,QA e ajustes,5
+1162,PRJ-0166,7,Publicação,1
+1163,PRJ-0167,1,Briefing,3
+1164,PRJ-0167,2,Escolha de layout,3
+1165,PRJ-0167,3,Design e aprovação,6
+1166,PRJ-0167,4,Desenvolvimento,20
+1167,PRJ-0167,5,Conteúdo,9
+1168,PRJ-0167,6,QA e ajustes,4
+1169,PRJ-0167,7,Publicação,1
+1170,PRJ-0168,1,Briefing,2
+1171,PRJ-0168,2,Escolha de layout,2
+1172,PRJ-0168,3,Design e aprovação,15
+1173,PRJ-0168,4,Desenvolvimento,16
+1174,PRJ-0168,5,Conteúdo,7
+1175,PRJ-0168,6,QA e ajustes,7
+1176,PRJ-0168,7,Publicação,1
+1177,PRJ-0169,1,Briefing,3
+1178,PRJ-0169,2,Escolha de layout,3
+1179,PRJ-0169,3,Design e aprovação,9
+1180,PRJ-0169,4,Desenvolvimento,18
+1181,PRJ-0169,5,Conteúdo,7
+1182,PRJ-0169,6,QA e ajustes,4
+1183,PRJ-0169,7,Publicação,1
+1184,PRJ-0170,1,Briefing,2
+1185,PRJ-0170,2,Escolha de layout,5
+1186,PRJ-0170,3,Design e aprovação,6
+1187,PRJ-0170,4,Desenvolvimento,14
+1188,PRJ-0170,5,Conteúdo,1
+1189,PRJ-0170,6,QA e ajustes,4
+1190,PRJ-0170,7,Publicação,1
+1191,PRJ-0171,1,Briefing,4
+1192,PRJ-0171,2,Escolha de layout,8
+1193,PRJ-0171,3,Design e aprovação,4
+1194,PRJ-0171,4,Desenvolvimento,13
+1195,PRJ-0171,5,Conteúdo,3
+1196,PRJ-0171,6,QA e ajustes,3
+1197,PRJ-0171,7,Publicação,1
+1198,PRJ-0172,1,Briefing,2
+1199,PRJ-0172,2,Escolha de layout,3
+1200,PRJ-0172,3,Design e aprovação,4
+1201,PRJ-0172,4,Desenvolvimento,6
+1202,PRJ-0172,5,Conteúdo,5
+1203,PRJ-0172,6,QA e ajustes,6
+1204,PRJ-0172,7,Publicação,1
+1205,PRJ-0173,1,Briefing,3
+1206,PRJ-0173,2,Escolha de layout,9
+1207,PRJ-0173,3,Design e aprovação,4
+1208,PRJ-0173,4,Desenvolvimento,10
+1209,PRJ-0173,5,Conteúdo,5
+1210,PRJ-0173,6,QA e ajustes,4
+1211,PRJ-0173,7,Publicação,1
+1212,PRJ-0174,1,Briefing,3
+1213,PRJ-0174,2,Escolha de layout,3
+1214,PRJ-0174,3,Design e aprovação,10
+1215,PRJ-0174,4,Desenvolvimento,9
+1216,PRJ-0174,5,Conteúdo,14
+1217,PRJ-0174,6,QA e ajustes,4
+1218,PRJ-0174,7,Publicação,1
+1219,PRJ-0175,1,Briefing,4
+1220,PRJ-0175,2,Escolha de layout,9
+1221,PRJ-0175,3,Design e aprovação,12
+1222,PRJ-0175,4,Desenvolvimento,8
+1223,PRJ-0175,5,Conteúdo,7
+1224,PRJ-0175,6,QA e ajustes,7
+1225,PRJ-0175,7,Publicação,1
+1226,PRJ-0176,1,Briefing,4
+1227,PRJ-0176,2,Escolha de layout,11
+1228,PRJ-0176,3,Design e aprovação,6
+1229,PRJ-0176,4,Desenvolvimento,7
+1230,PRJ-0176,5,Conteúdo,3
+1231,PRJ-0176,6,QA e ajustes,7
+1232,PRJ-0176,7,Publicação,1
+1233,PRJ-0177,1,Briefing,4
+1234,PRJ-0177,2,Escolha de layout,3
+1235,PRJ-0177,3,Design e aprovação,7
+1236,PRJ-0177,4,Desenvolvimento,18
+1237,PRJ-0177,5,Conteúdo,7
+1238,PRJ-0177,6,QA e ajustes,6
+1239,PRJ-0177,7,Publicação,1
+1240,PRJ-0178,1,Briefing,3
+1241,PRJ-0178,2,Escolha de layout,16
+1242,PRJ-0178,3,Design e aprovação,6
+1243,PRJ-0178,4,Desenvolvimento,5
+1244,PRJ-0178,5,Conteúdo,5
+1245,PRJ-0178,6,QA e ajustes,4
+1246,PRJ-0178,7,Publicação,1
+1247,PRJ-0179,1,Briefing,5
+1248,PRJ-0179,2,Escolha de layout,9
+1249,PRJ-0179,3,Design e aprovação,13
+1250,PRJ-0179,4,Desenvolvimento,14
+1251,PRJ-0179,5,Conteúdo,5
+1252,PRJ-0179,6,QA e ajustes,6
+1253,PRJ-0179,7,Publicação,1
+1254,PRJ-0180,1,Briefing,2
+1255,PRJ-0180,2,Escolha de layout,4
+1256,PRJ-0180,3,Design e aprovação,6
+1257,PRJ-0180,4,Desenvolvimento,5
+1258,PRJ-0180,5,Conteúdo,4
+1259,PRJ-0180,6,QA e ajustes,5
+1260,PRJ-0180,7,Publicação,1
+1261,PRJ-0181,1,Briefing,3
+1262,PRJ-0181,2,Escolha de layout,3
+1263,PRJ-0181,3,Design e aprovação,3
+1264,PRJ-0181,4,Desenvolvimento,6
+1265,PRJ-0181,5,Conteúdo,2
+1266,PRJ-0181,6,QA e ajustes,4
+1267,PRJ-0181,7,Publicação,1
+1268,PRJ-0182,1,Briefing,2
+1269,PRJ-0182,2,Escolha de layout,8
+1270,PRJ-0182,3,Design e aprovação,6
+1271,PRJ-0182,4,Desenvolvimento,12
+1272,PRJ-0182,5,Conteúdo,1
+1273,PRJ-0182,6,QA e ajustes,5
+1274,PRJ-0182,7,Publicação,1
+1275,PRJ-0183,1,Briefing,7
+1276,PRJ-0183,2,Escolha de layout,1
+1277,PRJ-0183,3,Design e aprovação,8
+1278,PRJ-0183,4,Desenvolvimento,30
+1279,PRJ-0183,5,Conteúdo,6
+1280,PRJ-0183,6,QA e ajustes,4
+1281,PRJ-0183,7,Publicação,1
+1282,PRJ-0184,1,Briefing,4
+1283,PRJ-0184,2,Escolha de layout,5
+1284,PRJ-0184,3,Design e aprovação,11
+1285,PRJ-0184,4,Desenvolvimento,18
+1286,PRJ-0184,5,Conteúdo,5
+1287,PRJ-0184,6,QA e ajustes,6
+1288,PRJ-0184,7,Publicação,1
+1289,PRJ-0185,1,Briefing,5
+1290,PRJ-0185,2,Escolha de layout,10
+1291,PRJ-0185,3,Design e aprovação,10
+1292,PRJ-0185,4,Desenvolvimento,8
+1293,PRJ-0185,5,Conteúdo,9
+1294,PRJ-0185,6,QA e ajustes,5
+1295,PRJ-0185,7,Publicação,1
+1296,PRJ-0186,1,Briefing,3
+1297,PRJ-0186,2,Escolha de layout,7
+1298,PRJ-0186,3,Design e aprovação,18
+1299,PRJ-0186,4,Desenvolvimento,31
+1300,PRJ-0186,5,Conteúdo,4
+1301,PRJ-0186,6,QA e ajustes,7
+1302,PRJ-0186,7,Publicação,1
+1303,PRJ-0187,1,Briefing,3
+1304,PRJ-0187,2,Escolha de layout,8
+1305,PRJ-0187,3,Design e aprovação,16
+1306,PRJ-0187,4,Desenvolvimento,8
+1307,PRJ-0187,5,Conteúdo,13
+1308,PRJ-0187,6,QA e ajustes,7
+1309,PRJ-0187,7,Publicação,1
+1310,PRJ-0188,1,Briefing,3
+1311,PRJ-0188,2,Escolha de layout,8
+1312,PRJ-0188,3,Design e aprovação,10
+1313,PRJ-0188,4,Desenvolvimento,19
+1314,PRJ-0188,5,Conteúdo,6
+1315,PRJ-0188,6,QA e ajustes,5
+1316,PRJ-0188,7,Publicação,1
+1317,PRJ-0189,1,Briefing,5
+1318,PRJ-0189,2,Escolha de layout,1
+1319,PRJ-0189,3,Design e aprovação,9
+1320,PRJ-0189,4,Desenvolvimento,7
+1321,PRJ-0189,5,Conteúdo,8
+1322,PRJ-0189,6,QA e ajustes,5
+1323,PRJ-0189,7,Publicação,1
+1324,PRJ-0190,1,Briefing,4
+1325,PRJ-0190,2,Escolha de layout,2
+1326,PRJ-0190,3,Design e aprovação,7
+1327,PRJ-0190,4,Desenvolvimento,18
+1328,PRJ-0190,5,Conteúdo,4
+1329,PRJ-0190,6,QA e ajustes,5
+1330,PRJ-0190,7,Publicação,1
+1331,PRJ-0191,1,Briefing,3
+1332,PRJ-0191,2,Escolha de layout,7
+1333,PRJ-0191,3,Design e aprovação,10
+1334,PRJ-0191,4,Desenvolvimento,5
+1335,PRJ-0191,5,Conteúdo,2
+1336,PRJ-0191,6,QA e ajustes,5
+1337,PRJ-0191,7,Publicação,1
+1338,PRJ-0192,1,Briefing,6
+1339,PRJ-0192,2,Escolha de layout,5
+1340,PRJ-0192,3,Design e aprovação,7
+1341,PRJ-0192,4,Desenvolvimento,24
+1342,PRJ-0192,5,Conteúdo,8
+1343,PRJ-0192,6,QA e ajustes,4
+1344,PRJ-0192,7,Publicação,1
+1345,PRJ-0193,1,Briefing,5
+1346,PRJ-0193,2,Escolha de layout,4
+1347,PRJ-0193,3,Design e aprovação,13
+1348,PRJ-0193,4,Desenvolvimento,24
+1349,PRJ-0193,5,Conteúdo,5
+1350,PRJ-0193,6,QA e ajustes,5
+1351,PRJ-0193,7,Publicação,1
+1352,PRJ-0194,1,Briefing,4
+1353,PRJ-0194,2,Escolha de layout,5
+1354,PRJ-0194,3,Design e aprovação,4
+1355,PRJ-0194,4,Desenvolvimento,28
+1356,PRJ-0194,5,Conteúdo,3
+1357,PRJ-0194,6,QA e ajustes,4
+1358,PRJ-0194,7,Publicação,1
+1359,PRJ-0195,1,Briefing,5
+1360,PRJ-0195,2,Escolha de layout,13
+1361,PRJ-0195,3,Design e aprovação,5
+1362,PRJ-0195,4,Desenvolvimento,18
+1363,PRJ-0195,5,Conteúdo,4
+1364,PRJ-0195,6,QA e ajustes,6
+1365,PRJ-0195,7,Publicação,1
+1366,PRJ-0196,1,Briefing,2
+1367,PRJ-0196,2,Escolha de layout,3
+1368,PRJ-0196,3,Design e aprovação,7
+1369,PRJ-0196,4,Desenvolvimento,14
+1370,PRJ-0196,5,Conteúdo,2
+1371,PRJ-0196,6,QA e ajustes,5
+1372,PRJ-0196,7,Publicação,1
+1373,PRJ-0197,1,Briefing,2
+1374,PRJ-0197,2,Escolha de layout,4
+1375,PRJ-0197,3,Design e aprovação,11
+1376,PRJ-0197,4,Desenvolvimento,9
+1377,PRJ-0197,5,Conteúdo,5
+1378,PRJ-0197,6,QA e ajustes,5
+1379,PRJ-0197,7,Publicação,1
+1380,PRJ-0198,1,Briefing,3
+1381,PRJ-0198,2,Escolha de layout,12
+1382,PRJ-0198,3,Design e aprovação,9
+1383,PRJ-0198,4,Desenvolvimento,16
+1384,PRJ-0198,5,Conteúdo,8
+1385,PRJ-0198,6,QA e ajustes,5
+1386,PRJ-0198,7,Publicação,1
+1387,PRJ-0199,1,Briefing,3
+1388,PRJ-0199,2,Escolha de layout,1
+1389,PRJ-0199,3,Design e aprovação,7
+1390,PRJ-0199,4,Desenvolvimento,12
+1391,PRJ-0199,5,Conteúdo,5
+1392,PRJ-0199,6,QA e ajustes,5
+1393,PRJ-0199,7,Publicação,1
+1394,PRJ-0200,1,Briefing,2
+1395,PRJ-0200,2,Escolha de layout,7
+1396,PRJ-0200,3,Design e aprovação,19
+1397,PRJ-0200,4,Desenvolvimento,27
+1398,PRJ-0200,5,Conteúdo,3
+1399,PRJ-0200,6,QA e ajustes,7
+1400,PRJ-0200,7,Publicação,1
+1401,PRJ-0201,1,Briefing,3
+1402,PRJ-0201,2,Escolha de layout,5
+1403,PRJ-0201,3,Design e aprovação,8
+1404,PRJ-0201,4,Desenvolvimento,34
+1405,PRJ-0201,5,Conteúdo,11
+1406,PRJ-0201,6,QA e ajustes,5
+1407,PRJ-0201,7,Publicação,1
+1408,PRJ-0202,1,Briefing,3
+1409,PRJ-0202,2,Escolha de layout,13
+1410,PRJ-0202,3,Design e aprovação,10
+1411,PRJ-0202,4,Desenvolvimento,7
+1412,PRJ-0202,5,Conteúdo,5
+1413,PRJ-0202,6,QA e ajustes,5
+1414,PRJ-0202,7,Publicação,1
+1415,PRJ-0203,1,Briefing,3
+1416,PRJ-0203,2,Escolha de layout,3
+1417,PRJ-0203,3,Design e aprovação,9
+1418,PRJ-0203,4,Desenvolvimento,6
+1419,PRJ-0203,5,Conteúdo,6
+1420,PRJ-0203,6,QA e ajustes,5
+1421,PRJ-0203,7,Publicação,1
+1422,PRJ-0204,1,Briefing,3
+1423,PRJ-0204,2,Escolha de layout,4
+1424,PRJ-0204,3,Design e aprovação,6
+1425,PRJ-0204,4,Desenvolvimento,14
+1426,PRJ-0204,5,Conteúdo,4
+1427,PRJ-0204,6,QA e ajustes,5
+1428,PRJ-0204,7,Publicação,1
+1429,PRJ-0205,1,Briefing,2
+1430,PRJ-0205,2,Escolha de layout,10
+1431,PRJ-0205,3,Design e aprovação,10
+1432,PRJ-0205,4,Desenvolvimento,6
+1433,PRJ-0205,5,Conteúdo,5
+1434,PRJ-0205,6,QA e ajustes,6
+1435,PRJ-0205,7,Publicação,1
+1436,PRJ-0206,1,Briefing,3
+1437,PRJ-0206,2,Escolha de layout,7
+1438,PRJ-0206,3,Design e aprovação,10
+1439,PRJ-0206,4,Desenvolvimento,19
+1440,PRJ-0206,5,Conteúdo,10
+1441,PRJ-0206,6,QA e ajustes,5
+1442,PRJ-0206,7,Publicação,1
+1443,PRJ-0207,1,Briefing,2
+1444,PRJ-0207,2,Escolha de layout,4
+1445,PRJ-0207,3,Design e aprovação,3
+1446,PRJ-0207,4,Desenvolvimento,11
+1447,PRJ-0207,5,Conteúdo,6
+1448,PRJ-0207,6,QA e ajustes,4
+1449,PRJ-0207,7,Publicação,1
+1450,PRJ-0208,1,Briefing,3
+1451,PRJ-0208,2,Escolha de layout,10
+1452,PRJ-0208,3,Design e aprovação,13
+1453,PRJ-0208,4,Desenvolvimento,5
+1454,PRJ-0208,5,Conteúdo,1
+1455,PRJ-0208,6,QA e ajustes,5
+1456,PRJ-0208,7,Publicação,1
+1457,PRJ-0209,1,Briefing,4
+1458,PRJ-0209,2,Escolha de layout,9
+1459,PRJ-0209,3,Design e aprovação,12
+1460,PRJ-0209,4,Desenvolvimento,32
+1461,PRJ-0209,5,Conteúdo,5
+1462,PRJ-0209,6,QA e ajustes,6
+1463,PRJ-0209,7,Publicação,1
+1464,PRJ-0210,1,Briefing,4
+1465,PRJ-0210,2,Escolha de layout,10
+1466,PRJ-0210,3,Design e aprovação,8
+1467,PRJ-0210,4,Desenvolvimento,11
+1468,PRJ-0210,5,Conteúdo,5
+1469,PRJ-0210,6,QA e ajustes,4
+1470,PRJ-0210,7,Publicação,1
+1471,PRJ-0211,1,Briefing,3
+1472,PRJ-0211,2,Escolha de layout,8
+1473,PRJ-0211,3,Design e aprovação,24
+1474,PRJ-0211,4,Desenvolvimento,7
+1475,PRJ-0211,5,Conteúdo,7
+1476,PRJ-0211,6,QA e ajustes,8
+1477,PRJ-0211,7,Publicação,1
+1478,PRJ-0212,1,Briefing,5
+1479,PRJ-0212,2,Escolha de layout,3
+1480,PRJ-0212,3,Design e aprovação,16
+1481,PRJ-0212,4,Desenvolvimento,11
+1482,PRJ-0212,5,Conteúdo,6
+1483,PRJ-0212,6,QA e ajustes,7
+1484,PRJ-0212,7,Publicação,1
+1485,PRJ-0213,1,Briefing,2
+1486,PRJ-0213,2,Escolha de layout,4
+1487,PRJ-0213,3,Design e aprovação,8
+1488,PRJ-0213,4,Desenvolvimento,14
+1489,PRJ-0213,5,Conteúdo,2
+1490,PRJ-0213,6,QA e ajustes,4
+1491,PRJ-0213,7,Publicação,1
+1492,PRJ-0214,1,Briefing,3
+1493,PRJ-0214,2,Escolha de layout,4
+1494,PRJ-0214,3,Design e aprovação,10
+1495,PRJ-0214,4,Desenvolvimento,16
+1496,PRJ-0214,5,Conteúdo,6
+1497,PRJ-0214,6,QA e ajustes,5
+1498,PRJ-0214,7,Publicação,1
+1499,PRJ-0215,1,Briefing,4
+1500,PRJ-0215,2,Escolha de layout,20
+1501,PRJ-0215,3,Design e aprovação,10
+1502,PRJ-0215,4,Desenvolvimento,10
+1503,PRJ-0215,5,Conteúdo,3
+1504,PRJ-0215,6,QA e ajustes,5
+1505,PRJ-0215,7,Publicação,1
+1506,PRJ-0216,1,Briefing,3
+1507,PRJ-0216,2,Escolha de layout,10
+1508,PRJ-0216,3,Design e aprovação,7
+1509,PRJ-0216,4,Desenvolvimento,31
+1510,PRJ-0216,5,Conteúdo,6
+1511,PRJ-0216,6,QA e ajustes,5
+1512,PRJ-0216,7,Publicação,1
+1513,PRJ-0217,1,Briefing,3
+1514,PRJ-0217,2,Escolha de layout,15
+1515,PRJ-0217,3,Design e aprovação,3
+1516,PRJ-0217,4,Desenvolvimento,7
+1517,PRJ-0217,5,Conteúdo,7
+1518,PRJ-0217,6,QA e ajustes,4
+1519,PRJ-0217,7,Publicação,1
+1520,PRJ-0218,1,Briefing,3
+1521,PRJ-0218,2,Escolha de layout,8
+1522,PRJ-0218,3,Design e aprovação,7
+1523,PRJ-0218,4,Desenvolvimento,13
+1524,PRJ-0218,5,Conteúdo,2
+1525,PRJ-0218,6,QA e ajustes,4
+1526,PRJ-0218,7,Publicação,1
+1527,PRJ-0219,1,Briefing,6
+1528,PRJ-0219,2,Escolha de layout,9
+1529,PRJ-0219,3,Design e aprovação,7
+1530,PRJ-0219,4,Desenvolvimento,18
+1531,PRJ-0219,5,Conteúdo,5
+1532,PRJ-0219,6,QA e ajustes,4
+1533,PRJ-0219,7,Publicação,1
+1534,PRJ-0220,1,Briefing,3
+1535,PRJ-0220,2,Escolha de layout,11
+1536,PRJ-0220,3,Design e aprovação,7
+1537,PRJ-0220,4,Desenvolvimento,6
+1538,PRJ-0220,5,Conteúdo,3
+1539,PRJ-0220,6,QA e ajustes,4
+1540,PRJ-0220,7,Publicação,1
+1541,PRJ-0221,1,Briefing,2
+1542,PRJ-0221,2,Escolha de layout,12
+1543,PRJ-0221,3,Design e aprovação,3
+1544,PRJ-0221,4,Desenvolvimento,21
+1545,PRJ-0221,5,Conteúdo,4
+1546,PRJ-0221,6,QA e ajustes,4
+1547,PRJ-0221,7,Publicação,1
+1548,PRJ-0222,1,Briefing,3
+1549,PRJ-0222,2,Escolha de layout,4
+1550,PRJ-0222,3,Design e aprovação,18
+1551,PRJ-0222,4,Desenvolvimento,19
+1552,PRJ-0222,5,Conteúdo,6
+1553,PRJ-0222,6,QA e ajustes,7
+1554,PRJ-0222,7,Publicação,1
+1555,PRJ-0223,1,Briefing,5
+1556,PRJ-0223,2,Escolha de layout,3
+1557,PRJ-0223,3,Design e aprovação,10
+1558,PRJ-0223,4,Desenvolvimento,17
+1559,PRJ-0223,5,Conteúdo,7
+1560,PRJ-0223,6,QA e ajustes,6
+1561,PRJ-0223,7,Publicação,1
+1562,PRJ-0224,1,Briefing,4
+1563,PRJ-0224,2,Escolha de layout,5
+1564,PRJ-0224,3,Design e aprovação,7
+1565,PRJ-0224,4,Desenvolvimento,7
+1566,PRJ-0224,5,Conteúdo,6
+1567,PRJ-0224,6,QA e ajustes,5
+1568,PRJ-0224,7,Publicação,1
+1569,PRJ-0225,1,Briefing,3
+1570,PRJ-0225,2,Escolha de layout,3
+1571,PRJ-0225,3,Design e aprovação,4
+1572,PRJ-0225,4,Desenvolvimento,18
+1573,PRJ-0225,5,Conteúdo,3
+1574,PRJ-0225,6,QA e ajustes,6
+1575,PRJ-0225,7,Publicação,1
+1576,PRJ-0226,1,Briefing,5
+1577,PRJ-0226,2,Escolha de layout,2
+1578,PRJ-0226,3,Design e aprovação,4
+1579,PRJ-0226,4,Desenvolvimento,11
+1580,PRJ-0226,5,Conteúdo,4
+1581,PRJ-0226,6,QA e ajustes,3
+1582,PRJ-0226,7,Publicação,1
+1583,PRJ-0227,1,Briefing,2
+1584,PRJ-0227,2,Escolha de layout,1
+1585,PRJ-0227,3,Design e aprovação,4
+1586,PRJ-0227,4,Desenvolvimento,12
+1587,PRJ-0227,5,Conteúdo,7
+1588,PRJ-0227,6,QA e ajustes,5
+1589,PRJ-0227,7,Publicação,1
+1590,PRJ-0228,1,Briefing,3
+1591,PRJ-0228,2,Escolha de layout,1
+1592,PRJ-0228,3,Design e aprovação,5
+1593,PRJ-0228,4,Desenvolvimento,10
+1594,PRJ-0228,5,Conteúdo,9
+1595,PRJ-0228,6,QA e ajustes,3
+1596,PRJ-0228,7,Publicação,1
+1597,PRJ-0229,1,Briefing,4
+1598,PRJ-0229,2,Escolha de layout,1
+1599,PRJ-0229,3,Design e aprovação,4
+1600,PRJ-0229,4,Desenvolvimento,20
+1601,PRJ-0229,5,Conteúdo,1
+1602,PRJ-0229,6,QA e ajustes,5
+1603,PRJ-0229,7,Publicação,1
+1604,PRJ-0230,1,Briefing,3
+1605,PRJ-0230,2,Escolha de layout,1
+1606,PRJ-0230,3,Design e aprovação,7
+1607,PRJ-0230,4,Desenvolvimento,10
+1608,PRJ-0230,5,Conteúdo,5
+1609,PRJ-0230,6,QA e ajustes,4
+1610,PRJ-0230,7,Publicação,1
+1611,PRJ-0231,1,Briefing,3
+1612,PRJ-0231,2,Escolha de layout,1
+1613,PRJ-0231,3,Design e aprovação,3
+1614,PRJ-0231,4,Desenvolvimento,9
+1615,PRJ-0231,5,Conteúdo,5
+1616,PRJ-0231,6,QA e ajustes,3
+1617,PRJ-0231,7,Publicação,1
+1618,PRJ-0232,1,Briefing,3
+1619,PRJ-0232,2,Escolha de layout,3
+1620,PRJ-0232,3,Design e aprovação,5
+1621,PRJ-0232,4,Desenvolvimento,7
+1622,PRJ-0232,5,Conteúdo,4
+1623,PRJ-0232,6,QA e ajustes,3
+1624,PRJ-0232,7,Publicação,1
+1625,PRJ-0233,1,Briefing,3
+1626,PRJ-0233,2,Escolha de layout,2
+1627,PRJ-0233,3,Design e aprovação,4
+1628,PRJ-0233,4,Desenvolvimento,11
+1629,PRJ-0233,5,Conteúdo,10
+1630,PRJ-0233,6,QA e ajustes,4
+1631,PRJ-0233,7,Publicação,1
+1632,PRJ-0234,1,Briefing,5
+1633,PRJ-0234,2,Escolha de layout,2
+1634,PRJ-0234,3,Design e aprovação,4
+1635,PRJ-0234,4,Desenvolvimento,9
+1636,PRJ-0234,5,Conteúdo,7
+1637,PRJ-0234,6,QA e ajustes,5
+1638,PRJ-0234,7,Publicação,1
+1639,PRJ-0235,1,Briefing,3
+1640,PRJ-0235,2,Escolha de layout,1
+1641,PRJ-0235,3,Design e aprovação,10
+1642,PRJ-0235,4,Desenvolvimento,9
+1643,PRJ-0235,5,Conteúdo,7
+1644,PRJ-0235,6,QA e ajustes,5
+1645,PRJ-0235,7,Publicação,1
+1646,PRJ-0236,1,Briefing,2
+1647,PRJ-0236,2,Escolha de layout,3
+1648,PRJ-0236,3,Design e aprovação,4
+1649,PRJ-0236,4,Desenvolvimento,11
+1650,PRJ-0236,5,Conteúdo,9
+1651,PRJ-0236,6,QA e ajustes,3
+1652,PRJ-0236,7,Publicação,1
+1653,PRJ-0237,1,Briefing,3
+1654,PRJ-0237,2,Escolha de layout,2
+1655,PRJ-0237,3,Design e aprovação,7
+1656,PRJ-0237,4,Desenvolvimento,10
+1657,PRJ-0237,5,Conteúdo,8
+1658,PRJ-0237,6,QA e ajustes,5
+1659,PRJ-0237,7,Publicação,1
+1660,PRJ-0238,1,Briefing,3
+1661,PRJ-0238,2,Escolha de layout,3
+1662,PRJ-0238,3,Design e aprovação,6
+1663,PRJ-0238,4,Desenvolvimento,11
+1664,PRJ-0238,5,Conteúdo,12
+1665,PRJ-0238,6,QA e ajustes,4
+1666,PRJ-0238,7,Publicação,1
+1667,PRJ-0239,1,Briefing,4
+1668,PRJ-0239,2,Escolha de layout,1
+1669,PRJ-0239,3,Design e aprovação,4
+1670,PRJ-0239,4,Desenvolvimento,4
+1671,PRJ-0239,5,Conteúdo,8
+1672,PRJ-0239,6,QA e ajustes,4
+1673,PRJ-0239,7,Publicação,1
+1674,PRJ-0240,1,Briefing,4
+1675,PRJ-0240,2,Escolha de layout,2
+1676,PRJ-0240,3,Design e aprovação,7
+1677,PRJ-0240,4,Desenvolvimento,13
+1678,PRJ-0240,5,Conteúdo,4
+1679,PRJ-0240,6,QA e ajustes,5
+1680,PRJ-0240,7,Publicação,1
+1681,PRJ-0241,1,Briefing,4
+1682,PRJ-0241,2,Escolha de layout,2
+1683,PRJ-0241,3,Design e aprovação,4
+1684,PRJ-0241,4,Desenvolvimento,8
+1685,PRJ-0241,5,Conteúdo,3
+1686,PRJ-0241,6,QA e ajustes,5
+1687,PRJ-0241,7,Publicação,1
+1688,PRJ-0242,1,Briefing,3
+1689,PRJ-0242,2,Escolha de layout,1
+1690,PRJ-0242,3,Design e aprovação,9
+1691,PRJ-0242,4,Desenvolvimento,3
+1692,PRJ-0242,5,Conteúdo,4
+1693,PRJ-0242,6,QA e ajustes,4
+1694,PRJ-0242,7,Publicação,1
+1695,PRJ-0243,1,Briefing,2
+1696,PRJ-0243,2,Escolha de layout,2
+1697,PRJ-0243,3,Design e aprovação,3
+1698,PRJ-0243,4,Desenvolvimento,7
+1699,PRJ-0243,5,Conteúdo,4
+1700,PRJ-0243,6,QA e ajustes,3
+1701,PRJ-0243,7,Publicação,1
+1702,PRJ-0244,1,Briefing,2
+1703,PRJ-0244,2,Escolha de layout,1
+1704,PRJ-0244,3,Design e aprovação,16
+1705,PRJ-0244,4,Desenvolvimento,9
+1706,PRJ-0244,5,Conteúdo,4
+1707,PRJ-0244,6,QA e ajustes,6
+1708,PRJ-0244,7,Publicação,1
+1709,PRJ-0245,1,Briefing,3
+1710,PRJ-0245,2,Escolha de layout,2
+1711,PRJ-0245,3,Design e aprovação,10
+1712,PRJ-0245,4,Desenvolvimento,8
+1713,PRJ-0245,5,Conteúdo,5
+1714,PRJ-0245,6,QA e ajustes,5
+1715,PRJ-0245,7,Publicação,1
+1716,PRJ-0246,1,Briefing,4
+1717,PRJ-0246,2,Escolha de layout,3
+1718,PRJ-0246,3,Design e aprovação,4
+1719,PRJ-0246,4,Desenvolvimento,10
+1720,PRJ-0246,5,Conteúdo,3
+1721,PRJ-0246,6,QA e ajustes,4
+1722,PRJ-0246,7,Publicação,1
+1723,PRJ-0247,1,Briefing,3
+1724,PRJ-0247,2,Escolha de layout,2
+1725,PRJ-0247,3,Design e aprovação,6
+1726,PRJ-0247,4,Desenvolvimento,5
+1727,PRJ-0247,5,Conteúdo,3
+1728,PRJ-0247,6,QA e ajustes,5
+1729,PRJ-0247,7,Publicação,1
+1730,PRJ-0248,1,Briefing,3
+1731,PRJ-0248,2,Escolha de layout,2
+1732,PRJ-0248,3,Design e aprovação,6
+1733,PRJ-0248,4,Desenvolvimento,19
+1734,PRJ-0248,5,Conteúdo,3
+1735,PRJ-0248,6,QA e ajustes,5
+1736,PRJ-0248,7,Publicação,1
+1737,PRJ-0249,1,Briefing,4
+1738,PRJ-0249,2,Escolha de layout,1
+1739,PRJ-0249,3,Design e aprovação,16
+1740,PRJ-0249,4,Desenvolvimento,4
+1741,PRJ-0249,5,Conteúdo,6
+1742,PRJ-0249,6,QA e ajustes,6
+1743,PRJ-0249,7,Publicação,1
+1744,PRJ-0250,1,Briefing,3
+1745,PRJ-0250,2,Escolha de layout,1
+1746,PRJ-0250,3,Design e aprovação,5
+1747,PRJ-0250,4,Desenvolvimento,21
+1748,PRJ-0250,5,Conteúdo,4
+1749,PRJ-0250,6,QA e ajustes,4
+1750,PRJ-0250,7,Publicação,1
+1751,PRJ-0251,1,Briefing,4
+1752,PRJ-0251,2,Escolha de layout,2
+1753,PRJ-0251,3,Design e aprovação,7
+1754,PRJ-0251,4,Desenvolvimento,15
+1755,PRJ-0251,5,Conteúdo,10
+1756,PRJ-0251,6,QA e ajustes,4
+1757,PRJ-0251,7,Publicação,1
+1758,PRJ-0252,1,Briefing,4
+1759,PRJ-0252,2,Escolha de layout,1
+1760,PRJ-0252,3,Design e aprovação,4
+1761,PRJ-0252,4,Desenvolvimento,14
+1762,PRJ-0252,5,Conteúdo,8
+1763,PRJ-0252,6,QA e ajustes,4
+1764,PRJ-0252,7,Publicação,1
+1765,PRJ-0253,1,Briefing,3
+1766,PRJ-0253,2,Escolha de layout,2
+1767,PRJ-0253,3,Design e aprovação,3
+1768,PRJ-0253,4,Desenvolvimento,10
+1769,PRJ-0253,5,Conteúdo,4
+1770,PRJ-0253,6,QA e ajustes,5
+1771,PRJ-0253,7,Publicação,1
+1772,PRJ-0254,1,Briefing,4
+1773,PRJ-0254,2,Escolha de layout,3
+1774,PRJ-0254,3,Design e aprovação,3
+1775,PRJ-0254,4,Desenvolvimento,10
+1776,PRJ-0254,5,Conteúdo,3
+1777,PRJ-0254,6,QA e ajustes,3
+1778,PRJ-0254,7,Publicação,1
+1779,PRJ-0255,1,Briefing,2
+1780,PRJ-0255,2,Escolha de layout,1
+1781,PRJ-0255,3,Design e aprovação,6
+1782,PRJ-0255,4,Desenvolvimento,8
+1783,PRJ-0255,5,Conteúdo,8
+1784,PRJ-0255,6,QA e ajustes,4
+1785,PRJ-0255,7,Publicação,1
+1786,PRJ-0256,1,Briefing,3
+1787,PRJ-0256,2,Escolha de layout,2
+1788,PRJ-0256,3,Design e aprovação,3
+1789,PRJ-0256,4,Desenvolvimento,15
+1790,PRJ-0256,5,Conteúdo,4
+1791,PRJ-0256,6,QA e ajustes,5
+1792,PRJ-0256,7,Publicação,1
+1793,PRJ-0257,1,Briefing,3
+1794,PRJ-0257,2,Escolha de layout,1
+1795,PRJ-0257,3,Design e aprovação,4
+1796,PRJ-0257,4,Desenvolvimento,5
+1797,PRJ-0257,5,Conteúdo,5
+1798,PRJ-0257,6,QA e ajustes,4
+1799,PRJ-0257,7,Publicação,1
+1800,PRJ-0258,1,Briefing,2
+1801,PRJ-0258,2,Escolha de layout,2
+1802,PRJ-0258,3,Design e aprovação,3
+1803,PRJ-0258,4,Desenvolvimento,11
+1804,PRJ-0258,5,Conteúdo,4
+1805,PRJ-0258,6,QA e ajustes,4
+1806,PRJ-0258,7,Publicação,1
+1807,PRJ-0259,1,Briefing,5
+1808,PRJ-0259,2,Escolha de layout,3
+1809,PRJ-0259,3,Design e aprovação,6
+1810,PRJ-0259,4,Desenvolvimento,12
+1811,PRJ-0259,5,Conteúdo,11
+1812,PRJ-0259,6,QA e ajustes,5
+1813,PRJ-0259,7,Publicação,1
+1814,PRJ-0260,1,Briefing,3
+1815,PRJ-0260,2,Escolha de layout,2
+1816,PRJ-0260,3,Design e aprovação,4
+1817,PRJ-0260,4,Desenvolvimento,20
+1818,PRJ-0260,5,Conteúdo,4
+1819,PRJ-0260,6,QA e ajustes,4
+1820,PRJ-0260,7,Publicação,1
+1821,PRJ-0261,1,Briefing,3
+1822,PRJ-0261,2,Escolha de layout,2
+1823,PRJ-0261,3,Design e aprovação,4
+1824,PRJ-0261,4,Desenvolvimento,4
+1825,PRJ-0261,5,Conteúdo,1
+1826,PRJ-0261,6,QA e ajustes,4
+1827,PRJ-0261,7,Publicação,1
+1828,PRJ-0262,1,Briefing,4
+1829,PRJ-0262,2,Escolha de layout,2
+1830,PRJ-0262,3,Design e aprovação,3
+1831,PRJ-0262,4,Desenvolvimento,11
+1832,PRJ-0262,5,Conteúdo,5
+1833,PRJ-0262,6,QA e ajustes,4
+1834,PRJ-0262,7,Publicação,1
+1835,PRJ-0263,1,Briefing,5
+1836,PRJ-0263,2,Escolha de layout,1
+1837,PRJ-0263,3,Design e aprovação,7
+1838,PRJ-0263,4,Desenvolvimento,24
+1839,PRJ-0263,5,Conteúdo,5
+1840,PRJ-0263,6,QA e ajustes,4
+1841,PRJ-0263,7,Publicação,1
+1842,PRJ-0264,1,Briefing,3
+1843,PRJ-0264,2,Escolha de layout,1
+1844,PRJ-0264,3,Design e aprovação,6
+1845,PRJ-0264,4,Desenvolvimento,8
+1846,PRJ-0264,5,Conteúdo,4
+1847,PRJ-0264,6,QA e ajustes,4
+1848,PRJ-0264,7,Publicação,1
+1849,PRJ-0265,1,Briefing,3
+1850,PRJ-0265,2,Escolha de layout,1
+1851,PRJ-0265,3,Design e aprovação,5
+1852,PRJ-0265,4,Desenvolvimento,11
+1853,PRJ-0265,5,Conteúdo,6
+1854,PRJ-0265,6,QA e ajustes,4
+1855,PRJ-0265,7,Publicação,1
+1856,PRJ-0266,1,Briefing,4
+1857,PRJ-0266,2,Escolha de layout,2
+1858,PRJ-0266,3,Design e aprovação,5
+1859,PRJ-0266,4,Desenvolvimento,7
+1860,PRJ-0266,5,Conteúdo,3
+1861,PRJ-0266,6,QA e ajustes,4
+1862,PRJ-0266,7,Publicação,1
+1863,PRJ-0267,1,Briefing,2
+1864,PRJ-0267,2,Escolha de layout,1
+1865,PRJ-0267,3,Design e aprovação,3
+1866,PRJ-0267,4,Desenvolvimento,12
+1867,PRJ-0267,5,Conteúdo,2
+1868,PRJ-0267,6,QA e ajustes,4
+1869,PRJ-0267,7,Publicação,1
+1870,PRJ-0268,1,Briefing,3
+1871,PRJ-0268,2,Escolha de layout,2
+1872,PRJ-0268,3,Design e aprovação,4
+1873,PRJ-0268,4,Desenvolvimento,23
+1874,PRJ-0268,5,Conteúdo,3
+1875,PRJ-0268,6,QA e ajustes,4
+1876,PRJ-0268,7,Publicação,1
+1877,PRJ-0269,1,Briefing,2
+1878,PRJ-0269,2,Escolha de layout,2
+1879,PRJ-0269,3,Design e aprovação,4
+1880,PRJ-0269,4,Desenvolvimento,4
+1881,PRJ-0269,5,Conteúdo,10
+1882,PRJ-0269,6,QA e ajustes,4
+1883,PRJ-0269,7,Publicação,1
+1884,PRJ-0270,1,Briefing,4
+1885,PRJ-0270,2,Escolha de layout,2
+1886,PRJ-0270,3,Design e aprovação,4
+1887,PRJ-0270,4,Desenvolvimento,10
+1888,PRJ-0270,5,Conteúdo,2
+1889,PRJ-0270,6,QA e ajustes,4
+1890,PRJ-0270,7,Publicação,1
+1891,PRJ-0271,1,Briefing,4
+1892,PRJ-0271,2,Escolha de layout,2
+1893,PRJ-0271,3,Design e aprovação,9
+1894,PRJ-0271,4,Desenvolvimento,22
+1895,PRJ-0271,5,Conteúdo,9
+1896,PRJ-0271,6,QA e ajustes,5
+1897,PRJ-0271,7,Publicação,1
+1898,PRJ-0272,1,Briefing,4
+1899,PRJ-0272,2,Escolha de layout,2
+1900,PRJ-0272,3,Design e aprovação,4
+1901,PRJ-0272,4,Desenvolvimento,8
+1902,PRJ-0272,5,Conteúdo,3
+1903,PRJ-0272,6,QA e ajustes,4
+1904,PRJ-0272,7,Publicação,1
+1905,PRJ-0273,1,Briefing,4
+1906,PRJ-0273,2,Escolha de layout,2
+1907,PRJ-0273,3,Design e aprovação,7
+1908,PRJ-0273,4,Desenvolvimento,12
+1909,PRJ-0273,5,Conteúdo,4
+1910,PRJ-0273,6,QA e ajustes,5
+1911,PRJ-0273,7,Publicação,1
+1912,PRJ-0274,1,Briefing,4
+1913,PRJ-0274,2,Escolha de layout,2
+1914,PRJ-0274,3,Design e aprovação,7
+1915,PRJ-0274,4,Desenvolvimento,9
+1916,PRJ-0274,5,Conteúdo,7
+1917,PRJ-0274,6,QA e ajustes,4
+1918,PRJ-0274,7,Publicação,1
+1919,PRJ-0275,1,Briefing,4
+1920,PRJ-0275,2,Escolha de layout,1
+1921,PRJ-0275,3,Design e aprovação,9
+1922,PRJ-0275,4,Desenvolvimento,13
+1923,PRJ-0275,5,Conteúdo,1
+1924,PRJ-0275,6,QA e ajustes,6
+1925,PRJ-0275,7,Publicação,1
+1926,PRJ-0276,1,Briefing,4
+1927,PRJ-0276,2,Escolha de layout,2
+1928,PRJ-0276,3,Design e aprovação,7
+1929,PRJ-0276,4,Desenvolvimento,8
+1930,PRJ-0276,5,Conteúdo,2
+1931,PRJ-0276,6,QA e ajustes,4
+1932,PRJ-0276,7,Publicação,1
+1933,PRJ-0277,1,Briefing,5
+1934,PRJ-0277,2,Escolha de layout,1
+1935,PRJ-0277,3,Design e aprovação,3
+1936,PRJ-0277,4,Desenvolvimento,9
+1937,PRJ-0277,5,Conteúdo,6
+1938,PRJ-0277,6,QA e ajustes,6
+1939,PRJ-0277,7,Publicação,1
+1940,PRJ-0278,1,Briefing,4
+1941,PRJ-0278,2,Escolha de layout,2
+1942,PRJ-0278,3,Design e aprovação,5
+1943,PRJ-0278,4,Desenvolvimento,8
+1944,PRJ-0278,5,Conteúdo,6
+1945,PRJ-0278,6,QA e ajustes,4
+1946,PRJ-0278,7,Publicação,1
+1947,PRJ-0279,1,Briefing,4
+1948,PRJ-0279,2,Escolha de layout,2
+1949,PRJ-0279,3,Design e aprovação,9
+1950,PRJ-0279,4,Desenvolvimento,5
+1951,PRJ-0279,5,Conteúdo,5
+1952,PRJ-0279,6,QA e ajustes,7
+1953,PRJ-0279,7,Publicação,1
+1954,PRJ-0280,1,Briefing,3
+1955,PRJ-0280,2,Escolha de layout,2
+1956,PRJ-0280,3,Design e aprovação,5
+1957,PRJ-0280,4,Desenvolvimento,12
+1958,PRJ-0280,5,Conteúdo,12
+1959,PRJ-0280,6,QA e ajustes,4
+1960,PRJ-0280,7,Publicação,1
+1961,PRJ-0281,1,Briefing,3
+1962,PRJ-0281,2,Escolha de layout,2
+1963,PRJ-0281,3,Design e aprovação,4
+1964,PRJ-0281,4,Desenvolvimento,4
+1965,PRJ-0281,5,Conteúdo,6
+1966,PRJ-0281,6,QA e ajustes,5
+1967,PRJ-0281,7,Publicação,1
+1968,PRJ-0282,1,Briefing,3
+1969,PRJ-0282,2,Escolha de layout,1
+1970,PRJ-0282,3,Design e aprovação,4
+1971,PRJ-0282,4,Desenvolvimento,4
+1972,PRJ-0282,5,Conteúdo,3
+1973,PRJ-0282,6,QA e ajustes,3
+1974,PRJ-0282,7,Publicação,1
+1975,PRJ-0283,1,Briefing,4
+1976,PRJ-0283,2,Escolha de layout,2
+1977,PRJ-0283,3,Design e aprovação,4
+1978,PRJ-0283,4,Desenvolvimento,12
+1979,PRJ-0283,5,Conteúdo,2
+1980,PRJ-0283,6,QA e ajustes,4
+1981,PRJ-0283,7,Publicação,1
+1982,PRJ-0284,1,Briefing,2
+1983,PRJ-0284,2,Escolha de layout,2
+1984,PRJ-0284,3,Design e aprovação,5
+1985,PRJ-0284,4,Desenvolvimento,7
+1986,PRJ-0284,5,Conteúdo,8
+1987,PRJ-0284,6,QA e ajustes,4
+1988,PRJ-0284,7,Publicação,1
+1989,PRJ-0285,1,Briefing,2
+1990,PRJ-0285,2,Escolha de layout,2
+1991,PRJ-0285,3,Design e aprovação,8
+1992,PRJ-0285,4,Desenvolvimento,5
+1993,PRJ-0285,5,Conteúdo,3
+1994,PRJ-0285,6,QA e ajustes,5
+1995,PRJ-0285,7,Publicação,1
+1996,PRJ-0286,1,Briefing,4
+1997,PRJ-0286,2,Escolha de layout,1
+1998,PRJ-0286,3,Design e aprovação,7
+1999,PRJ-0286,4,Desenvolvimento,9
+2000,PRJ-0286,5,Conteúdo,10
+2001,PRJ-0286,6,QA e ajustes,4
+2002,PRJ-0286,7,Publicação,1
+2003,PRJ-0287,1,Briefing,5
+2004,PRJ-0287,2,Escolha de layout,3
+2005,PRJ-0287,3,Design e aprovação,5
+2006,PRJ-0287,4,Desenvolvimento,13
+2007,PRJ-0287,5,Conteúdo,7
+2008,PRJ-0287,6,QA e ajustes,4
+2009,PRJ-0287,7,Publicação,1
+2010,PRJ-0288,1,Briefing,3
+2011,PRJ-0288,2,Escolha de layout,2
+2012,PRJ-0288,3,Design e aprovação,4
+2013,PRJ-0288,4,Desenvolvimento,12
+2014,PRJ-0288,5,Conteúdo,4
+2015,PRJ-0288,6,QA e ajustes,5
+2016,PRJ-0288,7,Publicação,1
+2017,PRJ-0289,1,Briefing,5
+2018,PRJ-0289,2,Escolha de layout,1
+2019,PRJ-0289,3,Design e aprovação,8
+2020,PRJ-0289,4,Desenvolvimento,12
+2021,PRJ-0289,5,Conteúdo,4
+2022,PRJ-0289,6,QA e ajustes,5
+2023,PRJ-0289,7,Publicação,1
+2024,PRJ-0290,1,Briefing,4
+2025,PRJ-0290,2,Escolha de layout,2
+2026,PRJ-0290,3,Design e aprovação,9
+2027,PRJ-0290,4,Desenvolvimento,5
+2028,PRJ-0290,5,Conteúdo,2
+2029,PRJ-0290,6,QA e ajustes,4
+2030,PRJ-0290,7,Publicação,1
+2031,PRJ-0291,1,Briefing,2
+2032,PRJ-0291,2,Escolha de layout,1
+2033,PRJ-0291,3,Design e aprovação,12
+2034,PRJ-0291,4,Desenvolvimento,5
+2035,PRJ-0291,5,Conteúdo,12
+2036,PRJ-0291,6,QA e ajustes,5
+2037,PRJ-0291,7,Publicação,1
+2038,PRJ-0292,1,Briefing,2
+2039,PRJ-0292,2,Escolha de layout,1
+2040,PRJ-0292,3,Design e aprovação,7
+2041,PRJ-0292,4,Desenvolvimento,12
+2042,PRJ-0292,5,Conteúdo,5
+2043,PRJ-0292,6,QA e ajustes,4
+2044,PRJ-0292,7,Publicação,1
+2045,PRJ-0293,1,Briefing,4
+2046,PRJ-0293,2,Escolha de layout,1
+2047,PRJ-0293,3,Design e aprovação,3
+2048,PRJ-0293,4,Desenvolvimento,4
+2049,PRJ-0293,5,Conteúdo,9
+2050,PRJ-0293,6,QA e ajustes,4
+2051,PRJ-0293,7,Publicação,1
+2052,PRJ-0294,1,Briefing,3
+2053,PRJ-0294,2,Escolha de layout,2
+2054,PRJ-0294,3,Design e aprovação,10
+2055,PRJ-0294,4,Desenvolvimento,6
+2056,PRJ-0294,5,Conteúdo,5
+2057,PRJ-0294,6,QA e ajustes,6
+2058,PRJ-0294,7,Publicação,1
+2059,PRJ-0295,1,Briefing,4
+2060,PRJ-0295,2,Escolha de layout,2
+2061,PRJ-0295,3,Design e aprovação,4
+2062,PRJ-0295,4,Desenvolvimento,3
+2063,PRJ-0295,5,Conteúdo,5
+2064,PRJ-0295,6,QA e ajustes,4
+2065,PRJ-0295,7,Publicação,1
+2066,PRJ-0296,1,Briefing,3
+2067,PRJ-0296,2,Escolha de layout,2
+2068,PRJ-0296,3,Design e aprovação,11
+2069,PRJ-0296,4,Desenvolvimento,4
+2070,PRJ-0296,5,Conteúdo,7
+2071,PRJ-0296,6,QA e ajustes,5
+2072,PRJ-0296,7,Publicação,1
+2073,PRJ-0297,1,Briefing,5
+2074,PRJ-0297,2,Escolha de layout,1
+2075,PRJ-0297,3,Design e aprovação,7
+2076,PRJ-0297,4,Desenvolvimento,11
+2077,PRJ-0297,5,Conteúdo,4
+2078,PRJ-0297,6,QA e ajustes,4
+2079,PRJ-0297,7,Publicação,1
+2080,PRJ-0298,1,Briefing,2
+2081,PRJ-0298,2,Escolha de layout,1
+2082,PRJ-0298,3,Design e aprovação,4
+2083,PRJ-0298,4,Desenvolvimento,11
+2084,PRJ-0298,5,Conteúdo,5
+2085,PRJ-0298,6,QA e ajustes,3
+2086,PRJ-0298,7,Publicação,1
+2087,PRJ-0299,1,Briefing,2
+2088,PRJ-0299,2,Escolha de layout,1
+2089,PRJ-0299,3,Design e aprovação,9
+2090,PRJ-0299,4,Desenvolvimento,13
+2091,PRJ-0299,5,Conteúdo,2
+2092,PRJ-0299,6,QA e ajustes,4
+2093,PRJ-0299,7,Publicação,1
+2094,PRJ-0300,1,Briefing,2
+2095,PRJ-0300,2,Escolha de layout,1
+2096,PRJ-0300,3,Design e aprovação,5
+2097,PRJ-0300,4,Desenvolvimento,18
+2098,PRJ-0300,5,Conteúdo,10
+2099,PRJ-0300,6,QA e ajustes,4
+2100,PRJ-0300,7,Publicação,1
+2101,PRJ-0301,1,Briefing,2
+2102,PRJ-0301,2,Escolha de layout,3
+2103,PRJ-0301,3,Design e aprovação,4
+2104,PRJ-0301,4,Desenvolvimento,15
+2105,PRJ-0301,5,Conteúdo,2
+2106,PRJ-0301,6,QA e ajustes,4
+2107,PRJ-0301,7,Publicação,1
+2108,PRJ-0302,1,Briefing,2
+2109,PRJ-0302,2,Escolha de layout,2
+2110,PRJ-0302,3,Design e aprovação,4
+2111,PRJ-0302,4,Desenvolvimento,6
+2112,PRJ-0302,5,Conteúdo,8
+2113,PRJ-0302,6,QA e ajustes,4
+2114,PRJ-0302,7,Publicação,1
+2115,PRJ-0303,1,Briefing,4
+2116,PRJ-0303,2,Escolha de layout,2
+2117,PRJ-0303,3,Design e aprovação,7
+2118,PRJ-0303,4,Desenvolvimento,5
+2119,PRJ-0303,5,Conteúdo,6
+2120,PRJ-0303,6,QA e ajustes,5
+2121,PRJ-0303,7,Publicação,1
+2122,PRJ-0304,1,Briefing,4
+2123,PRJ-0304,2,Escolha de layout,1
+2124,PRJ-0304,3,Design e aprovação,3
+2125,PRJ-0304,4,Desenvolvimento,8
+2126,PRJ-0304,5,Conteúdo,10
+2127,PRJ-0304,6,QA e ajustes,5
+2128,PRJ-0304,7,Publicação,1
+2129,PRJ-0305,1,Briefing,3
+2130,PRJ-0305,2,Escolha de layout,2
+2131,PRJ-0305,3,Design e aprovação,6
+2132,PRJ-0305,4,Desenvolvimento,22
+2133,PRJ-0305,5,Conteúdo,6
+2134,PRJ-0305,6,QA e ajustes,4
+2135,PRJ-0305,7,Publicação,1
+2136,PRJ-0306,1,Briefing,5
+2137,PRJ-0306,2,Escolha de layout,2
+2138,PRJ-0306,3,Design e aprovação,7
+2139,PRJ-0306,4,Desenvolvimento,8
+2140,PRJ-0306,5,Conteúdo,3
+2141,PRJ-0306,6,QA e ajustes,4
+2142,PRJ-0306,7,Publicação,1
+2143,PRJ-0307,1,Briefing,5
+2144,PRJ-0307,2,Escolha de layout,1
+2145,PRJ-0307,3,Design e aprovação,4
+2146,PRJ-0307,4,Desenvolvimento,14
+2147,PRJ-0307,5,Conteúdo,7
+2148,PRJ-0307,6,QA e ajustes,7
+2149,PRJ-0307,7,Publicação,1
+2150,PRJ-0308,1,Briefing,4
+2151,PRJ-0308,2,Escolha de layout,1
+2152,PRJ-0308,3,Design e aprovação,10
+2153,PRJ-0308,4,Desenvolvimento,4
+2154,PRJ-0308,5,Conteúdo,11
+2155,PRJ-0308,6,QA e ajustes,5
+2156,PRJ-0308,7,Publicação,1
+2157,PRJ-0309,1,Briefing,3
+2158,PRJ-0309,2,Escolha de layout,4
+2159,PRJ-0309,3,Design e aprovação,5
+2160,PRJ-0309,4,Desenvolvimento,8
+2161,PRJ-0309,5,Conteúdo,3
+2162,PRJ-0309,6,QA e ajustes,4
+2163,PRJ-0309,7,Publicação,1
+2164,PRJ-0310,1,Briefing,2
+2165,PRJ-0310,2,Escolha de layout,2
+2166,PRJ-0310,3,Design e aprovação,7
+2167,PRJ-0310,4,Desenvolvimento,11
+2168,PRJ-0310,5,Conteúdo,5
+2169,PRJ-0310,6,QA e ajustes,5
+2170,PRJ-0310,7,Publicação,1
+2171,PRJ-0311,1,Briefing,3
+2172,PRJ-0311,2,Escolha de layout,2
+2173,PRJ-0311,3,Design e aprovação,3
+2174,PRJ-0311,4,Desenvolvimento,18
+2175,PRJ-0311,5,Conteúdo,5
+2176,PRJ-0311,6,QA e ajustes,3
+2177,PRJ-0311,7,Publicação,1
+2178,PRJ-0312,1,Briefing,2
+2179,PRJ-0312,2,Escolha de layout,2
+2180,PRJ-0312,3,Design e aprovação,5
+2181,PRJ-0312,4,Desenvolvimento,5
+2182,PRJ-0312,5,Conteúdo,4
+2183,PRJ-0312,6,QA e ajustes,3
+2184,PRJ-0312,7,Publicação,1
+2185,PRJ-0313,1,Briefing,3
+2186,PRJ-0313,2,Escolha de layout,2
+2187,PRJ-0313,3,Design e aprovação,12
+2188,PRJ-0313,4,Desenvolvimento,4
+2189,PRJ-0313,5,Conteúdo,4
+2190,PRJ-0313,6,QA e ajustes,5
+2191,PRJ-0313,7,Publicação,1
+2192,PRJ-0314,1,Briefing,3
+2193,PRJ-0314,2,Escolha de layout,1
+2194,PRJ-0314,3,Design e aprovação,4
+2195,PRJ-0314,4,Desenvolvimento,8
+2196,PRJ-0314,5,Conteúdo,4
+2197,PRJ-0314,6,QA e ajustes,3
+2198,PRJ-0314,7,Publicação,1
+2199,PRJ-0315,1,Briefing,3
+2200,PRJ-0315,2,Escolha de layout,1
+2201,PRJ-0315,3,Design e aprovação,9
+2202,PRJ-0315,4,Desenvolvimento,8
+2203,PRJ-0315,5,Conteúdo,3
+2204,PRJ-0315,6,QA e ajustes,5
+2205,PRJ-0315,7,Publicação,1
+2206,PRJ-0316,1,Briefing,3
+2207,PRJ-0316,2,Escolha de layout,2
+2208,PRJ-0316,3,Design e aprovação,7
+2209,PRJ-0316,4,Desenvolvimento,5
+2210,PRJ-0316,5,Conteúdo,4
+2211,PRJ-0316,6,QA e ajustes,5
+2212,PRJ-0316,7,Publicação,1
+2213,PRJ-0317,1,Briefing,4
+2214,PRJ-0317,2,Escolha de layout,2
+2215,PRJ-0317,3,Design e aprovação,7
+2216,PRJ-0317,4,Desenvolvimento,14
+2217,PRJ-0317,5,Conteúdo,5
+2218,PRJ-0317,6,QA e ajustes,4
+2219,PRJ-0317,7,Publicação,1
+2220,PRJ-0318,1,Briefing,4
+2221,PRJ-0318,2,Escolha de layout,2
+2222,PRJ-0318,3,Design e aprovação,10
+2223,PRJ-0318,4,Desenvolvimento,10
+2224,PRJ-0318,5,Conteúdo,5
+2225,PRJ-0318,6,QA e ajustes,4
+2226,PRJ-0318,7,Publicação,1
+2227,PRJ-0319,1,Briefing,4
+2228,PRJ-0319,2,Escolha de layout,1
+2229,PRJ-0319,3,Design e aprovação,4
+2230,PRJ-0319,4,Desenvolvimento,5
+2231,PRJ-0319,5,Conteúdo,7
+2232,PRJ-0319,6,QA e ajustes,3
+2233,PRJ-0319,7,Publicação,1
+2234,PRJ-0320,1,Briefing,4
+2235,PRJ-0320,2,Escolha de layout,3
+2236,PRJ-0320,3,Design e aprovação,3
+2237,PRJ-0320,4,Desenvolvimento,4
+2238,PRJ-0320,5,Conteúdo,10
+2239,PRJ-0320,6,QA e ajustes,4
+2240,PRJ-0320,7,Publicação,1
+2241,PRJ-0321,1,Briefing,2
+2242,PRJ-0321,2,Escolha de layout,2
+2243,PRJ-0321,3,Design e aprovação,3
+2244,PRJ-0321,4,Desenvolvimento,12
+2245,PRJ-0321,5,Conteúdo,5
+2246,PRJ-0321,6,QA e ajustes,4
+2247,PRJ-0321,7,Publicação,1
+2248,PRJ-0322,1,Briefing,4
+2249,PRJ-0322,2,Escolha de layout,1
+2250,PRJ-0322,3,Design e aprovação,12
+2251,PRJ-0322,4,Desenvolvimento,4
+2252,PRJ-0322,5,Conteúdo,7
+2253,PRJ-0322,6,QA e ajustes,6
+2254,PRJ-0322,7,Publicação,1
+2255,PRJ-0323,1,Briefing,3
+2256,PRJ-0323,2,Escolha de layout,2
+2257,PRJ-0323,3,Design e aprovação,4
+2258,PRJ-0323,4,Desenvolvimento,12
+2259,PRJ-0323,5,Conteúdo,4
+2260,PRJ-0323,6,QA e ajustes,5
+2261,PRJ-0323,7,Publicação,1
+2262,PRJ-0324,1,Briefing,3
+2263,PRJ-0324,2,Escolha de layout,1
+2264,PRJ-0324,3,Design e aprovação,7
+2265,PRJ-0324,4,Desenvolvimento,15
+2266,PRJ-0324,5,Conteúdo,1
+2267,PRJ-0324,6,QA e ajustes,5
+2268,PRJ-0324,7,Publicação,1
+2269,PRJ-0325,1,Briefing,4
+2270,PRJ-0325,2,Escolha de layout,1
+2271,PRJ-0325,3,Design e aprovação,6
+2272,PRJ-0325,4,Desenvolvimento,11
+2273,PRJ-0325,5,Conteúdo,13
+2274,PRJ-0325,6,QA e ajustes,5
+2275,PRJ-0325,7,Publicação,1
+2276,PRJ-0326,1,Briefing,3
+2277,PRJ-0326,2,Escolha de layout,1
+2278,PRJ-0326,3,Design e aprovação,9
+2279,PRJ-0326,4,Desenvolvimento,13
+2280,PRJ-0326,5,Conteúdo,3
+2281,PRJ-0326,6,QA e ajustes,4
+2282,PRJ-0326,7,Publicação,1
+2283,PRJ-0327,1,Briefing,4
+2284,PRJ-0327,2,Escolha de layout,2
+2285,PRJ-0327,3,Design e aprovação,3
+2286,PRJ-0327,4,Desenvolvimento,19
+2287,PRJ-0327,5,Conteúdo,2
+2288,PRJ-0327,6,QA e ajustes,4
+2289,PRJ-0327,7,Publicação,1
+2290,PRJ-0328,1,Briefing,3
+2291,PRJ-0328,2,Escolha de layout,1
+2292,PRJ-0328,3,Design e aprovação,9
+2293,PRJ-0328,4,Desenvolvimento,23
+2294,PRJ-0328,5,Conteúdo,3
+2295,PRJ-0328,6,QA e ajustes,5
+2296,PRJ-0328,7,Publicação,1
+2297,PRJ-0329,1,Briefing,4
+2298,PRJ-0329,2,Escolha de layout,1
+2299,PRJ-0329,3,Design e aprovação,4
+2300,PRJ-0329,4,Desenvolvimento,4
+2301,PRJ-0329,5,Conteúdo,6
+2302,PRJ-0329,6,QA e ajustes,5
+2303,PRJ-0329,7,Publicação,1
+2304,PRJ-0330,1,Briefing,3
+2305,PRJ-0330,2,Escolha de layout,2
+2306,PRJ-0330,3,Design e aprovação,10
+2307,PRJ-0330,4,Desenvolvimento,10
+2308,PRJ-0330,5,Conteúdo,2
+2309,PRJ-0330,6,QA e ajustes,4
+2310,PRJ-0330,7,Publicação,1
+2311,PRJ-0331,1,Briefing,4
+2312,PRJ-0331,2,Escolha de layout,1
+2313,PRJ-0331,3,Design e aprovação,4
+2314,PRJ-0331,4,Desenvolvimento,3
+2315,PRJ-0331,5,Conteúdo,5
+2316,PRJ-0331,6,QA e ajustes,3
+2317,PRJ-0331,7,Publicação,1
+2318,PRJ-0332,1,Briefing,4
+2319,PRJ-0332,2,Escolha de layout,2
+2320,PRJ-0332,3,Design e aprovação,10
+2321,PRJ-0332,4,Desenvolvimento,11
+2322,PRJ-0332,5,Conteúdo,4
+2323,PRJ-0332,6,QA e ajustes,5
+2324,PRJ-0332,7,Publicação,1
+2325,PRJ-0333,1,Briefing,3
+2326,PRJ-0333,2,Escolha de layout,2
+2327,PRJ-0333,3,Design e aprovação,8
+2328,PRJ-0333,4,Desenvolvimento,4
+2329,PRJ-0333,5,Conteúdo,2
+2330,PRJ-0333,6,QA e ajustes,4
+2331,PRJ-0333,7,Publicação,1
+2332,PRJ-0334,1,Briefing,2
+2333,PRJ-0334,2,Escolha de layout,2
+2334,PRJ-0334,3,Design e aprovação,7
+2335,PRJ-0334,4,Desenvolvimento,8
+2336,PRJ-0334,5,Conteúdo,7
+2337,PRJ-0334,6,QA e ajustes,4
+2338,PRJ-0334,7,Publicação,1
+2339,PRJ-0335,1,Briefing,3
+2340,PRJ-0335,2,Escolha de layout,2
+2341,PRJ-0335,3,Design e aprovação,4
+2342,PRJ-0335,4,Desenvolvimento,24
+2343,PRJ-0335,5,Conteúdo,2
+2344,PRJ-0335,6,QA e ajustes,4
+2345,PRJ-0335,7,Publicação,1
+2346,PRJ-0336,1,Briefing,3
+2347,PRJ-0336,2,Escolha de layout,3
+2348,PRJ-0336,3,Design e aprovação,3
+2349,PRJ-0336,4,Desenvolvimento,8
+2350,PRJ-0336,5,Conteúdo,8
+2351,PRJ-0336,6,QA e ajustes,3
+2352,PRJ-0336,7,Publicação,1
+2353,PRJ-0337,1,Briefing,3
+2354,PRJ-0337,2,Escolha de layout,1
+2355,PRJ-0337,3,Design e aprovação,6
+2356,PRJ-0337,4,Desenvolvimento,5
+2357,PRJ-0337,5,Conteúdo,2
+2358,PRJ-0337,6,QA e ajustes,5
+2359,PRJ-0337,7,Publicação,1
+2360,PRJ-0338,1,Briefing,2
+2361,PRJ-0338,2,Escolha de layout,1
+2362,PRJ-0338,3,Design e aprovação,9
+2363,PRJ-0338,4,Desenvolvimento,13
+2364,PRJ-0338,5,Conteúdo,8
+2365,PRJ-0338,6,QA e ajustes,4
+2366,PRJ-0338,7,Publicação,1
+2367,PRJ-0339,1,Briefing,3
+2368,PRJ-0339,2,Escolha de layout,1
+2369,PRJ-0339,3,Design e aprovação,4
+2370,PRJ-0339,4,Desenvolvimento,12
+2371,PRJ-0339,5,Conteúdo,9
+2372,PRJ-0339,6,QA e ajustes,4
+2373,PRJ-0339,7,Publicação,1
+2374,PRJ-0340,1,Briefing,3
+2375,PRJ-0340,2,Escolha de layout,2
+2376,PRJ-0340,3,Design e aprovação,4
+2377,PRJ-0340,4,Desenvolvimento,13
+2378,PRJ-0340,5,Conteúdo,6
+2379,PRJ-0340,6,QA e ajustes,4
+2380,PRJ-0340,7,Publicação,1
+2381,PRJ-0341,1,Briefing,6
+2382,PRJ-0341,2,Escolha de layout,2
+2383,PRJ-0341,3,Design e aprovação,4
+2384,PRJ-0341,4,Desenvolvimento,5
+2385,PRJ-0341,5,Conteúdo,3
+2386,PRJ-0341,6,QA e ajustes,5
+2387,PRJ-0341,7,Publicação,1
+2388,PRJ-0342,1,Briefing,5
+2389,PRJ-0342,2,Escolha de layout,2
+2390,PRJ-0342,3,Design e aprovação,9
+2391,PRJ-0342,4,Desenvolvimento,4
+2392,PRJ-0342,5,Conteúdo,3
+2393,PRJ-0342,6,QA e ajustes,5
+2394,PRJ-0342,7,Publicação,1
+2395,PRJ-0343,1,Briefing,2
+2396,PRJ-0343,2,Escolha de layout,2
+2397,PRJ-0343,3,Design e aprovação,6
+2398,PRJ-0343,4,Desenvolvimento,8
+2399,PRJ-0343,5,Conteúdo,1
+2400,PRJ-0343,6,QA e ajustes,4
+2401,PRJ-0343,7,Publicação,1
+2402,PRJ-0344,1,Briefing,3
+2403,PRJ-0344,2,Escolha de layout,2
+2404,PRJ-0344,3,Design e aprovação,3
+2405,PRJ-0344,4,Desenvolvimento,12
+2406,PRJ-0344,5,Conteúdo,6
+2407,PRJ-0344,6,QA e ajustes,4
+2408,PRJ-0344,7,Publicação,1
+2409,PRJ-0345,1,Briefing,2
+2410,PRJ-0345,2,Escolha de layout,1
+2411,PRJ-0345,3,Design e aprovação,10
+2412,PRJ-0345,4,Desenvolvimento,18
+2413,PRJ-0345,5,Conteúdo,10
+2414,PRJ-0345,6,QA e ajustes,5
+2415,PRJ-0345,7,Publicação,1
+2416,PRJ-0346,1,Briefing,3
+2417,PRJ-0346,2,Escolha de layout,1
+2418,PRJ-0346,3,Design e aprovação,6
+2419,PRJ-0346,4,Desenvolvimento,9
+2420,PRJ-0346,5,Conteúdo,4
+2421,PRJ-0346,6,QA e ajustes,4
+2422,PRJ-0346,7,Publicação,1
+2423,PRJ-0347,1,Briefing,5
+2424,PRJ-0347,2,Escolha de layout,1
+2425,PRJ-0347,3,Design e aprovação,7
+2426,PRJ-0347,4,Desenvolvimento,6
+2427,PRJ-0347,5,Conteúdo,6
+2428,PRJ-0347,6,QA e ajustes,4
+2429,PRJ-0347,7,Publicação,1
+2430,PRJ-0348,1,Briefing,2
+2431,PRJ-0348,2,Escolha de layout,1
+2432,PRJ-0348,3,Design e aprovação,5
+2433,PRJ-0348,4,Desenvolvimento,4
+2434,PRJ-0348,5,Conteúdo,4
+2435,PRJ-0348,6,QA e ajustes,4
+2436,PRJ-0348,7,Publicação,1
+2437,PRJ-0349,1,Briefing,3
+2438,PRJ-0349,2,Escolha de layout,2
+2439,PRJ-0349,3,Design e aprovação,7
+2440,PRJ-0349,4,Desenvolvimento,8
+2441,PRJ-0349,5,Conteúdo,4
+2442,PRJ-0349,6,QA e ajustes,4
+2443,PRJ-0349,7,Publicação,1
+2444,PRJ-0350,1,Briefing,4
+2445,PRJ-0350,2,Escolha de layout,2
+2446,PRJ-0350,3,Design e aprovação,4
+2447,PRJ-0350,4,Desenvolvimento,9
+2448,PRJ-0350,5,Conteúdo,11
+2449,PRJ-0350,6,QA e ajustes,4
+2450,PRJ-0350,7,Publicação,1
+2451,PRJ-0351,1,Briefing,4
+2452,PRJ-0351,2,Escolha de layout,1
+2453,PRJ-0351,3,Design e aprovação,3
+2454,PRJ-0351,4,Desenvolvimento,9
+2455,PRJ-0351,5,Conteúdo,2
+2456,PRJ-0351,6,QA e ajustes,4
+2457,PRJ-0351,7,Publicação,1
+2458,PRJ-0352,1,Briefing,3
+2459,PRJ-0352,2,Escolha de layout,2
+2460,PRJ-0352,3,Design e aprovação,6
+2461,PRJ-0352,4,Desenvolvimento,18
+2462,PRJ-0352,5,Conteúdo,8
+2463,PRJ-0352,6,QA e ajustes,4
+2464,PRJ-0352,7,Publicação,1
+2465,PRJ-0353,1,Briefing,6
+2466,PRJ-0353,2,Escolha de layout,2
+2467,PRJ-0353,3,Design e aprovação,10
+2468,PRJ-0353,4,Desenvolvimento,11
+2469,PRJ-0353,5,Conteúdo,5
+2470,PRJ-0353,6,QA e ajustes,6
+2471,PRJ-0353,7,Publicação,1
+2472,PRJ-0354,1,Briefing,3
+2473,PRJ-0354,2,Escolha de layout,2
+2474,PRJ-0354,3,Design e aprovação,3
+2475,PRJ-0354,4,Desenvolvimento,15
+2476,PRJ-0354,5,Conteúdo,2
+2477,PRJ-0354,6,QA e ajustes,5
+2478,PRJ-0354,7,Publicação,1
+2479,PRJ-0355,1,Briefing,2
+2480,PRJ-0355,2,Escolha de layout,1
+2481,PRJ-0355,3,Design e aprovação,4
+2482,PRJ-0355,4,Desenvolvimento,17
+2483,PRJ-0355,5,Conteúdo,7
+2484,PRJ-0355,6,QA e ajustes,4
+2485,PRJ-0355,7,Publicação,1
+2486,PRJ-0356,1,Briefing,4
+2487,PRJ-0356,2,Escolha de layout,2
+2488,PRJ-0356,3,Design e aprovação,4
+2489,PRJ-0356,4,Desenvolvimento,6
+2490,PRJ-0356,5,Conteúdo,4
+2491,PRJ-0356,6,QA e ajustes,4
+2492,PRJ-0356,7,Publicação,1
+2493,PRJ-0357,1,Briefing,4
+2494,PRJ-0357,2,Escolha de layout,1
+2495,PRJ-0357,3,Design e aprovação,6
+2496,PRJ-0357,4,Desenvolvimento,7
+2497,PRJ-0357,5,Conteúdo,7
+2498,PRJ-0357,6,QA e ajustes,4
+2499,PRJ-0357,7,Publicação,1
+2500,PRJ-0358,1,Briefing,3
+2501,PRJ-0358,2,Escolha de layout,2
+2502,PRJ-0358,3,Design e aprovação,4
+2503,PRJ-0358,4,Desenvolvimento,5
+2504,PRJ-0358,5,Conteúdo,10
+2505,PRJ-0358,6,QA e ajustes,3
+2506,PRJ-0358,7,Publicação,1
+2507,PRJ-0359,1,Briefing,2
+2508,PRJ-0359,2,Escolha de layout,1
+2509,PRJ-0359,3,Design e aprovação,4
+2510,PRJ-0359,4,Desenvolvimento,9
+2511,PRJ-0359,5,Conteúdo,6
+2512,PRJ-0359,6,QA e ajustes,4
+2513,PRJ-0359,7,Publicação,1
+2514,PRJ-0360,1,Briefing,3
+2515,PRJ-0360,2,Escolha de layout,2
+2516,PRJ-0360,3,Design e aprovação,6
+2517,PRJ-0360,4,Desenvolvimento,3
+2518,PRJ-0360,5,Conteúdo,10
+2519,PRJ-0360,6,QA e ajustes,4
+2520,PRJ-0360,7,Publicação,1
+2521,PRJ-0361,1,Briefing,4
+2522,PRJ-0361,2,Escolha de layout,3
+2523,PRJ-0361,3,Design e aprovação,4
+2524,PRJ-0361,4,Desenvolvimento,4
+2525,PRJ-0361,5,Conteúdo,2
+2526,PRJ-0361,6,QA e ajustes,3
+2527,PRJ-0361,7,Publicação,1
+2528,PRJ-0362,1,Briefing,3
+2529,PRJ-0362,2,Escolha de layout,2
+2530,PRJ-0362,3,Design e aprovação,4
+2531,PRJ-0362,4,Desenvolvimento,4
+2532,PRJ-0362,5,Conteúdo,6
+2533,PRJ-0362,6,QA e ajustes,4
+2534,PRJ-0362,7,Publicação,1

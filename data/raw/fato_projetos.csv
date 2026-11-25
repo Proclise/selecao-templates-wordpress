@@ -1,0 +1,363 @@
+projeto_id,cliente_id,nicho,tipo_site,template_id,data_inicio,data_entrega,prazo_planejado_dias,dias_entrega,rodadas_retrabalho,horas_desenvolvimento,valor_projeto_brl,url_site,periodo
+PRJ-0001,CLI-0369,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-29,2023-01-05,2023-03-08,60,62,5,176.5,5690.0,https://www.cliente0001.com.br,Antes
+PRJ-0002,CLI-0129,Imobiliárias,Landing Page,WP-17,2023-01-10,2023-02-10,20,31,1,31.1,1030.0,https://www.cliente0002.com.br,Antes
+PRJ-0003,CLI-0382,Academias e Fitness,Landing Page,WP-18,2023-01-16,2023-02-23,20,38,1,33.8,950.0,https://www.cliente0003.com.br,Antes
+PRJ-0004,CLI-0248,Contabilidade,Blog / Portal,WP-09,2023-01-22,2023-03-01,35,38,1,74.4,2130.0,https://www.cliente0004.com.br,Antes
+PRJ-0005,CLI-0203,Moda e Varejo,Portfólio,WP-09,2023-01-28,2023-03-05,32,36,2,38.3,1750.0,https://www.cliente0005.com.br,Antes
+PRJ-0006,CLI-0292,Moda e Varejo,Portfólio,WP-13,2023-02-03,2023-03-10,32,35,1,57.7,1600.0,https://www.cliente0006.com.br,Antes
+PRJ-0007,CLI-0393,Imobiliárias,Landing Page,WP-18,2023-02-06,2023-03-13,20,35,1,50.1,1050.0,https://www.cliente0007.com.br,Antes
+PRJ-0008,CLI-0112,Saúde e Clínicas,Portfólio,WP-09,2023-02-08,2023-03-20,32,40,1,72.4,1990.0,https://www.cliente0008.com.br,Antes
+PRJ-0009,CLI-0373,Educação e Cursos,Blog / Portal,WP-06,2023-02-10,2023-03-24,35,42,2,50.8,2360.0,https://www.cliente0009.com.br,Antes
+PRJ-0010,CLI-0181,Contabilidade,Loja Virtual (WooCommerce),WP-25,2023-02-14,2023-04-19,60,64,2,160.4,6060.0,https://www.cliente0010.com.br,Antes
+PRJ-0011,CLI-0181,Contabilidade,Institucional,WP-11,2023-02-16,2023-03-25,38,37,1,84.8,3200.0,https://www.cliente0011.com.br,Antes
+PRJ-0012,CLI-0035,Imobiliárias,Blog / Portal,WP-09,2023-02-26,2023-04-11,35,44,2,66.1,2380.0,https://www.cliente0012.com.br,Antes
+PRJ-0013,CLI-0371,Saúde e Clínicas,Blog / Portal,WP-12,2023-03-01,2023-04-10,35,40,1,116.3,1930.0,https://www.cliente0013.com.br,Antes
+PRJ-0014,CLI-0045,Educação e Cursos,Institucional,WP-15,2023-03-02,2023-04-09,38,38,0,68.4,2840.0,https://www.cliente0014.com.br,Antes
+PRJ-0015,CLI-0118,Imobiliárias,Landing Page,WP-21,2023-03-04,2023-04-14,20,41,1,35.7,1350.0,https://www.cliente0015.com.br,Antes
+PRJ-0016,CLI-0171,Saúde e Clínicas,Catálogo de Produtos,WP-32,2023-03-06,2023-04-20,45,45,2,122.4,4120.0,https://www.cliente0016.com.br,Antes
+PRJ-0017,CLI-0344,Moda e Varejo,Institucional,WP-07,2023-03-07,2023-04-14,38,38,0,76.4,2780.0,https://www.cliente0017.com.br,Antes
+PRJ-0018,CLI-0369,Saúde e Clínicas,Institucional,WP-07,2023-03-15,2023-04-27,38,43,2,75.5,2320.0,https://www.cliente0018.com.br,Antes
+PRJ-0019,CLI-0378,Advocacia,Landing Page,WP-14,2023-03-16,2023-04-21,20,36,1,38.8,1170.0,https://www.cliente0019.com.br,Antes
+PRJ-0020,CLI-0236,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-28,2023-03-23,2023-05-27,60,65,3,167.5,6070.0,https://www.cliente0020.com.br,Antes
+PRJ-0021,CLI-0304,Imobiliárias,Institucional,WP-15,2023-03-23,2023-04-22,38,30,0,59.6,2890.0,https://www.cliente0021.com.br,Antes
+PRJ-0022,CLI-0020,Contabilidade,Catálogo de Produtos,WP-30,2023-03-26,2023-05-09,45,44,0,119.9,3260.0,https://www.cliente0022.com.br,Antes
+PRJ-0023,CLI-0121,Saúde e Clínicas,Institucional,WP-17,2023-03-28,2023-05-13,38,46,2,77.9,2830.0,https://www.cliente0023.com.br,Antes
+PRJ-0024,CLI-0144,Moda e Varejo,Landing Page,WP-05,2023-04-01,2023-05-07,20,36,1,36.3,980.0,https://www.cliente0024.com.br,Antes
+PRJ-0025,CLI-0329,Imobiliárias,Landing Page,WP-22,2023-04-04,2023-04-26,20,22,0,22.0,930.0,https://www.cliente0025.com.br,Antes
+PRJ-0026,CLI-0294,Beleza e Estética,Institucional,WP-19,2023-04-06,2023-05-21,38,45,0,113.4,2350.0,https://www.cliente0026.com.br,Antes
+PRJ-0027,CLI-0361,Contabilidade,Blog / Portal,WP-20,2023-04-14,2023-06-03,35,50,1,108.8,1870.0,https://www.cliente0027.com.br,Antes
+PRJ-0028,CLI-0173,Beleza e Estética,Loja Virtual (WooCommerce),WP-27,2023-04-16,2023-06-09,60,54,3,88.7,5280.0,https://www.cliente0028.com.br,Antes
+PRJ-0029,CLI-0166,Educação e Cursos,Institucional,WP-21,2023-04-16,2023-05-31,38,45,1,60.9,2580.0,https://www.cliente0029.com.br,Antes
+PRJ-0030,CLI-0176,Saúde e Clínicas,Institucional,WP-14,2023-05-25,2023-07-12,38,48,1,87.2,2860.0,https://www.cliente0030.com.br,Antes
+PRJ-0031,CLI-0392,Academias e Fitness,Institucional,WP-17,2023-06-10,2023-07-26,38,46,1,101.8,3170.0,https://www.cliente0031.com.br,Antes
+PRJ-0032,CLI-0243,Saúde e Clínicas,Landing Page,WP-22,2023-06-16,2023-07-09,20,23,0,27.0,950.0,https://www.cliente0032.com.br,Antes
+PRJ-0033,CLI-0268,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-27,2023-06-19,2023-07-26,60,37,1,95.2,5440.0,https://www.cliente0033.com.br,Antes
+PRJ-0034,CLI-0209,Saúde e Clínicas,Institucional,WP-24,2023-06-25,2023-08-29,38,65,4,118.8,2610.0,https://www.cliente0034.com.br,Antes
+PRJ-0035,CLI-0032,Beleza e Estética,Loja Virtual (WooCommerce),WP-31,2023-06-26,2023-08-22,60,57,2,149.4,5360.0,https://www.cliente0035.com.br,Antes
+PRJ-0036,CLI-0194,Contabilidade,Landing Page,WP-19,2023-06-27,2023-07-31,20,34,3,33.3,1030.0,https://www.cliente0036.com.br,Antes
+PRJ-0037,CLI-0299,Saúde e Clínicas,Landing Page,WP-03,2023-07-07,2023-08-11,20,35,2,39.4,1010.0,https://www.cliente0037.com.br,Antes
+PRJ-0038,CLI-0085,Advocacia,Landing Page,WP-19,2023-07-10,2023-08-12,20,33,1,33.5,1350.0,https://www.cliente0038.com.br,Antes
+PRJ-0039,CLI-0371,Saúde e Clínicas,Landing Page,WP-11,2023-07-13,2023-08-20,20,38,1,43.5,1000.0,https://www.cliente0039.com.br,Antes
+PRJ-0040,CLI-0243,Saúde e Clínicas,Institucional,WP-17,2023-07-17,2023-09-13,38,58,3,79.5,2440.0,https://www.cliente0040.com.br,Antes
+PRJ-0041,CLI-0165,Imobiliárias,Catálogo de Produtos,WP-36,2023-07-19,2023-08-28,45,40,1,85.1,4030.0,https://www.cliente0041.com.br,Antes
+PRJ-0042,CLI-0244,Restaurantes e Delivery,Catálogo de Produtos,WP-35,2023-07-20,2023-09-22,45,64,3,159.3,2890.0,https://www.cliente0042.com.br,Antes
+PRJ-0043,CLI-0341,Beleza e Estética,Loja Virtual (WooCommerce),WP-35,2023-07-21,2023-10-10,60,81,1,214.0,3990.0,https://www.cliente0043.com.br,Antes
+PRJ-0044,CLI-0074,Restaurantes e Delivery,Institucional,WP-12,2023-08-07,2023-09-26,38,50,4,130.6,2930.0,https://www.cliente0044.com.br,Antes
+PRJ-0045,CLI-0361,Contabilidade,Blog / Portal,WP-10,2023-08-09,2023-09-28,35,50,2,98.7,2190.0,https://www.cliente0045.com.br,Antes
+PRJ-0046,CLI-0381,Advocacia,Catálogo de Produtos,WP-26,2023-08-10,2023-09-25,45,46,2,115.8,2780.0,https://www.cliente0046.com.br,Antes
+PRJ-0047,CLI-0382,Academias e Fitness,Catálogo de Produtos,WP-26,2023-08-13,2023-09-30,45,48,1,128.0,2800.0,https://www.cliente0047.com.br,Antes
+PRJ-0048,CLI-0283,Educação e Cursos,Portfólio,WP-02,2023-08-17,2023-10-01,32,45,1,47.0,1910.0,https://www.cliente0048.com.br,Antes
+PRJ-0049,CLI-0133,Beleza e Estética,Portfólio,WP-12,2023-08-24,2023-10-14,32,51,0,107.6,1730.0,https://www.cliente0049.com.br,Antes
+PRJ-0050,CLI-0321,Educação e Cursos,Catálogo de Produtos,WP-27,2023-09-04,2023-10-11,45,37,2,65.4,3700.0,https://www.cliente0050.com.br,Antes
+PRJ-0051,CLI-0124,Academias e Fitness,Portfólio,WP-19,2023-09-13,2023-11-03,32,51,2,46.5,1940.0,https://www.cliente0051.com.br,Antes
+PRJ-0052,CLI-0014,Moda e Varejo,Institucional,WP-11,2023-09-18,2023-10-26,38,38,1,101.5,2580.0,https://www.cliente0052.com.br,Antes
+PRJ-0053,CLI-0262,Restaurantes e Delivery,Institucional,WP-20,2023-09-25,2023-11-04,38,40,2,93.6,2980.0,https://www.cliente0053.com.br,Antes
+PRJ-0054,CLI-0120,Restaurantes e Delivery,Institucional,WP-11,2023-09-26,2023-11-10,38,45,1,87.0,2810.0,https://www.cliente0054.com.br,Antes
+PRJ-0055,CLI-0231,Restaurantes e Delivery,Institucional,WP-10,2023-09-28,2023-11-09,38,42,2,78.5,3260.0,https://www.cliente0055.com.br,Antes
+PRJ-0056,CLI-0359,Imobiliárias,Loja Virtual (WooCommerce),WP-30,2023-10-07,2023-12-16,60,70,3,178.3,5370.0,https://www.cliente0056.com.br,Antes
+PRJ-0057,CLI-0232,Contabilidade,Loja Virtual (WooCommerce),WP-26,2023-10-10,2023-12-08,60,59,0,204.7,4600.0,https://www.cliente0057.com.br,Antes
+PRJ-0058,CLI-0317,Moda e Varejo,Institucional,WP-06,2023-10-16,2023-11-20,38,35,0,63.1,2910.0,https://www.cliente0058.com.br,Antes
+PRJ-0059,CLI-0276,Educação e Cursos,Loja Virtual (WooCommerce),WP-31,2023-10-23,2023-12-18,60,56,1,210.0,4700.0,https://www.cliente0059.com.br,Antes
+PRJ-0060,CLI-0033,Educação e Cursos,Portfólio,WP-17,2023-11-01,2023-11-30,32,29,0,55.5,1540.0,https://www.cliente0060.com.br,Antes
+PRJ-0061,CLI-0254,Saúde e Clínicas,Landing Page,WP-01,2023-11-01,2023-12-06,20,35,0,31.9,960.0,https://www.cliente0061.com.br,Antes
+PRJ-0062,CLI-0257,Saúde e Clínicas,Blog / Portal,WP-13,2023-11-03,2023-12-13,35,40,1,55.1,2730.0,https://www.cliente0062.com.br,Antes
+PRJ-0063,CLI-0016,Beleza e Estética,Institucional,WP-04,2023-11-10,2024-01-04,38,55,4,118.0,2960.0,https://www.cliente0063.com.br,Antes
+PRJ-0064,CLI-0302,Moda e Varejo,Landing Page,WP-07,2023-11-17,2024-01-01,20,45,1,41.7,1080.0,https://www.cliente0064.com.br,Antes
+PRJ-0065,CLI-0023,Tecnologia e SaaS,Blog / Portal,WP-24,2023-11-18,2024-01-11,35,54,3,75.3,2280.0,https://www.cliente0065.com.br,Antes
+PRJ-0066,CLI-0341,Beleza e Estética,Portfólio,WP-22,2023-11-18,2023-12-22,32,34,0,54.8,1970.0,https://www.cliente0066.com.br,Antes
+PRJ-0067,CLI-0187,Moda e Varejo,Portfólio,WP-21,2023-11-19,2024-01-03,32,45,2,57.7,1860.0,https://www.cliente0067.com.br,Antes
+PRJ-0068,CLI-0104,Imobiliárias,Catálogo de Produtos,WP-33,2023-11-19,2024-01-22,45,64,3,84.3,3060.0,https://www.cliente0068.com.br,Antes
+PRJ-0069,CLI-0114,Imobiliárias,Blog / Portal,WP-19,2023-11-20,2024-01-01,35,42,2,52.7,2350.0,https://www.cliente0069.com.br,Antes
+PRJ-0070,CLI-0085,Advocacia,Institucional,WP-15,2023-11-24,2024-01-07,38,44,1,90.5,2590.0,https://www.cliente0070.com.br,Antes
+PRJ-0071,CLI-0023,Tecnologia e SaaS,Blog / Portal,WP-08,2023-11-24,2024-01-18,35,55,2,75.0,2380.0,https://www.cliente0071.com.br,Antes
+PRJ-0072,CLI-0036,Saúde e Clínicas,Landing Page,WP-18,2023-12-02,2024-01-29,20,58,6,40.2,1330.0,https://www.cliente0072.com.br,Antes
+PRJ-0073,CLI-0216,Saúde e Clínicas,Blog / Portal,WP-20,2023-12-02,2024-01-14,35,43,1,74.2,2460.0,https://www.cliente0073.com.br,Antes
+PRJ-0074,CLI-0042,Restaurantes e Delivery,Catálogo de Produtos,WP-27,2023-12-08,2024-01-11,45,34,2,71.4,4050.0,https://www.cliente0074.com.br,Antes
+PRJ-0075,CLI-0104,Imobiliárias,Institucional,WP-03,2023-12-11,2024-01-27,38,47,1,139.4,3270.0,https://www.cliente0075.com.br,Antes
+PRJ-0076,CLI-0008,Moda e Varejo,Blog / Portal,WP-02,2023-12-11,2024-01-20,35,40,1,74.0,2350.0,https://www.cliente0076.com.br,Antes
+PRJ-0077,CLI-0376,Saúde e Clínicas,Landing Page,WP-22,2023-12-16,2024-01-10,20,25,0,26.5,1290.0,https://www.cliente0077.com.br,Antes
+PRJ-0078,CLI-0268,Saúde e Clínicas,Catálogo de Produtos,WP-32,2023-12-20,2024-02-06,45,48,0,121.5,3470.0,https://www.cliente0078.com.br,Antes
+PRJ-0079,CLI-0303,Restaurantes e Delivery,Loja Virtual (WooCommerce),WP-25,2023-12-25,2024-03-07,60,73,4,160.3,4440.0,https://www.cliente0079.com.br,Antes
+PRJ-0080,CLI-0378,Advocacia,Blog / Portal,WP-04,2023-12-26,2024-02-20,35,56,3,106.6,1960.0,https://www.cliente0080.com.br,Antes
+PRJ-0081,CLI-0234,Educação e Cursos,Landing Page,WP-05,2024-01-01,2024-02-19,20,49,4,47.0,1160.0,https://www.cliente0081.com.br,Antes
+PRJ-0082,CLI-0407,Restaurantes e Delivery,Portfólio,WP-23,2024-01-01,2024-02-11,32,41,2,86.3,1790.0,https://www.cliente0082.com.br,Antes
+PRJ-0083,CLI-0090,Advocacia,Landing Page,WP-20,2024-01-05,2024-02-16,20,42,3,38.9,1390.0,https://www.cliente0083.com.br,Antes
+PRJ-0084,CLI-0417,Tecnologia e SaaS,Loja Virtual (WooCommerce),WP-35,2024-01-06,2024-04-05,60,90,2,293.8,5510.0,https://www.cliente0084.com.br,Antes
+PRJ-0085,CLI-0118,Imobiliárias,Loja Virtual (WooCommerce),WP-27,2024-01-11,2024-03-03,60,52,2,107.1,6040.0,https://www.cliente0085.com.br,Antes
+PRJ-0086,CLI-0099,Beleza e Estética,Landing Page,WP-14,2024-01-19,2024-03-05,20,46,5,29.8,1010.0,https://www.cliente0086.com.br,Antes
+PRJ-0087,CLI-0290,Advocacia,Blog / Portal,WP-01,2024-01-24,2024-03-17,35,53,2,57.6,2540.0,https://www.cliente0087.com.br,Antes
+PRJ-0088,CLI-0122,Moda e Varejo,Institucional,WP-15,2024-02-06,2024-03-25,38,48,1,92.6,2480.0,https://www.cliente0088.com.br,Antes
+PRJ-0089,CLI-0307,Saúde e Clínicas,Landing Page,WP-02,2024-02-12,2024-03-29,20,46,4,46.2,1030.0,https://www.cliente0089.com.br,Antes
+PRJ-0090,CLI-0337,Contabilidade,Catálogo de Produtos,WP-29,2024-02-12,2024-04-07,45,55,2,101.1,2940.0,https://www.cliente0090.com.br,Antes
+PRJ-0091,CLI-0327,Moda e Varejo,Blog / Portal,WP-05,2024-02-16,2024-03-29,35,42,0,104.0,2510.0,https://www.cliente0091.com.br,Antes
+PRJ-0092,CLI-0173,Beleza e Estética,Portfólio,WP-18,2024-02-24,2024-04-11,32,47,2,68.6,1750.0,https://www.cliente0092.com.br,Antes
+PRJ-0093,CLI-0338,Tecnologia e SaaS,Blog / Portal,WP-02,2024-02-27,2024-04-01,35,34,1,63.5,1960.0,https://www.cliente0093.com.br,Antes
+PRJ-0094,CLI-0265,Educação e Cursos,Catálogo de Produtos,WP-35,2024-03-06,2024-04-12,45,37,1,105.4,4200.0,https://www.cliente0094.com.br,Antes
+PRJ-0095,CLI-0155,Tecnologia e SaaS,Institucional,WP-12,2024-03-07,2024-04-24,38,48,1,128.1,2990.0,https://www.cliente0095.com.br,Antes
+PRJ-0096,CLI-0197,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-32,2024-03-09,2024-04-24,60,46,0,106.1,5520.0,https://www.cliente0096.com.br,Antes
+PRJ-0097,CLI-0102,Saúde e Clínicas,Institucional,WP-02,2024-03-12,2024-04-30,38,49,2,110.6,2850.0,https://www.cliente0097.com.br,Antes
+PRJ-0098,CLI-0374,Beleza e Estética,Blog / Portal,WP-16,2024-03-13,2024-04-26,35,44,2,58.7,2410.0,https://www.cliente0098.com.br,Antes
+PRJ-0099,CLI-0076,Advocacia,Institucional,WP-17,2024-03-19,2024-04-29,38,41,2,73.7,3110.0,https://www.cliente0099.com.br,Antes
+PRJ-0100,CLI-0107,Educação e Cursos,Institucional,WP-10,2024-03-25,2024-05-15,38,51,4,101.0,3120.0,https://www.cliente0100.com.br,Antes
+PRJ-0101,CLI-0320,Moda e Varejo,Landing Page,WP-09,2024-03-25,2024-05-05,20,41,1,48.4,1260.0,https://www.cliente0101.com.br,Antes
+PRJ-0102,CLI-0052,Educação e Cursos,Portfólio,WP-06,2024-03-26,2024-05-11,32,46,3,55.7,2270.0,https://www.cliente0102.com.br,Antes
+PRJ-0103,CLI-0112,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-28,2024-04-01,2024-06-07,60,67,3,185.6,5460.0,https://www.cliente0103.com.br,Antes
+PRJ-0104,CLI-0383,Advocacia,Portfólio,WP-05,2024-04-04,2024-05-17,32,43,0,89.2,1980.0,https://www.cliente0104.com.br,Antes
+PRJ-0105,CLI-0254,Saúde e Clínicas,Institucional,WP-03,2024-04-09,2024-05-24,38,45,2,81.3,3150.0,https://www.cliente0105.com.br,Antes
+PRJ-0106,CLI-0139,Saúde e Clínicas,Institucional,WP-15,2024-04-10,2024-05-26,38,46,2,75.9,2650.0,https://www.cliente0106.com.br,Antes
+PRJ-0107,CLI-0329,Imobiliárias,Loja Virtual (WooCommerce),WP-27,2024-04-12,2024-06-09,60,58,2,121.8,5400.0,https://www.cliente0107.com.br,Antes
+PRJ-0108,CLI-0207,Academias e Fitness,Institucional,WP-12,2024-04-20,2024-05-29,38,39,1,111.5,2380.0,https://www.cliente0108.com.br,Antes
+PRJ-0109,CLI-0322,Academias e Fitness,Blog / Portal,WP-12,2024-04-24,2024-06-17,35,54,3,106.4,2730.0,https://www.cliente0109.com.br,Antes
+PRJ-0110,CLI-0169,Moda e Varejo,Institucional,WP-18,2024-05-03,2024-06-23,38,51,1,106.7,2580.0,https://www.cliente0110.com.br,Antes
+PRJ-0111,CLI-0217,Moda e Varejo,Blog / Portal,WP-10,2024-05-06,2024-06-16,35,41,0,83.3,2000.0,https://www.cliente0111.com.br,Antes
+PRJ-0112,CLI-0263,Saúde e Clínicas,Catálogo de Produtos,WP-31,2024-05-11,2024-06-22,45,42,2,80.1,3070.0,https://www.cliente0112.com.br,Antes
+PRJ-0113,CLI-0226,Restaurantes e Delivery,Institucional,WP-02,2024-05-23,2024-06-27,38,35,1,99.8,2650.0,https://www.cliente0113.com.br,Antes
+PRJ-0114,CLI-0145,Beleza e Estética,Institucional,WP-19,2024-05-24,2024-07-10,38,47,4,75.3,2940.0,https://www.cliente0114.com.br,Antes
+PRJ-0115,CLI-0341,Beleza e Estética,Loja Virtual (WooCommerce),WP-29,2024-05-27,2024-08-11,60,76,3,166.1,4870.0,https://www.cliente0115.com.br,Antes
+PRJ-0116,CLI-0073,Advocacia,Portfólio,WP-16,2024-06-03,2024-07-18,32,45,4,63.7,1560.0,https://www.cliente0116.com.br,Antes
+PRJ-0117,CLI-0318,Saúde e Clínicas,Blog / Portal,WP-11,2024-06-06,2024-07-20,35,44,0,98.9,2590.0,https://www.cliente0117.com.br,Antes
+PRJ-0118,CLI-0132,Moda e Varejo,Institucional,WP-06,2024-06-09,2024-07-26,38,47,1,58.3,3190.0,https://www.cliente0118.com.br,Antes
+PRJ-0119,CLI-0398,Contabilidade,Institucional,WP-07,2024-06-11,2024-07-14,38,33,1,74.1,2180.0,https://www.cliente0119.com.br,Antes
+PRJ-0120,CLI-0242,Beleza e Estética,Institucional,WP-05,2024-06-12,2024-07-20,38,38,2,81.9,2860.0,https://www.cliente0120.com.br,Antes
+PRJ-0121,CLI-0118,Imobiliárias,Landing Page,WP-06,2024-06-16,2024-07-07,20,21,0,33.6,1230.0,https://www.cliente0121.com.br,Antes
+PRJ-0122,CLI-0051,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-35,2024-06-16,2024-08-10,60,55,1,174.2,4860.0,https://www.cliente0122.com.br,Antes
+PRJ-0123,CLI-0024,Restaurantes e Delivery,Institucional,WP-03,2024-06-17,2024-08-01,38,45,2,92.6,2630.0,https://www.cliente0123.com.br,Antes
+PRJ-0124,CLI-0100,Advocacia,Institucional,WP-20,2024-06-19,2024-07-26,38,37,0,84.6,2440.0,https://www.cliente0124.com.br,Antes
+PRJ-0125,CLI-0162,Imobiliárias,Institucional,WP-19,2024-06-27,2024-08-19,38,53,2,79.4,2700.0,https://www.cliente0125.com.br,Antes
+PRJ-0126,CLI-0242,Beleza e Estética,Loja Virtual (WooCommerce),WP-25,2024-07-04,2024-08-22,60,49,0,165.9,6050.0,https://www.cliente0126.com.br,Antes
+PRJ-0127,CLI-0167,Educação e Cursos,Loja Virtual (WooCommerce),WP-25,2024-07-05,2024-09-02,60,59,0,188.0,4290.0,https://www.cliente0127.com.br,Antes
+PRJ-0128,CLI-0137,Saúde e Clínicas,Blog / Portal,WP-06,2024-07-13,2024-09-11,35,60,4,61.7,2390.0,https://www.cliente0128.com.br,Antes
+PRJ-0129,CLI-0079,Contabilidade,Portfólio,WP-22,2024-07-17,2024-08-19,32,33,1,40.7,1870.0,https://www.cliente0129.com.br,Antes
+PRJ-0130,CLI-0414,Saúde e Clínicas,Landing Page,WP-21,2024-07-18,2024-08-18,20,31,1,33.8,1120.0,https://www.cliente0130.com.br,Antes
+PRJ-0131,CLI-0118,Imobiliárias,Landing Page,WP-10,2024-07-18,2024-09-17,20,61,4,43.7,1340.0,https://www.cliente0131.com.br,Antes
+PRJ-0132,CLI-0070,Educação e Cursos,Catálogo de Produtos,WP-25,2024-07-20,2024-09-06,45,48,1,102.4,3990.0,https://www.cliente0132.com.br,Antes
+PRJ-0133,CLI-0095,Educação e Cursos,Portfólio,WP-08,2024-07-24,2024-08-23,32,30,0,48.6,2260.0,https://www.cliente0133.com.br,Antes
+PRJ-0134,CLI-0217,Moda e Varejo,Catálogo de Produtos,WP-26,2024-07-25,2024-09-14,45,51,2,138.5,3240.0,https://www.cliente0134.com.br,Antes
+PRJ-0135,CLI-0130,Contabilidade,Blog / Portal,WP-13,2024-07-25,2024-09-07,35,44,2,58.1,2190.0,https://www.cliente0135.com.br,Antes
+PRJ-0136,CLI-0192,Beleza e Estética,Landing Page,WP-21,2024-08-02,2024-09-09,20,38,3,41.8,1400.0,https://www.cliente0136.com.br,Antes
+PRJ-0137,CLI-0388,Academias e Fitness,Landing Page,WP-01,2024-08-07,2024-09-04,20,28,1,32.9,1350.0,https://www.cliente0137.com.br,Antes
+PRJ-0138,CLI-0416,Imobiliárias,Blog / Portal,WP-03,2024-08-09,2024-09-11,35,33,0,92.9,2640.0,https://www.cliente0138.com.br,Antes
+PRJ-0139,CLI-0141,Educação e Cursos,Loja Virtual (WooCommerce),WP-28,2024-08-14,2024-10-12,60,59,0,207.4,5290.0,https://www.cliente0139.com.br,Antes
+PRJ-0140,CLI-0051,Saúde e Clínicas,Landing Page,WP-22,2024-08-24,2024-09-28,20,35,0,31.6,1210.0,https://www.cliente0140.com.br,Antes
+PRJ-0141,CLI-0036,Saúde e Clínicas,Landing Page,WP-18,2024-08-25,2024-09-26,20,32,0,54.3,1110.0,https://www.cliente0141.com.br,Antes
+PRJ-0142,CLI-0041,Moda e Varejo,Institucional,WP-08,2024-09-04,2024-10-18,38,44,2,75.5,2430.0,https://www.cliente0142.com.br,Antes
+PRJ-0143,CLI-0188,Tecnologia e SaaS,Landing Page,WP-13,2024-09-06,2024-10-04,20,28,1,33.4,1190.0,https://www.cliente0143.com.br,Antes
+PRJ-0144,CLI-0275,Saúde e Clínicas,Institucional,WP-13,2024-09-09,2024-10-23,38,44,1,87.9,3230.0,https://www.cliente0144.com.br,Antes
+PRJ-0145,CLI-0183,Advocacia,Landing Page,WP-04,2024-09-13,2024-10-17,20,34,1,54.2,1100.0,https://www.cliente0145.com.br,Antes
+PRJ-0146,CLI-0039,Imobiliárias,Institucional,WP-12,2024-09-20,2024-11-16,38,57,1,130.9,3160.0,https://www.cliente0146.com.br,Antes
+PRJ-0147,CLI-0415,Imobiliárias,Portfólio,WP-19,2024-09-23,2024-10-28,32,35,0,53.7,1710.0,https://www.cliente0147.com.br,Antes
+PRJ-0148,CLI-0233,Saúde e Clínicas,Institucional,WP-08,2024-09-26,2024-10-21,38,25,0,66.5,3190.0,https://www.cliente0148.com.br,Antes
+PRJ-0149,CLI-0017,Saúde e Clínicas,Institucional,WP-05,2024-10-02,2024-11-16,38,45,1,88.2,2360.0,https://www.cliente0149.com.br,Antes
+PRJ-0150,CLI-0045,Educação e Cursos,Catálogo de Produtos,WP-34,2024-10-04,2024-11-18,45,45,2,130.4,3290.0,https://www.cliente0150.com.br,Antes
+PRJ-0151,CLI-0104,Imobiliárias,Loja Virtual (WooCommerce),WP-26,2024-10-05,2024-11-26,60,52,2,150.2,5860.0,https://www.cliente0151.com.br,Antes
+PRJ-0152,CLI-0235,Moda e Varejo,Institucional,WP-02,2024-10-13,2024-12-07,38,55,1,91.1,2800.0,https://www.cliente0152.com.br,Antes
+PRJ-0153,CLI-0113,Academias e Fitness,Loja Virtual (WooCommerce),WP-26,2024-10-22,2024-12-23,60,62,1,200.8,5520.0,https://www.cliente0153.com.br,Antes
+PRJ-0154,CLI-0310,Saúde e Clínicas,Catálogo de Produtos,WP-35,2024-11-05,2024-12-24,45,49,1,133.9,3830.0,https://www.cliente0154.com.br,Antes
+PRJ-0155,CLI-0112,Saúde e Clínicas,Landing Page,WP-18,2024-11-10,2024-12-19,20,39,1,54.8,1050.0,https://www.cliente0155.com.br,Antes
+PRJ-0156,CLI-0224,Educação e Cursos,Portfólio,WP-19,2024-11-13,2024-12-14,32,31,1,53.7,2180.0,https://www.cliente0156.com.br,Antes
+PRJ-0157,CLI-0155,Tecnologia e SaaS,Landing Page,WP-10,2024-11-14,2024-12-18,20,34,2,51.7,1400.0,https://www.cliente0157.com.br,Antes
+PRJ-0158,CLI-0132,Moda e Varejo,Landing Page,WP-10,2024-11-18,2024-12-27,20,39,3,41.4,1280.0,https://www.cliente0158.com.br,Antes
+PRJ-0159,CLI-0115,Moda e Varejo,Institucional,WP-08,2024-11-24,2025-01-01,38,38,2,64.2,3220.0,https://www.cliente0159.com.br,Antes
+PRJ-0160,CLI-0118,Imobiliárias,Catálogo de Produtos,WP-29,2024-11-25,2025-01-08,45,44,1,115.3,3980.0,https://www.cliente0160.com.br,Antes
+PRJ-0161,CLI-0012,Imobiliárias,Landing Page,WP-22,2024-12-04,2025-01-03,20,30,1,30.8,1310.0,https://www.cliente0161.com.br,Antes
+PRJ-0162,CLI-0231,Restaurantes e Delivery,Institucional,WP-10,2024-12-05,2025-01-27,38,53,1,112.4,3210.0,https://www.cliente0162.com.br,Antes
+PRJ-0163,CLI-0032,Beleza e Estética,Blog / Portal,WP-15,2024-12-08,2025-01-11,35,34,0,59.8,2700.0,https://www.cliente0163.com.br,Antes
+PRJ-0164,CLI-0193,Beleza e Estética,Landing Page,WP-20,2024-12-09,2025-01-16,20,38,1,32.3,1150.0,https://www.cliente0164.com.br,Antes
+PRJ-0165,CLI-0024,Restaurantes e Delivery,Institucional,WP-18,2024-12-10,2025-01-14,38,35,0,88.9,2800.0,https://www.cliente0165.com.br,Antes
+PRJ-0166,CLI-0236,Saúde e Clínicas,Blog / Portal,WP-16,2024-12-11,2025-02-02,35,53,2,90.0,2470.0,https://www.cliente0166.com.br,Antes
+PRJ-0167,CLI-0287,Advocacia,Loja Virtual (WooCommerce),WP-36,2024-12-11,2025-01-26,60,46,1,128.3,4270.0,https://www.cliente0167.com.br,Antes
+PRJ-0168,CLI-0318,Saúde e Clínicas,Catálogo de Produtos,WP-32,2024-12-19,2025-02-07,45,50,4,88.3,3520.0,https://www.cliente0168.com.br,Antes
+PRJ-0169,CLI-0235,Moda e Varejo,Catálogo de Produtos,WP-32,2024-12-24,2025-02-07,45,45,1,115.2,4170.0,https://www.cliente0169.com.br,Antes
+PRJ-0170,CLI-0311,Advocacia,Institucional,WP-15,2024-12-27,2025-01-29,38,33,1,96.6,2690.0,https://www.cliente0170.com.br,Antes
+PRJ-0171,CLI-0214,Restaurantes e Delivery,Institucional,WP-22,2025-01-03,2025-02-08,38,36,0,87.8,2900.0,https://www.cliente0171.com.br,Antes
+PRJ-0172,CLI-0092,Restaurantes e Delivery,Landing Page,WP-15,2025-01-04,2025-01-31,20,27,0,37.0,1340.0,https://www.cliente0172.com.br,Antes
+PRJ-0173,CLI-0418,Contabilidade,Blog / Portal,WP-13,2025-01-06,2025-02-11,35,36,0,59.4,2490.0,https://www.cliente0173.com.br,Antes
+PRJ-0174,CLI-0208,Academias e Fitness,Blog / Portal,WP-08,2025-01-08,2025-02-21,35,44,2,51.5,2540.0,https://www.cliente0174.com.br,Antes
+PRJ-0175,CLI-0013,Contabilidade,Landing Page,WP-20,2025-01-13,2025-03-02,20,48,2,48.4,1200.0,https://www.cliente0175.com.br,Antes
+PRJ-0176,CLI-0297,Advocacia,Landing Page,WP-05,2025-01-14,2025-02-22,20,39,1,43.9,1200.0,https://www.cliente0176.com.br,Antes
+PRJ-0177,CLI-0015,Educação e Cursos,Blog / Portal,WP-11,2025-01-28,2025-03-15,35,46,1,109.7,2310.0,https://www.cliente0177.com.br,Antes
+PRJ-0178,CLI-0044,Moda e Varejo,Landing Page,WP-02,2025-02-02,2025-03-14,20,40,1,30.7,1020.0,https://www.cliente0178.com.br,Antes
+PRJ-0179,CLI-0060,Moda e Varejo,Blog / Portal,WP-10,2025-02-03,2025-03-28,35,53,2,79.7,2610.0,https://www.cliente0179.com.br,Antes
+PRJ-0180,CLI-0208,Academias e Fitness,Landing Page,WP-08,2025-02-08,2025-03-07,20,27,1,34.9,940.0,https://www.cliente0180.com.br,Antes
+PRJ-0181,CLI-0236,Saúde e Clínicas,Landing Page,WP-03,2025-02-08,2025-03-02,20,22,0,39.4,1010.0,https://www.cliente0181.com.br,Antes
+PRJ-0182,CLI-0278,Moda e Varejo,Portfólio,WP-16,2025-02-17,2025-03-24,32,35,1,75.1,1750.0,https://www.cliente0182.com.br,Antes
+PRJ-0183,CLI-0088,Imobiliárias,Loja Virtual (WooCommerce),WP-32,2025-02-22,2025-04-20,60,57,0,187.7,5670.0,https://www.cliente0183.com.br,Antes
+PRJ-0184,CLI-0217,Moda e Varejo,Institucional,WP-12,2025-02-24,2025-04-15,38,50,1,122.8,2480.0,https://www.cliente0184.com.br,Antes
+PRJ-0185,CLI-0131,Academias e Fitness,Portfólio,WP-06,2025-03-01,2025-04-18,32,48,2,46.1,2330.0,https://www.cliente0185.com.br,Antes
+PRJ-0186,CLI-0048,Educação e Cursos,Loja Virtual (WooCommerce),WP-28,2025-03-06,2025-05-16,60,71,4,183.0,4540.0,https://www.cliente0186.com.br,Antes
+PRJ-0187,CLI-0407,Restaurantes e Delivery,Landing Page,WP-10,2025-03-08,2025-05-03,20,56,3,53.6,1130.0,https://www.cliente0187.com.br,Antes
+PRJ-0188,CLI-0369,Saúde e Clínicas,Catálogo de Produtos,WP-34,2025-03-14,2025-05-05,45,52,2,128.0,2960.0,https://www.cliente0188.com.br,Antes
+PRJ-0189,CLI-0221,Academias e Fitness,Landing Page,WP-01,2025-03-17,2025-04-22,20,36,2,47.4,1170.0,https://www.cliente0189.com.br,Antes
+PRJ-0190,CLI-0226,Restaurantes e Delivery,Catálogo de Produtos,WP-29,2025-03-18,2025-04-28,45,41,1,109.1,3570.0,https://www.cliente0190.com.br,Antes
+PRJ-0191,CLI-0373,Educação e Cursos,Landing Page,WP-16,2025-03-20,2025-04-22,20,33,2,31.5,970.0,https://www.cliente0191.com.br,Antes
+PRJ-0192,CLI-0301,Moda e Varejo,Loja Virtual (WooCommerce),WP-34,2025-03-20,2025-05-14,60,55,1,138.6,4520.0,https://www.cliente0192.com.br,Antes
+PRJ-0193,CLI-0135,Tecnologia e SaaS,Loja Virtual (WooCommerce),WP-29,2025-03-25,2025-05-21,60,57,3,137.6,5220.0,https://www.cliente0193.com.br,Antes
+PRJ-0194,CLI-0398,Contabilidade,Loja Virtual (WooCommerce),WP-35,2025-03-25,2025-05-13,60,49,0,158.4,4130.0,https://www.cliente0194.com.br,Antes
+PRJ-0195,CLI-0206,Beleza e Estética,Institucional,WP-03,2025-03-27,2025-05-18,38,52,0,115.7,2740.0,https://www.cliente0195.com.br,Antes
+PRJ-0196,CLI-0183,Advocacia,Institucional,WP-15,2025-04-03,2025-05-07,38,34,1,91.9,2830.0,https://www.cliente0196.com.br,Transição
+PRJ-0197,CLI-0279,Restaurantes e Delivery,Catálogo de Produtos,WP-27,2025-04-06,2025-05-13,45,37,2,49.7,2970.0,https://www.cliente0197.com.br,Transição
+PRJ-0198,CLI-0191,Restaurantes e Delivery,Catálogo de Produtos,WP-25,2025-04-12,2025-06-05,45,54,1,102.2,2790.0,https://www.cliente0198.com.br,Transição
+PRJ-0199,CLI-0236,Saúde e Clínicas,Institucional,WP-08,2025-04-14,2025-05-18,38,34,1,82.7,3190.0,https://www.cliente0199.com.br,Transição
+PRJ-0200,CLI-0407,Restaurantes e Delivery,Loja Virtual (WooCommerce),WP-26,2025-04-14,2025-06-19,60,66,5,156.1,5360.0,https://www.cliente0200.com.br,Transição
+PRJ-0201,CLI-0146,Tecnologia e SaaS,Loja Virtual (WooCommerce),WP-25,2025-04-15,2025-06-21,60,67,1,193.1,4730.0,https://www.cliente0201.com.br,Transição
+PRJ-0202,CLI-0303,Restaurantes e Delivery,Landing Page,WP-17,2025-04-20,2025-06-03,20,44,2,47.7,1330.0,https://www.cliente0202.com.br,Transição
+PRJ-0203,CLI-0288,Beleza e Estética,Landing Page,WP-17,2025-04-21,2025-05-24,20,33,2,35.0,1000.0,https://www.cliente0203.com.br,Transição
+PRJ-0204,CLI-0353,Tecnologia e SaaS,Institucional,WP-01,2025-04-24,2025-05-31,38,37,1,84.1,2370.0,https://www.cliente0204.com.br,Transição
+PRJ-0205,CLI-0387,Educação e Cursos,Landing Page,WP-12,2025-05-04,2025-06-13,20,40,2,33.7,1070.0,https://www.cliente0205.com.br,Transição
+PRJ-0206,CLI-0178,Moda e Varejo,Institucional,WP-14,2025-05-05,2025-06-29,38,55,2,132.9,2910.0,https://www.cliente0206.com.br,Transição
+PRJ-0207,CLI-0116,Academias e Fitness,Institucional,WP-07,2025-05-06,2025-06-06,38,31,0,70.3,2930.0,https://www.cliente0207.com.br,Transição
+PRJ-0208,CLI-0068,Educação e Cursos,Landing Page,WP-19,2025-05-06,2025-06-13,20,38,3,27.6,1210.0,https://www.cliente0208.com.br,Transição
+PRJ-0209,CLI-0089,Restaurantes e Delivery,Loja Virtual (WooCommerce),WP-25,2025-05-13,2025-07-21,60,69,3,208.7,5160.0,https://www.cliente0209.com.br,Transição
+PRJ-0210,CLI-0363,Beleza e Estética,Blog / Portal,WP-13,2025-05-18,2025-06-30,35,43,1,63.1,1950.0,https://www.cliente0210.com.br,Transição
+PRJ-0211,CLI-0336,Moda e Varejo,Landing Page,WP-23,2025-05-19,2025-07-16,20,58,6,44.5,1090.0,https://www.cliente0211.com.br,Transição
+PRJ-0212,CLI-0184,Tecnologia e SaaS,Institucional,WP-06,2025-05-26,2025-07-14,38,49,4,73.3,3150.0,https://www.cliente0212.com.br,Transição
+PRJ-0213,CLI-0386,Restaurantes e Delivery,Catálogo de Produtos,WP-30,2025-06-01,2025-07-06,45,35,1,92.6,3130.0,https://www.cliente0213.com.br,Transição
+PRJ-0214,CLI-0158,Advocacia,Catálogo de Produtos,WP-28,2025-06-07,2025-07-22,45,45,2,109.9,3860.0,https://www.cliente0214.com.br,Transição
+PRJ-0215,CLI-0380,Academias e Fitness,Blog / Portal,WP-07,2025-06-12,2025-08-04,35,53,2,67.6,2450.0,https://www.cliente0215.com.br,Transição
+PRJ-0216,CLI-0144,Moda e Varejo,Loja Virtual (WooCommerce),WP-25,2025-06-12,2025-08-14,60,63,1,200.0,4860.0,https://www.cliente0216.com.br,Transição
+PRJ-0217,CLI-0104,Imobiliárias,Landing Page,WP-03,2025-06-12,2025-07-22,20,40,0,47.7,1390.0,https://www.cliente0217.com.br,Transição
+PRJ-0218,CLI-0022,Imobiliárias,Catálogo de Produtos,WP-36,2025-06-14,2025-07-22,45,38,1,90.2,3320.0,https://www.cliente0218.com.br,Transição
+PRJ-0219,CLI-0135,Tecnologia e SaaS,Institucional,WP-20,2025-06-17,2025-08-06,38,50,1,123.6,2230.0,https://www.cliente0219.com.br,Transição
+PRJ-0220,CLI-0180,Imobiliárias,Landing Page,WP-09,2025-06-19,2025-07-24,20,35,1,39.3,1250.0,https://www.cliente0220.com.br,Transição
+PRJ-0221,CLI-0059,Imobiliárias,Catálogo de Produtos,WP-29,2025-06-24,2025-08-10,45,47,0,146.1,2890.0,https://www.cliente0221.com.br,Transição
+PRJ-0222,CLI-0030,Advocacia,Blog / Portal,WP-12,2025-06-25,2025-08-22,35,58,4,132.0,2250.0,https://www.cliente0222.com.br,Transição
+PRJ-0223,CLI-0407,Restaurantes e Delivery,Institucional,WP-04,2025-06-25,2025-08-13,38,49,2,97.7,2570.0,https://www.cliente0223.com.br,Transição
+PRJ-0224,CLI-0181,Contabilidade,Landing Page,WP-05,2025-06-26,2025-07-31,20,35,1,46.6,1150.0,https://www.cliente0224.com.br,Transição
+PRJ-0225,CLI-0319,Beleza e Estética,Institucional,WP-14,2025-06-27,2025-08-04,38,38,0,116.8,3060.0,https://www.cliente0225.com.br,Transição
+PRJ-0226,CLI-0372,Tecnologia e SaaS,Institucional,WP-13,2025-07-13,2025-08-12,38,30,0,68.6,2310.0,https://www.cliente0226.com.br,Depois
+PRJ-0227,CLI-0075,Advocacia,Institucional,WP-05,2025-08-05,2025-09-06,38,32,0,72.5,2640.0,https://www.cliente0227.com.br,Depois
+PRJ-0228,CLI-0070,Educação e Cursos,Institucional,WP-22,2025-08-06,2025-09-07,38,32,0,67.3,2340.0,https://www.cliente0228.com.br,Depois
+PRJ-0229,CLI-0403,Tecnologia e SaaS,Loja Virtual (WooCommerce),WP-32,2025-08-09,2025-09-14,60,36,0,116.8,5250.0,https://www.cliente0229.com.br,Depois
+PRJ-0230,CLI-0240,Educação e Cursos,Institucional,WP-15,2025-08-11,2025-09-11,38,31,1,64.1,2300.0,https://www.cliente0230.com.br,Depois
+PRJ-0231,CLI-0165,Imobiliárias,Institucional,WP-22,2025-08-12,2025-09-06,38,25,0,56.7,3090.0,https://www.cliente0231.com.br,Depois
+PRJ-0232,CLI-0315,Saúde e Clínicas,Portfólio,WP-08,2025-08-13,2025-09-08,32,26,0,43.0,1800.0,https://www.cliente0232.com.br,Depois
+PRJ-0233,CLI-0247,Saúde e Clínicas,Institucional,WP-08,2025-08-13,2025-09-17,38,35,0,74.4,2990.0,https://www.cliente0233.com.br,Depois
+PRJ-0234,CLI-0290,Advocacia,Blog / Portal,WP-15,2025-08-16,2025-09-18,35,33,0,59.4,1840.0,https://www.cliente0234.com.br,Depois
+PRJ-0235,CLI-0172,Moda e Varejo,Blog / Portal,WP-15,2025-08-16,2025-09-21,35,36,2,55.2,2020.0,https://www.cliente0235.com.br,Depois
+PRJ-0236,CLI-0337,Contabilidade,Institucional,WP-15,2025-08-21,2025-09-23,38,33,0,68.8,2510.0,https://www.cliente0236.com.br,Depois
+PRJ-0237,CLI-0299,Saúde e Clínicas,Blog / Portal,WP-15,2025-08-24,2025-09-29,35,36,1,56.7,2100.0,https://www.cliente0237.com.br,Depois
+PRJ-0238,CLI-0362,Imobiliárias,Portfólio,WP-05,2025-08-24,2025-10-03,32,40,1,62.5,2300.0,https://www.cliente0238.com.br,Depois
+PRJ-0239,CLI-0039,Imobiliárias,Landing Page,WP-15,2025-09-02,2025-09-28,20,26,0,24.4,1170.0,https://www.cliente0239.com.br,Depois
+PRJ-0240,CLI-0211,Tecnologia e SaaS,Institucional,WP-05,2025-09-03,2025-10-09,38,36,1,81.5,2250.0,https://www.cliente0240.com.br,Depois
+PRJ-0241,CLI-0349,Advocacia,Blog / Portal,WP-22,2025-09-07,2025-10-04,35,27,0,51.1,2710.0,https://www.cliente0241.com.br,Depois
+PRJ-0242,CLI-0116,Academias e Fitness,Landing Page,WP-22,2025-09-07,2025-10-02,20,25,1,20.2,1130.0,https://www.cliente0242.com.br,Depois
+PRJ-0243,CLI-0398,Contabilidade,Institucional,WP-22,2025-09-08,2025-09-30,38,22,0,39.4,3240.0,https://www.cliente0243.com.br,Depois
+PRJ-0244,CLI-0047,Moda e Varejo,Institucional,WP-06,2025-09-15,2025-10-24,38,39,4,54.2,2970.0,https://www.cliente0244.com.br,Depois
+PRJ-0245,CLI-0308,Educação e Cursos,Institucional,WP-22,2025-09-15,2025-10-19,38,34,2,52.1,2880.0,https://www.cliente0245.com.br,Depois
+PRJ-0246,CLI-0069,Restaurantes e Delivery,Institucional,WP-22,2025-09-18,2025-10-17,38,29,0,64.8,2770.0,https://www.cliente0246.com.br,Depois
+PRJ-0247,CLI-0214,Restaurantes e Delivery,Blog / Portal,WP-22,2025-09-21,2025-10-16,35,25,1,34.6,1940.0,https://www.cliente0247.com.br,Depois
+PRJ-0248,CLI-0301,Moda e Varejo,Loja Virtual (WooCommerce),WP-27,2025-09-23,2025-11-01,60,39,1,131.9,5340.0,https://www.cliente0248.com.br,Depois
+PRJ-0249,CLI-0250,Saúde e Clínicas,Landing Page,WP-08,2025-09-27,2025-11-04,20,38,4,26.0,1080.0,https://www.cliente0249.com.br,Depois
+PRJ-0250,CLI-0281,Moda e Varejo,Loja Virtual (WooCommerce),WP-32,2025-09-28,2025-11-06,60,39,0,140.2,4890.0,https://www.cliente0250.com.br,Depois
+PRJ-0251,CLI-0357,Academias e Fitness,Loja Virtual (WooCommerce),WP-27,2025-10-02,2025-11-14,60,43,1,84.6,5650.0,https://www.cliente0251.com.br,Depois
+PRJ-0252,CLI-0322,Academias e Fitness,Institucional,WP-05,2025-10-04,2025-11-09,38,36,0,82.3,3120.0,https://www.cliente0252.com.br,Depois
+PRJ-0253,CLI-0233,Saúde e Clínicas,Institucional,WP-15,2025-10-12,2025-11-09,38,28,0,59.0,3260.0,https://www.cliente0253.com.br,Depois
+PRJ-0254,CLI-0112,Saúde e Clínicas,Institucional,WP-08,2025-10-14,2025-11-10,38,27,0,57.5,3270.0,https://www.cliente0254.com.br,Depois
+PRJ-0255,CLI-0337,Contabilidade,Institucional,WP-22,2025-10-15,2025-11-14,38,30,1,48.5,2910.0,https://www.cliente0255.com.br,Depois
+PRJ-0256,CLI-0326,Beleza e Estética,Loja Virtual (WooCommerce),WP-27,2025-10-17,2025-11-19,60,33,0,88.9,4130.0,https://www.cliente0256.com.br,Depois
+PRJ-0257,CLI-0373,Educação e Cursos,Landing Page,WP-15,2025-10-25,2025-11-17,20,23,0,29.1,1030.0,https://www.cliente0257.com.br,Depois
+PRJ-0258,CLI-0181,Contabilidade,Blog / Portal,WP-05,2025-11-07,2025-12-04,35,27,0,73.7,2250.0,https://www.cliente0258.com.br,Depois
+PRJ-0259,CLI-0294,Beleza e Estética,Portfólio,WP-05,2025-11-10,2025-12-23,32,43,1,67.0,1620.0,https://www.cliente0259.com.br,Depois
+PRJ-0260,CLI-0312,Educação e Cursos,Loja Virtual (WooCommerce),WP-29,2025-11-14,2025-12-22,60,38,0,117.6,5890.0,https://www.cliente0260.com.br,Depois
+PRJ-0261,CLI-0055,Restaurantes e Delivery,Landing Page,WP-22,2025-11-20,2025-12-09,20,19,0,22.9,940.0,https://www.cliente0261.com.br,Depois
+PRJ-0262,CLI-0087,Moda e Varejo,Institucional,WP-06,2025-11-25,2025-12-25,38,30,0,66.0,2330.0,https://www.cliente0262.com.br,Depois
+PRJ-0263,CLI-0374,Beleza e Estética,Loja Virtual (WooCommerce),WP-32,2025-12-02,2026-01-18,60,47,1,147.9,6050.0,https://www.cliente0263.com.br,Depois
+PRJ-0264,CLI-0346,Tecnologia e SaaS,Blog / Portal,WP-13,2025-12-03,2025-12-30,35,27,1,46.3,2630.0,https://www.cliente0264.com.br,Depois
+PRJ-0265,CLI-0297,Advocacia,Institucional,WP-15,2025-12-09,2026-01-09,38,31,0,63.1,2780.0,https://www.cliente0265.com.br,Depois
+PRJ-0266,CLI-0020,Contabilidade,Portfólio,WP-15,2025-12-14,2026-01-09,32,26,0,43.4,1710.0,https://www.cliente0266.com.br,Depois
+PRJ-0267,CLI-0363,Beleza e Estética,Blog / Portal,WP-11,2025-12-14,2026-01-08,35,25,0,66.6,2440.0,https://www.cliente0267.com.br,Depois
+PRJ-0268,CLI-0356,Restaurantes e Delivery,Loja Virtual (WooCommerce),WP-29,2025-12-19,2026-01-28,60,40,0,133.0,5430.0,https://www.cliente0268.com.br,Depois
+PRJ-0269,CLI-0159,Advocacia,Landing Page,WP-05,2025-12-19,2026-01-15,20,27,0,24.5,1140.0,https://www.cliente0269.com.br,Depois
+PRJ-0270,CLI-0207,Academias e Fitness,Institucional,WP-22,2025-12-25,2026-01-21,38,27,0,60.5,3220.0,https://www.cliente0270.com.br,Depois
+PRJ-0271,CLI-0109,Restaurantes e Delivery,Loja Virtual (WooCommerce),WP-29,2025-12-25,2026-02-15,60,52,1,131.7,4220.0,https://www.cliente0271.com.br,Depois
+PRJ-0272,CLI-0148,Tecnologia e SaaS,Blog / Portal,WP-15,2025-12-25,2026-01-20,35,26,0,54.9,2020.0,https://www.cliente0272.com.br,Depois
+PRJ-0273,CLI-0314,Imobiliárias,Institucional,WP-15,2026-01-05,2026-02-09,38,35,1,73.5,2430.0,https://www.cliente0273.com.br,Depois
+PRJ-0274,CLI-0184,Tecnologia e SaaS,Catálogo de Produtos,WP-27,2026-01-05,2026-02-08,45,34,1,52.0,3430.0,https://www.cliente0274.com.br,Depois
+PRJ-0275,CLI-0371,Saúde e Clínicas,Catálogo de Produtos,WP-29,2026-01-05,2026-02-09,45,35,1,87.7,2830.0,https://www.cliente0275.com.br,Depois
+PRJ-0276,CLI-0285,Educação e Cursos,Blog / Portal,WP-15,2026-01-06,2026-02-03,35,28,1,51.2,2250.0,https://www.cliente0276.com.br,Depois
+PRJ-0277,CLI-0366,Academias e Fitness,Institucional,WP-15,2026-01-09,2026-02-09,38,31,0,49.6,2450.0,https://www.cliente0277.com.br,Depois
+PRJ-0278,CLI-0202,Imobiliárias,Blog / Portal,WP-05,2026-01-10,2026-02-09,35,30,0,53.4,2740.0,https://www.cliente0278.com.br,Depois
+PRJ-0279,CLI-0196,Imobiliárias,Landing Page,WP-05,2026-01-20,2026-02-22,20,33,2,28.6,1090.0,https://www.cliente0279.com.br,Depois
+PRJ-0280,CLI-0261,Contabilidade,Blog / Portal,WP-05,2026-01-25,2026-03-05,35,39,0,81.5,2120.0,https://www.cliente0280.com.br,Depois
+PRJ-0281,CLI-0150,Moda e Varejo,Landing Page,WP-06,2026-01-27,2026-02-21,20,25,0,22.1,1170.0,https://www.cliente0281.com.br,Depois
+PRJ-0282,CLI-0063,Contabilidade,Landing Page,WP-22,2026-02-06,2026-02-25,20,19,0,22.7,940.0,https://www.cliente0282.com.br,Depois
+PRJ-0283,CLI-0378,Advocacia,Institucional,WP-05,2026-02-07,2026-03-08,38,29,0,72.1,3270.0,https://www.cliente0283.com.br,Depois
+PRJ-0284,CLI-0325,Imobiliárias,Portfólio,WP-15,2026-02-11,2026-03-12,32,29,0,43.9,2030.0,https://www.cliente0284.com.br,Depois
+PRJ-0285,CLI-0031,Educação e Cursos,Landing Page,WP-05,2026-02-13,2026-03-11,20,26,1,33.1,1160.0,https://www.cliente0285.com.br,Depois
+PRJ-0286,CLI-0188,Tecnologia e SaaS,Institucional,WP-15,2026-02-19,2026-03-27,38,36,1,52.5,2200.0,https://www.cliente0286.com.br,Depois
+PRJ-0287,CLI-0023,Tecnologia e SaaS,Catálogo de Produtos,WP-29,2026-02-20,2026-03-30,45,38,0,82.0,4030.0,https://www.cliente0287.com.br,Depois
+PRJ-0288,CLI-0305,Contabilidade,Blog / Portal,WP-05,2026-02-23,2026-03-26,35,31,0,67.9,1990.0,https://www.cliente0288.com.br,Depois
+PRJ-0289,CLI-0135,Tecnologia e SaaS,Institucional,WP-13,2026-02-23,2026-03-31,38,36,1,74.4,2700.0,https://www.cliente0289.com.br,Depois
+PRJ-0290,CLI-0355,Advocacia,Landing Page,WP-15,2026-02-23,2026-03-22,20,27,1,32.9,1060.0,https://www.cliente0290.com.br,Depois
+PRJ-0291,CLI-0142,Moda e Varejo,Landing Page,WP-06,2026-02-25,2026-04-04,20,38,2,28.6,1310.0,https://www.cliente0291.com.br,Depois
+PRJ-0292,CLI-0261,Contabilidade,Institucional,WP-05,2026-03-08,2026-04-09,38,32,1,78.3,3220.0,https://www.cliente0292.com.br,Depois
+PRJ-0293,CLI-0152,Imobiliárias,Landing Page,WP-05,2026-03-08,2026-04-03,20,26,0,25.2,1220.0,https://www.cliente0293.com.br,Depois
+PRJ-0294,CLI-0107,Educação e Cursos,Landing Page,WP-05,2026-03-09,2026-04-11,20,33,2,36.7,1070.0,https://www.cliente0294.com.br,Depois
+PRJ-0295,CLI-0377,Moda e Varejo,Landing Page,WP-06,2026-03-09,2026-04-01,20,23,0,19.2,1290.0,https://www.cliente0295.com.br,Depois
+PRJ-0296,CLI-0138,Moda e Varejo,Landing Page,WP-05,2026-03-10,2026-04-12,20,33,2,23.0,980.0,https://www.cliente0296.com.br,Depois
+PRJ-0297,CLI-0262,Restaurantes e Delivery,Institucional,WP-22,2026-03-22,2026-04-24,38,33,1,69.2,2850.0,https://www.cliente0297.com.br,Depois
+PRJ-0298,CLI-0125,Saúde e Clínicas,Institucional,WP-15,2026-03-24,2026-04-20,38,27,0,66.4,2920.0,https://www.cliente0298.com.br,Depois
+PRJ-0299,CLI-0092,Restaurantes e Delivery,Institucional,WP-15,2026-03-26,2026-04-27,38,32,1,90.0,2600.0,https://www.cliente0299.com.br,Depois
+PRJ-0300,CLI-0153,Advocacia,Loja Virtual (WooCommerce),WP-32,2026-03-26,2026-05-06,60,41,0,110.0,4300.0,https://www.cliente0300.com.br,Depois
+PRJ-0301,CLI-0372,Tecnologia e SaaS,Institucional,WP-05,2026-03-28,2026-04-28,38,31,0,97.5,2230.0,https://www.cliente0301.com.br,Depois
+PRJ-0302,CLI-0036,Saúde e Clínicas,Landing Page,WP-05,2026-04-02,2026-04-29,20,27,0,39.2,1080.0,https://www.cliente0302.com.br,Depois
+PRJ-0303,CLI-0306,Imobiliárias,Landing Page,WP-15,2026-04-05,2026-05-05,20,30,1,31.0,1330.0,https://www.cliente0303.com.br,Depois
+PRJ-0304,CLI-0358,Restaurantes e Delivery,Institucional,WP-22,2026-04-23,2026-05-25,38,32,0,49.3,2430.0,https://www.cliente0304.com.br,Depois
+PRJ-0305,CLI-0002,Restaurantes e Delivery,Loja Virtual (WooCommerce),WP-29,2026-04-23,2026-06-06,60,44,1,152.5,5400.0,https://www.cliente0305.com.br,Depois
+PRJ-0306,CLI-0375,Moda e Varejo,Catálogo de Produtos,WP-27,2026-04-27,2026-05-27,45,30,1,49.5,3450.0,https://www.cliente0306.com.br,Depois
+PRJ-0307,CLI-0022,Imobiliárias,Loja Virtual (WooCommerce),WP-27,2026-04-28,2026-06-06,60,39,0,80.7,4430.0,https://www.cliente0307.com.br,Depois
+PRJ-0308,CLI-0253,Advocacia,Landing Page,WP-15,2026-05-02,2026-06-07,20,36,2,22.4,980.0,https://www.cliente0308.com.br,Depois
+PRJ-0309,CLI-0156,Moda e Varejo,Blog / Portal,WP-06,2026-05-04,2026-06-01,35,28,0,45.2,2740.0,https://www.cliente0309.com.br,Depois
+PRJ-0310,CLI-0297,Advocacia,Portfólio,WP-05,2026-05-05,2026-06-07,32,33,1,62.6,2130.0,https://www.cliente0310.com.br,Depois
+PRJ-0311,CLI-0222,Moda e Varejo,Loja Virtual (WooCommerce),WP-27,2026-05-07,2026-06-11,60,35,0,99.9,5300.0,https://www.cliente0311.com.br,Depois
+PRJ-0312,CLI-0025,Beleza e Estética,Landing Page,WP-22,2026-05-09,2026-05-31,20,22,0,33.4,950.0,https://www.cliente0312.com.br,Depois
+PRJ-0313,CLI-0108,Educação e Cursos,Landing Page,WP-15,2026-05-12,2026-06-12,20,31,2,26.7,1400.0,https://www.cliente0313.com.br,Depois
+PRJ-0314,CLI-0266,Restaurantes e Delivery,Institucional,WP-22,2026-05-13,2026-06-06,38,24,0,44.5,3120.0,https://www.cliente0314.com.br,Depois
+PRJ-0315,CLI-0362,Imobiliárias,Institucional,WP-05,2026-05-16,2026-06-15,38,30,1,48.1,2590.0,https://www.cliente0315.com.br,Depois
+PRJ-0316,CLI-0128,Saúde e Clínicas,Landing Page,WP-05,2026-05-23,2026-06-19,20,27,1,29.0,1050.0,https://www.cliente0316.com.br,Depois
+PRJ-0317,CLI-0205,Contabilidade,Loja Virtual (WooCommerce),WP-27,2026-05-27,2026-07-03,60,37,1,79.9,3990.0,https://www.cliente0317.com.br,Depois
+PRJ-0318,CLI-0223,Advocacia,Institucional,WP-22,2026-05-27,2026-07-02,38,36,1,60.8,2160.0,https://www.cliente0318.com.br,Depois
+PRJ-0319,CLI-0400,Imobiliárias,Landing Page,WP-22,2026-06-01,2026-06-26,20,25,0,32.2,1340.0,https://www.cliente0319.com.br,Depois
+PRJ-0320,CLI-0308,Educação e Cursos,Landing Page,WP-22,2026-06-01,2026-06-30,20,29,0,27.4,1040.0,https://www.cliente0320.com.br,Depois
+PRJ-0321,CLI-0052,Educação e Cursos,Institucional,WP-05,2026-06-07,2026-07-06,38,29,0,82.6,2450.0,https://www.cliente0321.com.br,Depois
+PRJ-0322,CLI-0327,Moda e Varejo,Landing Page,WP-06,2026-06-08,2026-07-13,20,35,2,22.2,1130.0,https://www.cliente0322.com.br,Depois
+PRJ-0323,CLI-0374,Beleza e Estética,Blog / Portal,WP-11,2026-06-14,2026-07-15,35,31,0,80.3,2230.0,https://www.cliente0323.com.br,Depois
+PRJ-0324,CLI-0207,Academias e Fitness,Catálogo de Produtos,WP-32,2026-06-16,2026-07-19,45,33,1,90.7,2860.0,https://www.cliente0324.com.br,Depois
+PRJ-0325,CLI-0397,Tecnologia e SaaS,Institucional,WP-13,2026-06-16,2026-07-27,38,41,1,66.3,2590.0,https://www.cliente0325.com.br,Depois
+PRJ-0326,CLI-0408,Saúde e Clínicas,Catálogo de Produtos,WP-27,2026-06-19,2026-07-23,45,34,1,77.8,4120.0,https://www.cliente0326.com.br,Depois
+PRJ-0327,CLI-0076,Advocacia,Loja Virtual (WooCommerce),WP-32,2026-06-24,2026-07-29,60,35,0,126.5,4100.0,https://www.cliente0327.com.br,Depois
+PRJ-0328,CLI-0299,Saúde e Clínicas,Loja Virtual (WooCommerce),WP-32,2026-06-25,2026-08-09,60,45,2,147.1,6010.0,https://www.cliente0328.com.br,Depois
+PRJ-0329,CLI-0190,Contabilidade,Landing Page,WP-15,2026-06-25,2026-07-20,20,25,0,27.9,1240.0,https://www.cliente0329.com.br,Depois
+PRJ-0330,CLI-0326,Beleza e Estética,Catálogo de Produtos,WP-27,2026-06-25,2026-07-27,45,32,2,66.5,3760.0,https://www.cliente0330.com.br,Depois
+PRJ-0331,CLI-0400,Imobiliárias,Landing Page,WP-22,2026-06-26,2026-07-17,20,21,0,18.6,1400.0,https://www.cliente0331.com.br,Depois
+PRJ-0332,CLI-0255,Beleza e Estética,Institucional,WP-11,2026-06-26,2026-08-02,38,37,2,67.5,2530.0,https://www.cliente0332.com.br,Depois
+PRJ-0333,CLI-0039,Imobiliárias,Landing Page,WP-15,2026-06-27,2026-07-21,20,24,1,25.9,1160.0,https://www.cliente0333.com.br,Depois
+PRJ-0334,CLI-0407,Restaurantes e Delivery,Blog / Portal,WP-22,2026-07-01,2026-08-01,35,31,1,44.3,2200.0,https://www.cliente0334.com.br,Depois
+PRJ-0335,CLI-0273,Moda e Varejo,Loja Virtual (WooCommerce),WP-29,2026-07-02,2026-08-11,60,40,0,134.1,5290.0,https://www.cliente0335.com.br,Depois
+PRJ-0336,CLI-0060,Moda e Varejo,Blog / Portal,WP-06,2026-07-06,2026-08-04,35,29,0,44.5,2760.0,https://www.cliente0336.com.br,Depois
+PRJ-0337,CLI-0286,Educação e Cursos,Landing Page,WP-05,2026-07-07,2026-07-30,20,23,1,33.9,1060.0,https://www.cliente0337.com.br,Depois
+PRJ-0338,CLI-0237,Contabilidade,Loja Virtual (WooCommerce),WP-27,2026-07-08,2026-08-15,60,38,2,88.6,5270.0,https://www.cliente0338.com.br,Depois
+PRJ-0339,CLI-0138,Moda e Varejo,Catálogo de Produtos,WP-32,2026-07-10,2026-08-13,45,34,0,81.3,4000.0,https://www.cliente0339.com.br,Depois
+PRJ-0340,CLI-0061,Tecnologia e SaaS,Institucional,WP-05,2026-07-14,2026-08-16,38,33,0,85.5,2870.0,https://www.cliente0340.com.br,Depois
+PRJ-0341,CLI-0084,Academias e Fitness,Landing Page,WP-05,2026-07-15,2026-08-10,20,26,0,29.1,1380.0,https://www.cliente0341.com.br,Depois
+PRJ-0342,CLI-0097,Saúde e Clínicas,Portfólio,WP-22,2026-07-15,2026-08-13,32,29,2,26.4,2030.0,https://www.cliente0342.com.br,Depois
+PRJ-0343,CLI-0055,Restaurantes e Delivery,Blog / Portal,WP-22,2026-07-17,2026-08-10,35,24,1,54.1,2580.0,https://www.cliente0343.com.br,Depois
+PRJ-0344,CLI-0294,Beleza e Estética,Catálogo de Produtos,WP-29,2026-07-18,2026-08-18,45,31,0,68.0,3300.0,https://www.cliente0344.com.br,Depois
+PRJ-0345,CLI-0181,Contabilidade,Loja Virtual (WooCommerce),WP-29,2026-07-19,2026-09-04,60,47,2,107.5,5770.0,https://www.cliente0345.com.br,Depois
+PRJ-0346,CLI-0091,Beleza e Estética,Blog / Portal,WP-11,2026-07-21,2026-08-18,35,28,0,62.5,1950.0,https://www.cliente0346.com.br,Depois
+PRJ-0347,CLI-0369,Saúde e Clínicas,Institucional,WP-22,2026-07-22,2026-08-21,38,30,1,37.0,2180.0,https://www.cliente0347.com.br,Depois
+PRJ-0348,CLI-0350,Restaurantes e Delivery,Landing Page,WP-22,2026-07-24,2026-08-14,20,21,0,25.8,1380.0,https://www.cliente0348.com.br,Depois
+PRJ-0349,CLI-0131,Academias e Fitness,Institucional,WP-22,2026-07-24,2026-08-22,38,29,1,44.3,2760.0,https://www.cliente0349.com.br,Depois
+PRJ-0350,CLI-0022,Imobiliárias,Blog / Portal,WP-15,2026-07-26,2026-08-30,35,35,0,52.1,2800.0,https://www.cliente0350.com.br,Depois
+PRJ-0351,CLI-0199,Moda e Varejo,Institucional,WP-06,2026-08-04,2026-08-28,38,24,0,56.3,2230.0,https://www.cliente0351.com.br,Depois
+PRJ-0352,CLI-0068,Educação e Cursos,Loja Virtual (WooCommerce),WP-32,2026-08-22,2026-10-03,60,42,1,125.2,4520.0,https://www.cliente0352.com.br,Depois
+PRJ-0353,CLI-0152,Imobiliárias,Institucional,WP-05,2026-08-25,2026-10-05,38,41,2,67.1,2170.0,https://www.cliente0353.com.br,Depois
+PRJ-0354,CLI-0407,Restaurantes e Delivery,Catálogo de Produtos,WP-29,2026-09-02,2026-10-03,45,31,0,86.8,3320.0,https://www.cliente0354.com.br,Depois
+PRJ-0355,CLI-0067,Advocacia,Loja Virtual (WooCommerce),WP-32,2026-09-03,2026-10-09,60,36,0,104.9,4820.0,https://www.cliente0355.com.br,Depois
+PRJ-0356,CLI-0357,Academias e Fitness,Blog / Portal,WP-15,2026-09-04,2026-09-29,35,25,0,35.7,2630.0,https://www.cliente0356.com.br,Depois
+PRJ-0357,CLI-0178,Moda e Varejo,Blog / Portal,WP-06,2026-09-06,2026-10-06,35,30,1,44.8,2500.0,https://www.cliente0357.com.br,Depois
+PRJ-0358,CLI-0385,Contabilidade,Landing Page,WP-22,2026-09-07,2026-10-05,20,28,0,31.5,1250.0,https://www.cliente0358.com.br,Depois
+PRJ-0359,CLI-0122,Moda e Varejo,Institucional,WP-06,2026-09-09,2026-10-06,38,27,0,57.6,2980.0,https://www.cliente0359.com.br,Depois
+PRJ-0360,CLI-0122,Moda e Varejo,Landing Page,WP-06,2026-09-24,2026-10-23,20,29,1,19.8,920.0,https://www.cliente0360.com.br,Depois
+PRJ-0361,CLI-0227,Imobiliárias,Landing Page,WP-22,2026-09-25,2026-10-16,20,21,0,27.5,1240.0,https://www.cliente0361.com.br,Depois
+PRJ-0362,CLI-0390,Saúde e Clínicas,Landing Page,WP-08,2026-09-26,2026-10-20,20,24,0,27.2,1060.0,https://www.cliente0362.com.br,Depois

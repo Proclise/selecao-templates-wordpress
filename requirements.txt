@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+jupyter>=1.0
+nbformat>=5.9
+# opcional, para extração real do GA4:
+# google-analytics-data>=0.18

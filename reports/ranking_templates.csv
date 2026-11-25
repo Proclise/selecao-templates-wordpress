@@ -1,0 +1,25 @@
+template_id,projetos,dias_medios,tempo_relativo,retrabalho_medio,pct_no_prazo,sessoes,conversoes,taxa_conversao,lift_conversao,n_lift_conversao,n_tempo_relativo,n_retrabalho_medio,n_pct_no_prazo,score,nome_template,tema_base,page_builder,familia,nicho_alvo,posicao,catalogo
+WP-32,6,48.5,0.9563,1.1667,0.6667,47330,1101,0.0233,1.3111,0.9775,0.5393,0.5926,0.6667,74.1701,Flatsome Modern Advocacia,Flatsome,UX Builder,WooCommerce,Advocacia,1,Sim
+WP-22,8,29.75,0.7738,0.25,0.125,45472,1356,0.0298,1.0727,0.6045,1.0,1.0,0.125,71.0568,Astra Clean Restaurantes,Astra,Elementor,Geral,Restaurantes e Delivery,2,Sim
+WP-15,8,37.5,0.8623,0.625,0.5,51782,958,0.0185,1.0254,0.5306,0.7765,0.8333,0.5,64.521,Neve Minimal Saúde,Neve,Gutenberg,Geral,Saúde e Clínicas,3,Sim
+WP-05,7,41.7143,1.0403,1.2857,0.1429,40109,1112,0.0277,1.3255,1.0,0.3275,0.5397,0.1429,60.0637,GeneratePress Clean Tecnologia,GeneratePress,Gutenberg,Geral,Tecnologia e SaaS,4,Sim
+WP-11,6,41.3333,0.9583,0.8333,0.3333,47436,1063,0.0224,1.0664,0.5947,0.5345,0.7407,0.3333,55.935,Blocksy Bold Beleza,Blocksy,Gutenberg,Geral,Beleza e Estética,5,Sim
+WP-27,6,45.3333,0.812,2.0,1.0,45502,626,0.0138,0.7962,0.1722,0.9036,0.2222,1.0,52.3286,Hello Elementor Corporate Contabilidade,Hello Elementor,Elementor,WooCommerce,Contabilidade,6,Sim
+WP-13,6,37.8333,0.8827,1.0,0.0,28709,514,0.0179,0.9947,0.4825,0.7251,0.6667,0.0,51.0556,Kadence Corporate Tecnologia,Kadence,Gutenberg,Geral,Tecnologia e SaaS,7,Sim
+WP-08,7,37.5714,0.8719,1.2857,0.4286,24197,383,0.0158,0.9071,0.3456,0.7523,0.5397,0.4286,50.9189,Astra Corporate Saúde,Astra,Elementor,Geral,Saúde e Clínicas,8,Sim
+WP-29,6,55.8333,1.0412,2.5,0.5,50630,1117,0.0221,1.2131,0.8243,0.3253,0.0,0.5,50.2303,Flatsome Prime Restaurantes,Flatsome,UX Builder,WooCommerce,Restaurantes e Delivery,9,Sim
+WP-06,7,42.7143,1.0057,1.7143,0.1429,40277,881,0.0219,1.1574,0.7371,0.4148,0.3492,0.1429,49.3077,Neve Classic Moda,Neve,Gutenberg,Geral,Moda e Varejo,10,Sim
+WP-03,7,39.8571,0.9383,1.0,0.1429,46100,953,0.0207,0.979,0.458,0.5848,0.6667,0.1429,48.0077,OceanWP Clean Restaurantes,OceanWP,Elementor,Geral,Restaurantes e Delivery,11,Não
+WP-26,6,53.0,0.9978,1.3333,0.3333,35249,593,0.0168,0.9818,0.4624,0.4347,0.5185,0.3333,44.3142,Flatsome Clean Tecnologia,Flatsome,UX Builder,WooCommerce,Tecnologia e SaaS,12,Não
+WP-35,7,60.7143,1.1137,1.2857,0.4286,44959,881,0.0196,1.0805,0.6169,0.1424,0.5397,0.4286,43.4698,Flatsome Prime Educação,Flatsome,UX Builder,WooCommerce,Educação e Cursos,13,Não
+WP-20,7,42.5714,1.0444,1.4286,0.1429,28958,830,0.0287,1.0719,0.6034,0.3171,0.4762,0.1429,42.9358,GeneratePress Corporate Imobiliárias,GeneratePress,Gutenberg,Geral,Imobiliárias,14,Não
+WP-18,8,41.875,1.0822,1.5,0.125,40428,1378,0.0341,1.114,0.6692,0.2217,0.4444,0.125,41.9627,Neve Prime Contabilidade,Neve,Gutenberg,Geral,Contabilidade,15,Não
+WP-17,6,41.8333,0.9824,1.5,0.1667,33318,712,0.0214,0.9757,0.4528,0.4735,0.4444,0.1667,41.4856,Blocksy Minimal Moda,Blocksy,Gutenberg,Geral,Moda e Varejo,16,Não
+WP-09,5,39.8,0.9681,1.4,0.0,24896,425,0.0171,0.9255,0.3744,0.5096,0.4889,0.0,37.5954,OceanWP Classic Educação,OceanWP,Elementor,Geral,Educação e Cursos,17,Não
+WP-02,8,43.0,1.0332,1.5,0.25,57995,883,0.0152,0.8935,0.3243,0.3454,0.4444,0.25,33.7483,OceanWP Modern Tecnologia,OceanWP,Elementor,Geral,Tecnologia e SaaS,18,Não
+WP-25,5,58.6,1.0229,1.4,0.4,29365,409,0.0139,0.8102,0.194,0.3715,0.4889,0.4,32.2367,Astra Modern Imobiliárias,Astra,Elementor,WooCommerce,Imobiliárias,19,Não
+WP-19,9,41.2222,0.9968,1.6667,0.1111,45311,747,0.0165,0.8567,0.2667,0.4371,0.3704,0.1111,31.0044,Astra Fresh Restaurantes,Astra,Elementor,Geral,Restaurantes e Delivery,20,Não
+WP-21,5,40.0,1.0317,1.6,0.0,27156,623,0.0229,0.9123,0.3537,0.3493,0.4,0.0,30.6276,Blocksy Clean Imobiliárias,Blocksy,Gutenberg,Geral,Imobiliárias,21,Não
+WP-12,8,48.625,1.1095,1.5,0.0,39439,654,0.0166,0.9556,0.4215,0.1529,0.4444,0.0,28.1126,Avada Minimal Educação,Avada,WPBakery,Geral,Educação e Cursos,22,Não
+WP-16,5,42.0,1.0107,2.2,0.0,34383,506,0.0147,0.8279,0.2218,0.4021,0.1333,0.0,22.9341,Divi Classic Moda,Divi,Divi Builder,Geral,Moda e Varejo,23,Não
+WP-10,10,48.0,1.1701,2.3,0.0,51757,768,0.0148,0.6862,0.0,0.0,0.0889,0.0,1.3333,Avada Classic Tecnologia,Avada,WPBakery,Geral,Tecnologia e SaaS,24,Não

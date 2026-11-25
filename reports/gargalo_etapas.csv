@@ -1,0 +1,8 @@
+etapa,dias_antes,dias_depois,cv_antes,reducao_dias,pct_da_reducao_total
+Briefing,3.426,3.336,0.282,0.09,0.007
+Escolha de layout,6.564,1.701,0.649,4.863,0.367
+Design e aprovação,8.718,5.883,0.434,2.835,0.214
+Desenvolvimento,14.015,9.912,0.525,4.103,0.31
+Conteúdo,5.938,5.409,0.533,0.53,0.04
+QA e ajustes,5.138,4.307,0.223,0.832,0.063
+Publicação,1.0,1.0,0.0,0.0,0.0

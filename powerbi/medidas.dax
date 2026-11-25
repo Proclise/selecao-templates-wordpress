@@ -1,0 +1,100 @@
+// =============================================================================
+// Medidas DAX do relatório "Seleção de Templates WordPress"
+// Crie uma tabela vazia chamada _Medidas e cole cada medida abaixo.
+// Modelo: fato_projetos, fato_etapas, fato_ga4_paginas + dimensões (ver powerbi/README.md)
+// =============================================================================
+
+// ---------------------------------------------------------------- Projetos --
+Projetos =
+COUNTROWS ( fato_projetos )
+
+Dias Médios de Entrega =
+AVERAGE ( fato_projetos[dias_entrega] )
+
+Dias Médios - Antes =
+CALCULATE ( [Dias Médios de Entrega], fato_projetos[periodo] = "Antes" )
+
+Dias Médios - Depois =
+CALCULATE ( [Dias Médios de Entrega], fato_projetos[periodo] = "Depois" )
+
+Redução do Prazo % =
+DIVIDE ( [Dias Médios - Antes] - [Dias Médios - Depois], [Dias Médios - Antes] )
+
+% Entregas no Prazo =
+DIVIDE (
+    COUNTROWS ( FILTER ( fato_projetos, fato_projetos[dias_entrega] <= fato_projetos[prazo_planejado_dias] ) ),
+    [Projetos]
+)
+
+Retrabalho Médio =
+AVERAGE ( fato_projetos[rodadas_retrabalho] )
+
+Dias Médios (Média Móvel 3M) =
+VAR _datas = DATESINPERIOD ( dim_calendario[data], MAX ( dim_calendario[data] ), -3, MONTH )
+RETURN CALCULATE ( [Dias Médios de Entrega], _datas )
+
+// ------------------------------------------------------------------ Etapas --
+Dias Médios na Etapa =
+AVERAGE ( fato_etapas[dias] )
+
+% do Ciclo =
+DIVIDE ( SUM ( fato_etapas[dias] ), CALCULATE ( SUM ( fato_etapas[dias] ), ALL ( fato_etapas[etapa] ) ) )
+
+// --------------------------------------------------------------------- GA4 --
+Sessões =
+SUM ( fato_ga4_paginas[sessoes] )
+
+Conversões =
+SUM ( fato_ga4_paginas[conversoes] )
+
+Taxa de Conversão =
+DIVIDE ( [Conversões], [Sessões] )
+
+Taxa de Conversão - Antes =
+CALCULATE ( [Taxa de Conversão], fato_projetos[periodo] = "Antes" )
+
+Taxa de Conversão - Depois =
+CALCULATE ( [Taxa de Conversão], fato_projetos[periodo] = "Depois" )
+
+Variação da Conversão % =
+DIVIDE ( [Taxa de Conversão - Depois], [Taxa de Conversão - Antes] ) - 1
+
+Taxa de Engajamento =
+DIVIDE ( SUM ( fato_ga4_paginas[sessoes_engajadas] ), [Sessões] )
+
+// Benchmark: taxa do mesmo nicho e tipo de página, ignorando o template
+Taxa Benchmark Nicho x Página =
+CALCULATE (
+    [Taxa de Conversão],
+    REMOVEFILTERS ( dim_templates ),
+    fato_projetos[periodo] = "Antes"
+)
+
+Conversões Esperadas =
+SUMX (
+    SUMMARIZE ( fato_ga4_paginas, dim_nichos[nicho], fato_ga4_paginas[tipo_pagina] ),
+    CALCULATE ( [Sessões] ) * [Taxa Benchmark Nicho x Página]
+)
+
+Lift de Conversão =
+DIVIDE ( [Conversões], [Conversões Esperadas] )
+
+// ----------------------------------------------------------------- Ranking --
+// Score aproximado no Power BI. O cálculo oficial (min-max) fica em src/ranking.py
+// e é importado pronto em reports/ranking_templates.csv (tabela ranking_templates).
+Score Template =
+MAX ( ranking_templates[score] )
+
+Posição no Ranking =
+RANKX ( ALL ( dim_templates[template_id] ), [Score Template], , DESC, DENSE )
+
+É Top 10 =
+IF ( SELECTEDVALUE ( dim_templates[no_catalogo_padrao] ) = "Sim", "Catálogo padrão", "Fora do catálogo" )
+
+// ------------------------------------------------------------ Formatação --
+Cor Variação Prazo =
+IF ( [Redução do Prazo %] > 0, "#2a78d6", "#eb6834" )
+
+Título Dinâmico =
+"Tempo médio: " & FORMAT ( [Dias Médios de Entrega], "0.0" ) & " dias  |  Conversão: "
+    & FORMAT ( [Taxa de Conversão], "0.00%" )

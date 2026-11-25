@@ -1,0 +1,7 @@
+tipo_site,familia_template,prazo_planejado_dias,paginas_padrao
+Institucional,Geral,38,"Home, Serviços, Sobre, Contato"
+Landing Page,Geral,20,Landing Page
+Loja Virtual (WooCommerce),WooCommerce,60,"Home, Categoria, Produto, Checkout"
+Blog / Portal,Geral,35,"Home, Post de Blog, Contato"
+Portfólio,Geral,32,"Home, Portfólio, Contato"
+Catálogo de Produtos,WooCommerce,45,"Home, Categoria, Produto, Contato"

@@ -1,0 +1,60 @@
+nicho,tipo_site,projetos_antes,projetos_depois,dias_antes,dias_depois,conv_antes_pct,conv_depois_pct
+Academias e Fitness,Blog / Portal,2,1,49.0,25.0,0.9,1.55
+Academias e Fitness,Catálogo de Produtos,1,1,48.0,33.0,1.91,2.18
+Academias e Fitness,Institucional,2,4,42.5,30.8,2.45,1.98
+Academias e Fitness,Landing Page,4,2,32.3,25.5,4.25,4.02
+Academias e Fitness,Loja Virtual (WooCommerce),1,1,62.0,43.0,1.59,1.12
+Academias e Fitness,Portfólio,2,0,49.5,,1.74,
+Advocacia,Blog / Portal,2,2,54.5,30.0,1.45,1.14
+Advocacia,Catálogo de Produtos,1,0,46.0,,2.27,
+Advocacia,Institucional,4,4,38.8,32.0,1.92,2.56
+Advocacia,Landing Page,5,3,36.8,30.0,3.77,4.88
+Advocacia,Loja Virtual (WooCommerce),1,3,46.0,37.3,1.85,2.02
+Advocacia,Portfólio,2,1,44.0,33.0,2.4,2.33
+Beleza e Estética,Blog / Portal,2,3,39.0,28.0,1.23,1.75
+Beleza e Estética,Catálogo de Produtos,0,2,,31.5,,2.0
+Beleza e Estética,Institucional,5,1,47.4,37.0,1.95,2.58
+Beleza e Estética,Landing Page,3,1,40.7,22.0,2.98,5.22
+Beleza e Estética,Loja Virtual (WooCommerce),5,2,63.4,40.0,2.2,2.06
+Beleza e Estética,Portfólio,3,1,44.0,43.0,1.86,2.05
+Contabilidade,Blog / Portal,5,3,43.6,32.3,1.39,1.72
+Contabilidade,Catálogo de Produtos,2,0,49.5,,1.48,
+Contabilidade,Institucional,2,4,35.0,29.3,2.36,1.97
+Contabilidade,Landing Page,2,3,41.0,24.0,4.31,4.19
+Contabilidade,Loja Virtual (WooCommerce),3,3,57.3,40.7,1.62,1.73
+Contabilidade,Portfólio,1,1,33.0,26.0,2.14,1.07
+Educação e Cursos,Blog / Portal,2,1,44.0,28.0,1.47,0.87
+Educação e Cursos,Catálogo de Produtos,4,0,41.8,,1.53,
+Educação e Cursos,Institucional,3,4,44.7,31.5,1.79,2.03
+Educação e Cursos,Landing Page,2,6,41.0,27.5,3.23,3.28
+Educação e Cursos,Loja Virtual (WooCommerce),4,2,61.3,40.0,1.67,1.83
+Educação e Cursos,Portfólio,5,0,36.2,,1.55,
+Imobiliárias,Blog / Portal,3,2,39.7,32.5,0.85,1.1
+Imobiliárias,Catálogo de Produtos,3,0,49.3,,1.44,
+Imobiliárias,Institucional,4,4,46.8,32.8,1.55,1.45
+Imobiliárias,Landing Page,7,8,34.4,25.8,3.62,3.31
+Imobiliárias,Loja Virtual (WooCommerce),5,1,57.8,39.0,1.56,1.74
+Imobiliárias,Portfólio,1,2,35.0,34.5,1.59,1.91
+Moda e Varejo,Blog / Portal,4,4,44.0,30.8,1.11,1.31
+Moda e Varejo,Catálogo de Produtos,2,2,48.0,32.0,1.97,1.64
+Moda e Varejo,Institucional,10,4,44.4,30.0,1.91,2.38
+Moda e Varejo,Landing Page,5,6,40.2,30.5,3.58,4.04
+Moda e Varejo,Loja Virtual (WooCommerce),1,4,55.0,38.3,2.08,1.65
+Moda e Varejo,Portfólio,4,0,37.8,,1.36,
+Restaurantes e Delivery,Blog / Portal,0,3,,26.7,,1.78
+Restaurantes e Delivery,Catálogo de Produtos,3,1,46.3,31.0,2.36,1.86
+Restaurantes e Delivery,Institucional,9,5,42.3,30.0,2.05,2.35
+Restaurantes e Delivery,Landing Page,2,2,41.5,20.0,3.83,5.26
+Restaurantes e Delivery,Loja Virtual (WooCommerce),1,3,73.0,45.3,1.73,2.16
+Restaurantes e Delivery,Portfólio,1,0,41.0,,2.09,
+Saúde e Clínicas,Blog / Portal,6,1,46.7,36.0,1.51,1.32
+Saúde e Clínicas,Catálogo de Produtos,6,2,47.7,34.5,1.99,1.76
+Saúde e Clínicas,Institucional,11,5,46.7,29.4,2.02,1.95
+Saúde e Clínicas,Landing Page,12,4,34.9,29.0,4.05,5.17
+Saúde e Clínicas,Loja Virtual (WooCommerce),6,1,55.3,45.0,1.78,2.75
+Saúde e Clínicas,Portfólio,1,2,40.0,27.5,1.82,1.92
+Tecnologia e SaaS,Blog / Portal,3,2,47.7,26.5,1.03,1.15
+Tecnologia e SaaS,Catálogo de Produtos,0,2,,36.0,,1.63
+Tecnologia e SaaS,Institucional,1,7,48.0,34.7,1.25,2.33
+Tecnologia e SaaS,Landing Page,2,0,31.0,,3.97,
+Tecnologia e SaaS,Loja Virtual (WooCommerce),2,1,73.5,36.0,1.36,1.74

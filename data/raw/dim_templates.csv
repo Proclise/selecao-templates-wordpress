@@ -1,0 +1,37 @@
+template_id,nome_template,tema_base,page_builder,familia,nicho_alvo,data_cadastro,no_catalogo_padrao
+WP-01,Neve Fresh Academias,Neve,Gutenberg,Geral,Academias e Fitness,2021-05-08,Não
+WP-02,OceanWP Modern Tecnologia,OceanWP,Elementor,Geral,Tecnologia e SaaS,2021-10-17,Não
+WP-03,OceanWP Clean Restaurantes,OceanWP,Elementor,Geral,Restaurantes e Delivery,2021-06-05,Não
+WP-04,Avada Prime Educação,Avada,WPBakery,Geral,Educação e Cursos,2021-12-21,Não
+WP-05,GeneratePress Clean Tecnologia,GeneratePress,Gutenberg,Geral,Tecnologia e SaaS,2021-12-07,Sim
+WP-06,Neve Classic Moda,Neve,Gutenberg,Geral,Moda e Varejo,2021-02-22,Sim
+WP-07,Blocksy Prime Contabilidade,Blocksy,Gutenberg,Geral,Contabilidade,2021-11-27,Não
+WP-08,Astra Corporate Saúde,Astra,Elementor,Geral,Saúde e Clínicas,2021-02-28,Sim
+WP-09,OceanWP Classic Educação,OceanWP,Elementor,Geral,Educação e Cursos,2022-09-10,Não
+WP-10,Avada Classic Tecnologia,Avada,WPBakery,Geral,Tecnologia e SaaS,2021-04-25,Não
+WP-11,Blocksy Bold Beleza,Blocksy,Gutenberg,Geral,Beleza e Estética,2022-08-17,Sim
+WP-12,Avada Minimal Educação,Avada,WPBakery,Geral,Educação e Cursos,2022-03-10,Não
+WP-13,Kadence Corporate Tecnologia,Kadence,Gutenberg,Geral,Tecnologia e SaaS,2021-10-27,Sim
+WP-14,OceanWP Bold Imobiliárias,OceanWP,Elementor,Geral,Imobiliárias,2021-09-12,Não
+WP-15,Neve Minimal Saúde,Neve,Gutenberg,Geral,Saúde e Clínicas,2022-04-05,Sim
+WP-16,Divi Classic Moda,Divi,Divi Builder,Geral,Moda e Varejo,2022-04-09,Não
+WP-17,Blocksy Minimal Moda,Blocksy,Gutenberg,Geral,Moda e Varejo,2021-12-27,Não
+WP-18,Neve Prime Contabilidade,Neve,Gutenberg,Geral,Contabilidade,2021-07-26,Não
+WP-19,Astra Fresh Restaurantes,Astra,Elementor,Geral,Restaurantes e Delivery,2021-07-09,Não
+WP-20,GeneratePress Corporate Imobiliárias,GeneratePress,Gutenberg,Geral,Imobiliárias,2021-07-16,Não
+WP-21,Blocksy Clean Imobiliárias,Blocksy,Gutenberg,Geral,Imobiliárias,2021-11-09,Não
+WP-22,Astra Clean Restaurantes,Astra,Elementor,Geral,Restaurantes e Delivery,2021-08-14,Sim
+WP-23,Avada Bold Imobiliárias,Avada,WPBakery,Geral,Imobiliárias,2022-05-07,Não
+WP-24,Divi Fresh Educação,Divi,Divi Builder,Geral,Educação e Cursos,2022-08-06,Não
+WP-25,Astra Modern Imobiliárias,Astra,Elementor,WooCommerce,Imobiliárias,2022-02-13,Não
+WP-26,Flatsome Clean Tecnologia,Flatsome,UX Builder,WooCommerce,Tecnologia e SaaS,2021-07-22,Não
+WP-27,Hello Elementor Corporate Contabilidade,Hello Elementor,Elementor,WooCommerce,Contabilidade,2021-07-01,Sim
+WP-28,Flatsome Bold Educação,Flatsome,UX Builder,WooCommerce,Educação e Cursos,2022-11-11,Não
+WP-29,Flatsome Prime Restaurantes,Flatsome,UX Builder,WooCommerce,Restaurantes e Delivery,2021-04-10,Sim
+WP-30,Flatsome Classic Contabilidade,Flatsome,UX Builder,WooCommerce,Contabilidade,2022-09-29,Não
+WP-31,OceanWP Bold Saúde,OceanWP,Elementor,WooCommerce,Saúde e Clínicas,2022-02-17,Não
+WP-32,Flatsome Modern Advocacia,Flatsome,UX Builder,WooCommerce,Advocacia,2021-10-07,Sim
+WP-33,Blocksy Fresh Beleza,Blocksy,Gutenberg,WooCommerce,Beleza e Estética,2022-07-25,Não
+WP-34,Flatsome Fresh Imobiliárias,Flatsome,UX Builder,WooCommerce,Imobiliárias,2021-06-04,Não
+WP-35,Flatsome Prime Educação,Flatsome,UX Builder,WooCommerce,Educação e Cursos,2022-04-20,Não
+WP-36,Flatsome Corporate Academias,Flatsome,UX Builder,WooCommerce,Academias e Fitness,2021-12-11,Não
