@@ -1,6 +1,7 @@
 # Post para o LinkedIn
 
 > **Imagens sugeridas (carrossel):** `powerbi/previews/pagina1_visao_geral.png` → `reports/figures/02_gargalo_etapas.png` →
+> `excel/preview_dashboard_excel.png` →
 > `powerbi/previews/pagina2_ranking_templates.png` → `reports/figures/07_matriz_nicho_tipo.png`.
 > Coloque o link do GitHub no primeiro comentário.
 
@@ -18,7 +19,9 @@ O resultado eram dias de escolha, várias rodadas de aprovação e retrabalho.
 • Consolidei o histórico de projetos com **SQL** em um banco centralizado (modelo estrela)
 • Integrei os dados do **Google Analytics 4** por nicho, tipo de site e tipo de página
 • Criei um score de desempenho para cada template: conversão comparada ao benchmark do nicho, prazo, retrabalho e entrega no prazo
-• Construí **dashboards no Power BI** para ranquear e padronizar os **10 templates de maior desempenho**
+• Validei a proposta com um **teste piloto de 30 dias**: um A/B em 12 sites (GA4) e projetos Teste × Controle
+• Apresentei o resultado do teste à gestão em um **dashboard em Excel**: +11% de conversão (estatisticamente significativo) e prazo 32% menor
+• Com a aprovação, construí **dashboards no Power BI** para ranquear e padronizar os **10 templates de maior desempenho**
 • Montei uma matriz nicho × tipo de site e um fluxo documentado para a equipe
 
 📊 Resultados:
@@ -27,14 +30,15 @@ O resultado eram dias de escolha, várias rodadas de aprovação e retrabalho.
 ✅ Entregas no prazo passaram de 26% para 69%
 ✅ Retrabalho de layout caiu 59%
 
-💡 Aprendizado: o template mais bonito nem sempre é o melhor. Os templates mais leves e pensados para um nicho específico
+💡 Aprendizado 1: testar antes de padronizar. Os 30 dias de piloto transformaram uma hipótese em uma decisão fácil de aprovar.
+💡 Aprendizado 2: o template mais bonito nem sempre é o melhor. Os templates mais leves e pensados para um nicho específico
 entregaram mais rápido **e** converteram mais. E padronizar não engessou a criatividade: o tempo que ia para a escolha do layout passou a ir para a personalização.
 
-Disponibilizei no GitHub uma versão do projeto com dados simulados: banco SQL, consultas, notebook em Python, medidas DAX e o layout do dashboard. Link nos comentários 👇
+Disponibilizei no GitHub uma versão do projeto com dados simulados: banco SQL, consultas, notebook em Python, o dashboard Excel do piloto, medidas DAX e o layout do Power BI. Link nos comentários 👇
 
 Qual critério você usa para escolher layouts na sua equipe?
 
-#AnaliseDeDados #PowerBI #SQL #GoogleAnalytics #WordPress #DataAnalytics #Python #WebDesign #MelhoriaDeProcessos
+#AnaliseDeDados #PowerBI #Excel #SQL #GoogleAnalytics #TesteAB #WordPress #DataAnalytics #Python #MelhoriaDeProcessos
 
 ---
 
@@ -46,7 +50,7 @@ Para rodar tudo: `python src/pipeline.py`
 
 ## Versão curta (para a seção "Projetos" ou "Experiência" do perfil)
 Identifiquei um gargalo no prazo de entrega de sites causado pela falta de critérios na escolha de layouts. Consolidei e analisei
-o histórico de projetos integrando dados via SQL e Google Analytics (nicho, tipo de página e conversão). Construí dashboards no
-Power BI para ranquear e padronizar os 10 templates de maior desempenho, estruturando um banco de dados centralizado e um fluxo
+o histórico de projetos integrando dados via SQL e Google Analytics (nicho, tipo de página e conversão). Conduzi um teste piloto
+de 30 dias e apresentei o resultado em dashboard no Excel. Construí dashboards no Power BI para ranquear e padronizar os 10 templates de maior desempenho, estruturando um banco de dados centralizado e um fluxo
 documentado para a equipe. **Resultados:** redução de 30% no tempo médio de entrega e aumento de 10% na taxa de conversão (de 2% para 2,2%).
-*Competências: SQL · Power BI · Google Analytics 4 · Python · Modelagem de dados · Melhoria de processos*
+*Competências: SQL · Power BI · Excel · Google Analytics 4 · Teste A/B · Python · Modelagem de dados · Melhoria de processos*

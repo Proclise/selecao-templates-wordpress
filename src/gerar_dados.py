@@ -86,16 +86,24 @@ def _datas_inicio(rng, ini, fim, por_mes):
     return sorted(datas)
 
 
-def _simular_projetos(rng, datas, clientes, templates, fase, catalogo=None, id_ini=1):
+def _simular_projetos(rng, datas, clientes, templates, fase, catalogo=None, id_ini=1, fixos=None):
+    """fixos: DataFrame (projeto_id, cliente_id, tipo_site, data_inicio) para re-simular projetos existentes."""
     tipos = list(C.TIPOS_SITE)
     pesos_tipo = np.array([v[0] for v in C.TIPOS_SITE.values()])
     tpl = templates.set_index("template_id")
     proj, etapas = [], []
 
+    cli_idx = clientes.set_index("cliente_id", drop=False)
+    if fixos is not None:
+        datas = list(fixos["data_inicio"])
     for k, data_ini in enumerate(datas):
-        pid = f"PRJ-{id_ini + k:04d}"
-        cli = clientes.iloc[rng.integers(len(clientes))]
-        tipo = rng.choice(tipos, p=pesos_tipo / pesos_tipo.sum())
+        if fixos is not None:
+            fx = fixos.iloc[k]
+            pid, cli, tipo = fx["projeto_id"], cli_idx.loc[fx["cliente_id"]], fx["tipo_site"]
+        else:
+            pid = f"PRJ-{id_ini + k:04d}"
+            cli = clientes.iloc[rng.integers(len(clientes))]
+            tipo = rng.choice(tipos, p=pesos_tipo / pesos_tipo.sum())
         _, dev_base, prazo, familia = C.TIPOS_SITE[tipo]
         compat = templates[templates["familia"] == familia]
 
@@ -168,6 +176,60 @@ def _simular_ga4(rng, projetos, escala_conv=0.94):
     return pd.DataFrame(linhas)
 
 
+def _simular_piloto(rng, p1, e1, g1, clientes, templates, catalogo):
+    """
+    Teste piloto de 30 dias (01 a 30/jun/2025), com duas frentes:
+      1) Projetos iniciados na janela: alternados entre Controle (escolha livre) e Teste
+         (catálogo top 10 + fluxo documentado).
+      2) Teste A/B no GA4: 12 sites já publicados tiveram o tráfego das páginas principais dividido
+         50/50 entre o layout atual (A) e uma versão com o template do catálogo (B).
+    """
+    p1 = p1.copy()
+    janela = (p1["data_inicio"] >= C.PILOTO_INICIO) & (p1["data_inicio"] <= C.PILOTO_FIM)
+    idx = p1[janela].sort_values("data_inicio").index
+    p1["grupo_piloto"] = None
+    p1.loc[idx[0::2], "grupo_piloto"] = "Controle"
+    p1.loc[idx[1::2], "grupo_piloto"] = "Teste"
+
+    teste = p1.loc[idx[1::2], ["projeto_id", "cliente_id", "tipo_site", "data_inicio"]]
+    pt, et = _simular_projetos(rng, None, clientes, templates, "Depois", catalogo=catalogo, fixos=teste)
+    pt["grupo_piloto"] = "Teste"
+    gt = _simular_ga4(rng, pt)
+    ids = set(teste["projeto_id"])
+    p1 = pd.concat([p1[~p1["projeto_id"].isin(ids)], pt], ignore_index=True).sort_values("data_inicio")
+    e1 = pd.concat([e1[~e1["projeto_id"].isin(ids)], et], ignore_index=True)
+    g1 = pd.concat([g1[~g1["projeto_id"].isin(ids)], gt], ignore_index=True)
+
+    # ---- teste A/B ----
+    tpl = templates.set_index("template_id")
+    elegiveis = p1[(p1["data_entrega"] < C.PILOTO_INICIO - pd.Timedelta(days=60))
+                   & p1["tipo_site"].isin(["Institucional", "Landing Page", "Portfólio"])]
+    sites = elegiveis.sample(12, random_state=int(rng.integers(1_000_000)))
+    dias = pd.date_range(C.PILOTO_INICIO, C.PILOTO_FIM, freq="D")
+    linhas = []
+    for s in sites.itertuples():
+        cat = catalogo[catalogo["familia"] == "Geral"]
+        match = cat[cat["nicho_alvo"] == s.nicho]
+        tpl_b = (match if len(match) else cat).iloc[0]["template_id"]
+        base = 0.0196 * C.NICHOS[s.nicho][2] * rng.lognormal(0, 0.18)
+        uplift = 1.10 * rng.lognormal(0, 0.05)
+        trafego = rng.lognormal(np.log(150), 0.35)
+        for d in dias:
+            sazon = 0.7 if d.dayofweek >= 5 else 1.0
+            for var, tid, taxa in [("A", s.template_id, base), ("B", tpl_b, base * uplift)]:
+                sess = int(rng.poisson(trafego * sazon))
+                linhas.append({
+                    "data": d.date(), "projeto_id": s.projeto_id, "variante": var,
+                    "descricao_variante": "Layout atual" if var == "A" else "Template do catálogo",
+                    "template_id": tid, "sessoes": sess,
+                    "sessoes_engajadas": int(rng.binomial(sess, 0.55 if var == "A" else 0.58)),
+                    "conversoes": int(rng.binomial(sess, min(taxa, 0.9))),
+                })
+    ab = pd.DataFrame(linhas)
+    ab.insert(0, "teste_id", range(1, len(ab) + 1))
+    return p1, e1, g1, ab
+
+
 def gerar(seed: int = C.SEED):
     rng = np.random.default_rng(seed)
     templates = _templates(rng)
@@ -188,6 +250,10 @@ def gerar(seed: int = C.SEED):
     p2, e2 = _simular_projetos(rng, d_depois, clientes, templates, "Depois",
                                catalogo=catalogo, id_ini=len(p1) + 1)
     g2 = _simular_ga4(rng, p2)
+
+    # ---- teste piloto de 30 dias (jun/2025), com gerador próprio para não alterar o restante ----
+    rng_p = np.random.default_rng(seed + C.SEED_PILOTO)
+    p1, e1, g1, ab = _simular_piloto(rng_p, p1, e1, g1, clientes, templates, catalogo)
 
     projetos = pd.concat([p1, p2], ignore_index=True)
     projetos["periodo"] = C.periodo(projetos["data_inicio"])
@@ -216,6 +282,7 @@ def gerar(seed: int = C.SEED):
         "dim_templates": templates.drop(columns=["_conv", "_cx", "_rework"]),
         "dim_nichos": dim_nichos, "dim_tipos_site": dim_tipos, "dim_clientes": clientes,
         "dim_calendario": cal, "fato_projetos": projetos, "fato_etapas": etapas, "fato_ga4_paginas": ga,
+        "fato_teste_ab_ga4": ab,
     }
 
 

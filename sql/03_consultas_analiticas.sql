@@ -87,3 +87,17 @@ SELECT g.tipo_pagina,
 FROM fato_ga4_paginas g JOIN fato_projetos p ON p.projeto_id = g.projeto_id
 GROUP BY g.tipo_pagina
 ORDER BY conv_antes_pct DESC;
+
+-- Q9. Teste piloto de 30 dias: projetos Teste x Controle
+SELECT * FROM vw_piloto_projetos ORDER BY grupo_piloto DESC;
+
+-- Q10. Teste piloto de 30 dias: A/B de conversão por site
+SELECT a.projeto_id, p.nicho, p.tipo_site,
+       ROUND(100.0 * SUM(CASE WHEN a.variante = 'A' THEN a.conversoes END)
+                   / SUM(CASE WHEN a.variante = 'A' THEN a.sessoes END), 2) AS conv_A_pct,
+       ROUND(100.0 * SUM(CASE WHEN a.variante = 'B' THEN a.conversoes END)
+                   / SUM(CASE WHEN a.variante = 'B' THEN a.sessoes END), 2) AS conv_B_pct
+FROM fato_teste_ab_ga4 a
+JOIN fato_projetos p ON p.projeto_id = a.projeto_id
+GROUP BY a.projeto_id
+ORDER BY conv_B_pct - conv_A_pct DESC;

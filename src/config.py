@@ -13,11 +13,14 @@ REPORTS = RAIZ / "reports"
 FIG = REPORTS / "figures"
 
 SEED = 13
+SEED_PILOTO = 1022  # gerador separado do teste piloto
 
 # Linha do tempo do case
 INICIO_HISTORICO = pd.Timestamp("2023-01-01")
-INICIO_TRANSICAO = pd.Timestamp("2025-04-01")   # análise + construção dos dashboards
-INICIO_PADRONIZACAO = pd.Timestamp("2025-07-01")  # catálogo top 10 em produção
+INICIO_TRANSICAO = pd.Timestamp("2025-04-01")   # análise (abr–mai) + teste piloto (jun)
+PILOTO_INICIO = pd.Timestamp("2025-06-01")        # teste piloto de 30 dias
+PILOTO_FIM = pd.Timestamp("2025-06-30")
+INICIO_PADRONIZACAO = pd.Timestamp("2025-07-01")  # catálogo top 10 em produção (rollout)
 FIM_HISTORICO = pd.Timestamp("2026-10-31")
 
 NICHOS = {

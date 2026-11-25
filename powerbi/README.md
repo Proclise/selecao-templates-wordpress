@@ -1,5 +1,8 @@
 # 📊 Dashboard Power BI
 
+> O **teste piloto de 30 dias** (jun/2025) foi apresentado em Excel: veja [`../excel/`](../excel/).
+> O Power BI é o painel de **acompanhamento contínuo** criado após a aprovação do rollout.
+
 O arquivo `.pbix` é montado no Power BI Desktop (Windows) a partir dos arquivos desta pasta, em cerca de 1 hora.
 As imagens em `previews/` mostram o layout final de cada página.
 

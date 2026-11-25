@@ -82,13 +82,13 @@ def evolucao_prazo(proj: pd.DataFrame, ax=None, titulo=True):
         ax.text(fim, val - 2.2, f"{per}: {val:.1f} dias", ha="right", va="top", color=cor, fontsize=9.5,
                 fontweight="bold", bbox=dict(fc="white", ec="none", pad=1.5))
     ax.text(C.INICIO_TRANSICAO + pd.Timedelta(days=45), 22,
-            "Análise +\ndashboards", ha="center", fontsize=8.5, color=TEXTO_2)
+            "Análise +\npiloto 30d", ha="center", fontsize=8.5, color=TEXTO_2)
     ax.set_ylim(20, max(62, m.max() + 4))
     ax.set_ylabel("Dias até a entrega")
     ax.legend(loc="upper right", fontsize=9, ncols=2, bbox_to_anchor=(1, 1.0))
     if titulo:
         ax.set_title("Tempo médio de entrega dos projetos")
-        _sub(ax, "Mês da entrega; faixa cinza = período de transição (abr–jun/2025)")
+        _sub(ax, "Mês da entrega; faixa cinza = análise (abr–mai/25) + teste piloto de 30 dias (jun/25)")
     return fig
 
 
@@ -208,4 +208,24 @@ def distribuicao_prazo(proj: pd.DataFrame, ax=None, titulo=True):
     if titulo:
         ax.set_title("Distribuição do prazo de entrega")
         _sub(ax, "Prazos ficaram menores e mais previsíveis")
+    return fig
+
+
+def piloto_ab_acumulado(diario: pd.DataFrame, teste: dict, ax=None, titulo=True):
+    fig, ax, novo = _novo(ax, (8.5, 4.2))
+    ax.plot(diario.index, diario["taxa_A_acum"] * 100, color=CINZA, lw=2.2, label="A: layout atual")
+    ax.plot(diario.index, diario["taxa_B_acum"] * 100, color=AZUL, lw=2.2, label="B: template do catálogo")
+    for col, cor, nome in [("taxa_A_acum", TEXTO_2, "A"), ("taxa_B_acum", TEXTO, "B")]:
+        v = diario[col].iloc[-1] * 100
+        ax.text(diario.index[-1] + pd.Timedelta(days=0.6), v, f"{nome}: {v:.2f}%", va="center", fontsize=9.5,
+                color=cor, fontweight="bold")
+    ax.set_xlim(diario.index[0], diario.index[-1] + pd.Timedelta(days=4.5))
+    ax.set_ylim(1.5, 2.8)
+    ax.set_xticks(diario.index[::4])
+    ax.xaxis.set_major_formatter(plt.matplotlib.dates.DateFormatter("%d/%m"))
+    ax.set_ylabel("Conversão acumulada (%)")
+    ax.legend(loc="upper right", fontsize=9, ncols=2)
+    if titulo:
+        ax.set_title("Teste piloto de 30 dias: A/B de conversão no GA4")
+        _sub(ax, f"12 sites, 01–30/jun/2025 · lift {teste['lift']:+.1%} · p-valor {teste['p_valor']:.3f} (teste z unilateral)")
     return fig

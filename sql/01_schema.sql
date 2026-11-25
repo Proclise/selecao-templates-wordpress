@@ -4,6 +4,7 @@
 -- =============================================================================
 PRAGMA foreign_keys = ON;
 
+DROP TABLE IF EXISTS fato_teste_ab_ga4;
 DROP TABLE IF EXISTS fato_ga4_paginas;
 DROP TABLE IF EXISTS fato_etapas;
 DROP TABLE IF EXISTS fato_projetos;
@@ -69,7 +70,8 @@ CREATE TABLE fato_projetos (
     horas_desenvolvimento  REAL,
     valor_projeto_brl      REAL,
     url_site               TEXT,
-    periodo                TEXT NOT NULL CHECK (periodo IN ('Antes', 'Transição', 'Depois'))
+    periodo                TEXT NOT NULL CHECK (periodo IN ('Antes', 'Transição', 'Depois')),
+    grupo_piloto           TEXT CHECK (grupo_piloto IN ('Teste', 'Controle'))  -- teste de 30 dias (jun/2025)
 );
 
 CREATE TABLE fato_etapas (
@@ -92,6 +94,19 @@ CREATE TABLE fato_ga4_paginas (
     sessoes_engajadas          INTEGER,
     tempo_medio_engajamento_s  REAL,
     conversoes                 INTEGER NOT NULL      -- key events (lead, WhatsApp, compra)
+);
+
+-- Teste piloto de 30 dias: teste A/B diário (layout atual x template do catálogo) medido no GA4
+CREATE TABLE fato_teste_ab_ga4 (
+    teste_id            INTEGER PRIMARY KEY,
+    data                DATE NOT NULL,
+    projeto_id          TEXT NOT NULL REFERENCES fato_projetos(projeto_id),
+    variante            TEXT NOT NULL CHECK (variante IN ('A', 'B')),
+    descricao_variante  TEXT NOT NULL,
+    template_id         TEXT NOT NULL REFERENCES dim_templates(template_id),
+    sessoes             INTEGER NOT NULL,
+    sessoes_engajadas   INTEGER,
+    conversoes          INTEGER NOT NULL
 );
 
 CREATE INDEX ix_proj_template ON fato_projetos(template_id);

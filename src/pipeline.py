@@ -53,13 +53,22 @@ def main():
     G.salvar(G.ranking_top10(top), "06_ranking_top10.png")
     G.salvar(G.matriz_nicho_tipo(proj, rec), "07_matriz_nicho_tipo.png")
 
-    print("5/5 Gerando prévias do dashboard Power BI")
+    print("5/5 Gerando prévias do dashboard Power BI e o dashboard Excel do teste piloto")
+    import dashboard_excel
     import dashboard_preview
     dashboard_preview.gerar(proj, ga, garg, rank, top, rec, resumo, var)
+    dashboard_excel.construir()
+    piloto = A.piloto_projetos()
+    _, ab, diario = A.piloto_ab()
+    piloto.to_csv(C.REPORTS / "piloto_projetos.csv")
+    diario.to_csv(C.REPORTS / "piloto_ab_diario.csv")
+    G.salvar(G.piloto_ab_acumulado(diario, ab), "08_piloto_ab_acumulado.png")
 
     print("\nResultado:")
     print(resumo[["projetos", "dias_medios_entrega", "pct_no_prazo", "retrabalho_medio", "taxa_conversao_pct"]])
     print(f"Redução do prazo: {-var['dias_medios_entrega']:.1%} | Lift de conversão: {var['taxa_conversao_pct']:.1%}")
+    print(f"Piloto 30 dias -> A/B: {ab['taxa_A']:.2%} -> {ab['taxa_B']:.2%} (lift {ab['lift']:+.1%}, p={ab['p_valor']:.3f}) | "
+          f"prazo Controle {piloto.loc['Controle', 'dias_medios_entrega']} x Teste {piloto.loc['Teste', 'dias_medios_entrega']} dias")
     print(f"p-valor prazo (Mann-Whitney): {testes['p_valor_prazo']:.2e} | "
           f"IC95% lift conversão: {testes['ic95_lift'][0]:.1%} a {testes['ic95_lift'][1]:.1%}")
 

@@ -88,3 +88,31 @@ def matriz_recomendacao(top: pd.DataFrame) -> pd.DataFrame:
             linhas.append({"nicho": nicho, "tipo_site": tipo, "template_id": esc.template_id,
                            "nome_template": esc.nome_template, "criterio": "Nicho-alvo" if len(match) else "Maior score da família"})
     return pd.DataFrame(linhas)
+
+
+# ------------------------------------------------------------- teste piloto de 30 dias --
+def piloto_projetos() -> pd.DataFrame:
+    return ler("SELECT * FROM vw_piloto_projetos").set_index("grupo_piloto").loc[["Controle", "Teste"]]
+
+
+def piloto_ab() -> tuple[pd.DataFrame, dict, pd.DataFrame]:
+    """Resumo do A/B, teste z de duas proporções (unilateral, B > A) e série diária acumulada."""
+    from scipy.stats import norm
+    res = ler("SELECT * FROM vw_piloto_ab").set_index("variante")
+    a, b = res.loc["A"], res.loc["B"]
+    pa, pb = a.conversoes / a.sessoes, b.conversoes / b.sessoes
+    pp = (a.conversoes + b.conversoes) / (a.sessoes + b.sessoes)
+    ep = np.sqrt(pp * (1 - pp) * (1 / a.sessoes + 1 / b.sessoes))
+    z = (pb - pa) / ep
+    ep_dif = np.sqrt(pa * (1 - pa) / a.sessoes + pb * (1 - pb) / b.sessoes)
+    teste = {"taxa_A": pa, "taxa_B": pb, "lift": pb / pa - 1, "z": z, "p_valor": 1 - norm.cdf(z),
+             "ic95_dif_pp": ((pb - pa - 1.96 * ep_dif) * 100, (pb - pa + 1.96 * ep_dif) * 100)}
+    d = ler("SELECT data, variante, SUM(sessoes) s, SUM(conversoes) c FROM fato_teste_ab_ga4 GROUP BY data, variante")
+    d = d.pivot(index="data", columns="variante", values=["s", "c"])
+    diario = pd.DataFrame({
+        "taxa_A_dia": d[("c", "A")] / d[("s", "A")], "taxa_B_dia": d[("c", "B")] / d[("s", "B")],
+        "taxa_A_acum": d[("c", "A")].cumsum() / d[("s", "A")].cumsum(),
+        "taxa_B_acum": d[("c", "B")].cumsum() / d[("s", "B")].cumsum(),
+    })
+    diario.index = pd.to_datetime(diario.index)
+    return res, teste, diario

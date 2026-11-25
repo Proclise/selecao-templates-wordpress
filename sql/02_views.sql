@@ -52,3 +52,30 @@ FROM fato_ga4_paginas g
 JOIN fato_projetos p ON p.projeto_id = g.projeto_id
 WHERE p.periodo = 'Antes'
 GROUP BY p.nicho, g.tipo_pagina;
+
+-- Teste piloto de 30 dias: projetos (Teste x Controle)
+DROP VIEW IF EXISTS vw_piloto_projetos;
+CREATE VIEW vw_piloto_projetos AS
+SELECT p.grupo_piloto,
+       COUNT(DISTINCT p.projeto_id)               AS projetos,
+       ROUND(AVG(p.dias_entrega), 1)              AS dias_medios_entrega,
+       ROUND(AVG(p.rodadas_retrabalho), 2)        AS retrabalho_medio,
+       ROUND(AVG(CASE WHEN e.etapa = 'Escolha de layout' THEN e.dias END), 1) AS dias_escolha_layout,
+       ROUND(AVG(CASE WHEN e.etapa = 'Design e aprovação' THEN e.dias END), 1) AS dias_design_aprovacao
+FROM fato_projetos p
+JOIN fato_etapas e ON e.projeto_id = p.projeto_id
+WHERE p.grupo_piloto IS NOT NULL
+GROUP BY p.grupo_piloto;
+
+-- Teste piloto de 30 dias: A/B de conversão (GA4)
+DROP VIEW IF EXISTS vw_piloto_ab;
+CREATE VIEW vw_piloto_ab AS
+SELECT variante, descricao_variante,
+       COUNT(DISTINCT projeto_id) AS sites,
+       COUNT(DISTINCT data)       AS dias,
+       SUM(sessoes)               AS sessoes,
+       SUM(conversoes)            AS conversoes,
+       ROUND(100.0 * SUM(conversoes) / SUM(sessoes), 3) AS taxa_conversao_pct,
+       ROUND(100.0 * SUM(sessoes_engajadas) / SUM(sessoes), 1) AS taxa_engajamento_pct
+FROM fato_teste_ab_ga4
+GROUP BY variante, descricao_variante;

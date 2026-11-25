@@ -14,7 +14,7 @@ import pandas as pd
 import config as C
 
 ORDEM_CARGA = ["dim_nichos", "dim_tipos_site", "dim_templates", "dim_clientes", "dim_calendario",
-               "fato_projetos", "fato_etapas", "fato_ga4_paginas"]
+               "fato_projetos", "fato_etapas", "fato_ga4_paginas", "fato_teste_ab_ga4"]
 
 
 def criar_banco() -> None:

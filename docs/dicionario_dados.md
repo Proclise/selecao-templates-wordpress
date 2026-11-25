@@ -42,6 +42,7 @@ Banco: `data/agencia_templates.db` (SQLite) · CSVs: `data/raw/` · Schema: `sql
 | `valor_projeto_brl` | real | Valor do contrato |
 | `url_site` | texto | Domínio publicado (fictício) |
 | `periodo` | texto | `Antes` (< abr/25), `Transição` (abr–jun/25), `Depois` (≥ jul/25), pela data de início |
+| `grupo_piloto` | texto | `Teste` / `Controle` para os 13 projetos do teste piloto de 30 dias (jun/25); vazio nos demais |
 
 ### `fato_etapas` (2.534 linhas, 7 por projeto)
 `etapa_id`, `projeto_id`, `ordem_etapa`, `etapa` (Briefing → Escolha de layout → Design e aprovação → Desenvolvimento → Conteúdo → QA e ajustes → Publicação), `dias`.
@@ -58,6 +59,16 @@ Até 6 meses após a publicação, no formato da GA4 Data API.
 | `tempo_medio_engajamento_s` | `userEngagementDuration ÷ totalUsers` |
 | `conversoes` | `keyEvents` (lead, clique no WhatsApp, compra) |
 
+### `fato_teste_ab_ga4` (720 linhas: 12 sites × 30 dias × 2 variantes)
+Teste A/B do piloto de 30 dias (01–30/jun/2025).
+| Coluna | Descrição |
+|---|---|
+| `data` | Dia do teste |
+| `projeto_id` | Site (projeto já publicado) que participou do A/B |
+| `variante` / `descricao_variante` | `A` = layout atual · `B` = template do catálogo |
+| `template_id` | Template de cada variante |
+| `sessoes`, `sessoes_engajadas`, `conversoes` | Métricas GA4 do dia por variante |
+
 ## Views
 | View | Uso |
 |---|---|
@@ -65,6 +76,8 @@ Até 6 meses após a publicação, no formato da GA4 Data API.
 | `vw_antes_depois` | KPIs por período |
 | `vw_etapas_periodo` | Duração e % do ciclo por etapa |
 | `vw_benchmark_conversao` | Taxa de referência por nicho × tipo de página (período Antes) |
+| `vw_piloto_projetos` | Teste piloto: prazo, etapas e retrabalho, Teste × Controle |
+| `vw_piloto_ab` | Teste piloto: sessões, conversões e taxas das variantes A e B |
 
 ## Saídas do modelo (`reports/`)
 | Arquivo | Conteúdo |
@@ -73,4 +86,6 @@ Até 6 meses após a publicação, no formato da GA4 Data API.
 | `catalogo_top10.csv` | Os 10 templates padronizados |
 | `matriz_recomendacao_nicho_tipo.csv` | Template indicado para cada nicho × tipo de site |
 | `resumo_antes_depois.csv`, `gargalo_etapas.csv` | Resultados |
-| `sql/q1…q8.csv` | Resultado das consultas analíticas |
+| `piloto_projetos.csv`, `piloto_ab_diario.csv` | Resultados do teste piloto |
+| `sql/q1…q10.csv` | Resultado das consultas analíticas |
+| `excel/dashboard_teste_piloto_30_dias.xlsx` | Dashboard Excel do piloto (abas: Dashboard, Resumo, Diario_AB, Por_site, Projetos_Piloto, Dados_AB, Metodologia) |
